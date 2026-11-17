@@ -1,0 +1,202 @@
+{
+  "description": "8 normal, 8 quiet (-10.7 dB velocity gain), 12 same-pitch repeats at 180 ms spacing",
+  "notes": [
+    {
+      "group": "normal",
+      "pitch": 60,
+      "onset": 0.6,
+      "offset": 0.82,
+      "velocity": 82
+    },
+    {
+      "group": "normal",
+      "pitch": 64,
+      "onset": 1.0,
+      "offset": 1.22,
+      "velocity": 82
+    },
+    {
+      "group": "normal",
+      "pitch": 67,
+      "onset": 1.4,
+      "offset": 1.6199999999999999,
+      "velocity": 82
+    },
+    {
+      "group": "normal",
+      "pitch": 72,
+      "onset": 1.8,
+      "offset": 2.02,
+      "velocity": 82
+    },
+    {
+      "group": "normal",
+      "pitch": 61,
+      "onset": 2.2,
+      "offset": 2.4200000000000004,
+      "velocity": 82
+    },
+    {
+      "group": "normal",
+      "pitch": 65,
+      "onset": 2.6,
+      "offset": 2.8200000000000003,
+      "velocity": 82
+    },
+    {
+      "group": "normal",
+      "pitch": 68,
+      "onset": 3.0,
+      "offset": 3.22,
+      "velocity": 82
+    },
+    {
+      "group": "normal",
+      "pitch": 73,
+      "onset": 3.4,
+      "offset": 3.62,
+      "velocity": 82
+    },
+    {
+      "group": "quiet",
+      "pitch": 60,
+      "onset": 4.4,
+      "offset": 4.62,
+      "velocity": 24
+    },
+    {
+      "group": "quiet",
+      "pitch": 64,
+      "onset": 4.8,
+      "offset": 5.02,
+      "velocity": 24
+    },
+    {
+      "group": "quiet",
+      "pitch": 67,
+      "onset": 5.2,
+      "offset": 5.42,
+      "velocity": 24
+    },
+    {
+      "group": "quiet",
+      "pitch": 72,
+      "onset": 5.6,
+      "offset": 5.819999999999999,
+      "velocity": 24
+    },
+    {
+      "group": "quiet",
+      "pitch": 61,
+      "onset": 6.0,
+      "offset": 6.22,
+      "velocity": 24
+    },
+    {
+      "group": "quiet",
+      "pitch": 65,
+      "onset": 6.4,
+      "offset": 6.62,
+      "velocity": 24
+    },
+    {
+      "group": "quiet",
+      "pitch": 68,
+      "onset": 6.8,
+      "offset": 7.02,
+      "velocity": 24
+    },
+    {
+      "group": "quiet",
+      "pitch": 73,
+      "onset": 7.2,
+      "offset": 7.42,
+      "velocity": 24
+    },
+    {
+      "group": "rapid_repeats",
+      "pitch": 67,
+      "onset": 8.2,
+      "offset": 8.299999999999999,
+      "velocity": 82
+    },
+    {
+      "group": "rapid_repeats",
+      "pitch": 67,
+      "onset": 8.38,
+      "offset": 8.48,
+      "velocity": 82
+    },
+    {
+      "group": "rapid_repeats",
+      "pitch": 67,
+      "onset": 8.56,
+      "offset": 8.66,
+      "velocity": 82
+    },
+    {
+      "group": "rapid_repeats",
+      "pitch": 67,
+      "onset": 8.74,
+      "offset": 8.84,
+      "velocity": 82
+    },
+    {
+      "group": "rapid_repeats",
+      "pitch": 67,
+      "onset": 8.92,
+      "offset": 9.02,
+      "velocity": 82
+    },
+    {
+      "group": "rapid_repeats",
+      "pitch": 67,
+      "onset": 9.1,
+      "offset": 9.2,
+      "velocity": 82
+    },
+    {
+      "group": "rapid_repeats",
+      "pitch": 72,
+      "onset": 9.28,
+      "offset": 9.379999999999999,
+      "velocity": 82
+    },
+    {
+      "group": "rapid_repeats",
+      "pitch": 72,
+      "onset": 9.46,
+      "offset": 9.56,
+      "velocity": 82
+    },
+    {
+      "group": "rapid_repeats",
+      "pitch": 72,
+      "onset": 9.64,
+      "offset": 9.74,
+      "velocity": 82
+    },
+    {
+      "group": "rapid_repeats",
+      "pitch": 72,
+      "onset": 9.82,
+      "offset": 9.92,
+      "velocity": 82
+    },
+    {
+      "group": "rapid_repeats",
+      "pitch": 72,
+      "onset": 10.0,
+      "offset": 10.1,
+      "velocity": 82
+    },
+    {
+      "group": "rapid_repeats",
+      "pitch": 72,
+      "onset": 10.18,
+      "offset": 10.28,
+      "velocity": 82
+    }
+  ],
+  "limitations": "Synthetic isolated articulation; not a real piano benchmark."
+}

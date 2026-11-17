@@ -1,0 +1,243 @@
+{
+  "fresh_inference": true,
+  "comparison": {
+    "real": {
+      "baseline": {
+        "settings": {
+          "onset_thresh": 0.5,
+          "frame_thresh": 0.3,
+          "infer_onsets": true,
+          "melodia_trick": true,
+          "min_note_len": 7,
+          "min_freq": 27.5,
+          "max_freq": 4186.01,
+          "include_pitch_bends": false
+        },
+        "detected": 354,
+        "pitch_matches": 176,
+        "expected_notes": 176,
+        "confirmed": {
+          "pitch": 0,
+          "timing": 0,
+          "missing": 0,
+          "extra": 0
+        },
+        "uncertain": {
+          "pitch": 0,
+          "timing": 1,
+          "missing": 0,
+          "extra": 178
+        },
+        "accuracy": null,
+        "scored_measures": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "candidate": {
+        "settings": {
+          "onset_thresh": 0.6,
+          "frame_thresh": 0.3,
+          "infer_onsets": false,
+          "melodia_trick": false,
+          "min_note_len": 7,
+          "min_freq": 27.5,
+          "max_freq": 4186.01,
+          "include_pitch_bends": false
+        },
+        "detected": 243,
+        "pitch_matches": 176,
+        "expected_notes": 176,
+        "confirmed": {
+          "pitch": 0,
+          "timing": 0,
+          "missing": 0,
+          "extra": 0
+        },
+        "uncertain": {
+          "pitch": 0,
+          "timing": 1,
+          "missing": 0,
+          "extra": 67
+        },
+        "accuracy": null,
+        "scored_measures": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    "controlled": {
+      "baseline": {
+        "settings": {
+          "onset_thresh": 0.5,
+          "frame_thresh": 0.3,
+          "infer_onsets": true,
+          "melodia_trick": true,
+          "min_note_len": 7,
+          "min_freq": 27.5,
+          "max_freq": 4186.01,
+          "include_pitch_bends": false
+        },
+        "detected": 48,
+        "pitch_matches": 47,
+        "expected_notes": 48,
+        "confirmed": {
+          "pitch": 1,
+          "timing": 1,
+          "missing": 0,
+          "extra": 0
+        },
+        "uncertain": {
+          "pitch": 0,
+          "timing": 0,
+          "missing": 0,
+          "extra": 0
+        },
+        "accuracy": 95.8,
+        "scored_measures": [
+          1,
+          2,
+          3
+        ],
+        "fixture_check": {
+          "passed": true,
+          "checks": [
+            {
+              "kind": "pitch",
+              "measure": 2,
+              "passed": true,
+              "matching_finding_ids": [
+                "f001"
+              ]
+            },
+            {
+              "kind": "timing",
+              "measure": 3,
+              "passed": true,
+              "matching_finding_ids": [
+                "f002"
+              ]
+            }
+          ]
+        }
+      },
+      "candidate": {
+        "settings": {
+          "onset_thresh": 0.6,
+          "frame_thresh": 0.3,
+          "infer_onsets": false,
+          "melodia_trick": false,
+          "min_note_len": 7,
+          "min_freq": 27.5,
+          "max_freq": 4186.01,
+          "include_pitch_bends": false
+        },
+        "detected": 48,
+        "pitch_matches": 47,
+        "expected_notes": 48,
+        "confirmed": {
+          "pitch": 1,
+          "timing": 1,
+          "missing": 0,
+          "extra": 0
+        },
+        "uncertain": {
+          "pitch": 0,
+          "timing": 0,
+          "missing": 0,
+          "extra": 0
+        },
+        "accuracy": 95.8,
+        "scored_measures": [
+          1,
+          2,
+          3
+        ],
+        "fixture_check": {
+          "passed": true,
+          "checks": [
+            {
+              "kind": "pitch",
+              "measure": 2,
+              "passed": true,
+              "matching_finding_ids": [
+                "f001"
+              ]
+            },
+            {
+              "kind": "timing",
+              "measure": 3,
+              "passed": true,
+              "matching_finding_ids": [
+                "f002"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "probe": {
+      "baseline": {
+        "groups": {
+          "normal": {
+            "matched": 8,
+            "expected": 8
+          },
+          "quiet": {
+            "matched": 8,
+            "expected": 8
+          },
+          "rapid_repeats": {
+            "matched": 12,
+            "expected": 12
+          }
+        },
+        "matched": 28,
+        "expected": 28,
+        "detected": 28,
+        "unmatched_detections": 0,
+        "onset_tolerance_ms": 65
+      },
+      "candidate": {
+        "groups": {
+          "normal": {
+            "matched": 8,
+            "expected": 8
+          },
+          "quiet": {
+            "matched": 8,
+            "expected": 8
+          },
+          "rapid_repeats": {
+            "matched": 12,
+            "expected": 12
+          }
+        },
+        "matched": 28,
+        "expected": 28,
+        "detected": 28,
+        "unmatched_detections": 0,
+        "onset_tolerance_ms": 65
+      }
+    }
+  }
+}

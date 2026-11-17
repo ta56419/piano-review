@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+*.tmp
+.env
+.env.*
+recording/
+recordings/
+reports/*.npz
+reports/*.wav
+reports/*.mid
+reports/*experiment*
+data/*experiment*
+data/real.wav
+*.zip

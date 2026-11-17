@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "kind": "pitch",
+      "measure": 2,
+      "passed": true,
+      "matching_finding_ids": [
+        "f001"
+      ]
+    },
+    {
+      "kind": "timing",
+      "measure": 3,
+      "passed": true,
+      "matching_finding_ids": [
+        "f002"
+      ]
+    },
+    {
+      "name": "real_original_measure_numbers",
+      "passed": true
+    },
+    {
+      "name": "controlled_two_confirmed_errors",
+      "passed": true
+    },
+    {
+      "name": "controlled_no_other_findings",
+      "passed": true
+    },
+    {
+      "name": "real_all_176_pairs_exposed",
+      "passed": true
+    },
+    {
+      "name": "controlled_all_48_pairs_exposed",
+      "passed": true
+    },
+    {
+      "name": "same_decoder_and_schema",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "launch": "Demo.cmd",
+  "date": "2026-11-17",
+  "build": "interface refinement / schema 2 / candidate decoder / app.js v9 / styles.css v8",
+  "first_load": {
+    "sample": "real",
+    "measure": 1,
+    "reference_buttons": 16,
+    "detected_buttons": 16,
+    "pitch_matches": 176
+  },
+  "paused_measure_selection": {
+    "measure": 2,
+    "paused": true,
+    "time": 3.57178
+  },
+  "playback_follows_measures": true,
+  "seeks": [
+    {
+      "finding": "real m11",
+      "target": 37.2099,
+      "start": 36.759899
+    },
+    {
+      "finding": "controlled pitch m2",
+      "target": 6.5983,
+      "start": 6.1483
+    },
+    {
+      "finding": "controlled timing m3",
+      "target": 11.6048,
+      "start": 11.1548
+    }
+  ],
+  "controlled": {
+    "accuracy": 95.8,
+    "errors": 2,
+    "measures": [
+      2,
+      3
+    ],
+    "late_ms": 207
+  },
+  "ended_inline_report": true,
+  "reopened_report": true,
+  "recompute_then_switch": {
+    "recomputed": "controlled",
+    "visible": "real",
+    "correct_completion_sample": true,
+    "real_pitch_matches": 176
+  },
+  "responsive": [
+    {
+      "width": 1366,
+      "scroll_width": 1351,
+      "note_buttons": 32
+    },
+    {
+      "width": 900,
+      "scroll_width": 885,
+      "columns": 4,
+      "clipped_note_names": []
+    },
+    {
+      "width": 390,
+      "scroll_width": 375,
+      "columns": 4,
+      "clipped_note_names": [],
+      "mobile_end_report_and_reopen": true
+    }
+  ],
+  "screenshots": [
+    "screenshots/refined-desktop.png",
+    "screenshots/refined-mobile.png",
+    "screenshots/refined-mobile-report.png"
+  ],
+  "evidence_type": "Observed local-browser checks through Demo.cmd; this JSON is not an automated browser runner.",
+  "paused_scrub_regression": {
+    "before": {
+      "position": 3.76,
+      "comparison_measure": 1,
+      "playback_measure": 2
+    },
+    "after": {
+      "position": 3.76,
+      "comparison_measure": 2,
+      "playback_measure": 2,
+      "paused": true
+    },
+    "end_after": {
+      "position": 37.63,
+      "comparison_measure": 11,
+      "playback_measure": 11
+    }
+  },
+  "recomputed_in_browser": {
+    "real": {
+      "generated_at": "2026-11-17T20:49:39.609657+00:00",
+      "accuracy": null,
+      "pitch_matches": 176,
+      "errors": 0
+    },
+    "controlled": {
+      "generated_at": "2026-11-17T20:50:13.559972+00:00",
+      "accuracy": 95.8,
+      "pitch_matches": 47,
+      "errors": 2
+    }
+  },
+  "browser_console_errors": [],
+  "recording_status": "Deferred by user; no recording work in this stage",
+  "browsers": "Chrome before interruption; local in-app browser for resumed reanalysis and final responsive checks",
+  "review_notes": {
+    "title": "Ноты для проверки",
+    "explanation": "В число ошибок не входят.",
+    "observed_measure": 11,
+    "displayed_count": 9,
+    "replay_buttons": 9,
+    "real_confirmed_error_count": 0,
+    "total_uncertain_findings": 68
+  },
+  "copy": {
+    "pitch": "Такт 2 · Фа-диез вместо фа",
+    "timing": "Такт 3 · Фа прозвучала на 207 мс позже",
+    "real_summary": "Точность исполнения не подтверждена"
+  },
+  "tests": {
+    "python": 23,
+    "playback_javascript": 6,
+    "javascript_syntax": "passed",
+    "fresh_assignment_audit": "passed"
+  },
+  "source_sha256": {
+    "web/app.js": "918d2d427d614bf59fe5a7f1e332174155b77cf26732f5dd5507f187d8dc08c1",
+    "web/styles.css": "57465f1041d59884a3a333add72d496f438c26043543933165579391e8f171b6",
+    "web/index.html": "3726e2dfdae90bebfbc47d8bb123da7dfa88fc036bd5cc1bb54e1e13b124d6b2",
+    "piano_review/scoring.py": "e6205968c0b3e6f43a7f4f778059b98930f17e3ce163529d2188a28478d84eac",
+    "piano_review/pipeline.py": "f4e7e98899d635bf4cd25217377934a6b0c0c14cf134f633c792949197f1d385"
+  }
+}

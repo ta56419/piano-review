@@ -1,0 +1,114 @@
+{
+  "fresh_equals_packaged": {
+    "real": true,
+    "controlled": true
+  },
+  "fixture_answer_reads_during_inference": [],
+  "original_source_unchanged": true,
+  "score_bars_1_to_11": true,
+  "controlled_denominator": 48,
+  "controlled_independent_accuracy": 95.8,
+  "controlled_result": {
+    "accuracy": 95.8,
+    "error_count": 2,
+    "problem_measures": [
+      2,
+      3
+    ],
+    "advice": [
+      "Повторите такты 2, 3 медленнее под метроном.",
+      "Такт 2: сверьте фа с партитурой.",
+      "Такт 3: сыграйте шестнадцатые ровно, без задержек."
+    ]
+  },
+  "controlled_fixture_recovery": {
+    "passed": true,
+    "checks": [
+      {
+        "kind": "pitch",
+        "measure": 2,
+        "passed": true,
+        "matching_finding_ids": [
+          "f001"
+        ]
+      },
+      {
+        "kind": "timing",
+        "measure": 3,
+        "passed": true,
+        "matching_finding_ids": [
+          "f002"
+        ]
+      }
+    ]
+  },
+  "controlled_counts_and_advice": true,
+  "independent_audio": {
+    "spectral_peaks": [
+      {
+        "time": 6.62,
+        "dominant_treble_hz": 739.87,
+        "nearest_midi": 78
+      },
+      {
+        "time": 11.62,
+        "dominant_treble_hz": 698.48,
+        "nearest_midi": 77
+      }
+    ],
+    "late_f5_band_energy_onset": 11.5957,
+    "fixture_expected_onset": 11.4,
+    "fixture_deliberate_onset": 11.6,
+    "note": "Band energy onset is an approximate independent check, not model transcription."
+  },
+  "real": {
+    "matches": 176,
+    "accuracy": null,
+    "model_agreement": 72.0,
+    "scored_measures": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "affine_slope": 0.8507848858885501,
+    "affine_intercept": 0.1686388453258894,
+    "median_onset_residual_ms": 14.9,
+    "location_margin": 0.05309,
+    "measure_11_candidate": [
+      {
+        "id": "f001",
+        "type": "timing",
+        "status": "uncertain",
+        "measure": 11,
+        "timestamp": 37.2099,
+        "expected_pitch": 71,
+        "observed_pitch": 71,
+        "expected_name": "си4",
+        "observed_name": "си4",
+        "expected_onset": 37.3905,
+        "observed_onset": 37.2099,
+        "delta_ms": -181,
+        "description": "Такт 11 · Проверьте начало си",
+        "reason": "Нужно переслушать. Модель могла ошибиться.",
+        "confidence": 0.586203,
+        "reference_index": 175,
+        "observed_index": 241,
+        "kind": "timing",
+        "title": "Такт 11 · Проверьте начало си",
+        "explanation": "Нужно переслушать. Модель могла ошибиться.",
+        "expected": "37.391 с",
+        "observed": "37.210 с"
+      }
+    ],
+    "boundary": 37.60317
+  },
+  "passed": true
+}

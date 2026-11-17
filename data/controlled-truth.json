@@ -1,0 +1,42 @@
+{
+  "label": "Тестовый пример с намеренными ошибками",
+  "purpose": "Verification fixture only; never an input to transcription or scoring",
+  "renderer": "piano-review deterministic additive piano, version 2",
+  "articulation": "Short 220 ms note gates; pitch and onset are evaluated, sustain duration is not",
+  "source_measures": [
+    1,
+    3
+  ],
+  "seconds_per_beat": 1.2,
+  "leading_silence": 0.6,
+  "score_start": 0.6,
+  "score_end": 14.999999999999998,
+  "edits": [
+    {
+      "kind": "pitch",
+      "measure": 2,
+      "source_id": 20,
+      "expected_pitch": 77,
+      "observed_pitch": 78,
+      "expected_onset": 6.6,
+      "observed_onset": 6.6
+    },
+    {
+      "kind": "timing",
+      "measure": 3,
+      "source_id": 36,
+      "expected_pitch": 77,
+      "observed_pitch": 77,
+      "expected_onset": 11.4,
+      "observed_onset": 11.6,
+      "delta_ms": 200
+    }
+  ],
+  "audio": {
+    "duration": 15.72,
+    "sample_rate": 22050,
+    "maximum_note_duration": 0.22,
+    "event_count": 48,
+    "peak": 0.85
+  }
+}

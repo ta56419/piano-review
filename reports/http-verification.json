@@ -1,0 +1,23 @@
+[
+  {
+    "path": "/api/health",
+    "status": 200
+  },
+  {
+    "path": "/api/report?sample=real",
+    "status": 200
+  },
+  {
+    "path": "/api/report?sample=controlled",
+    "status": 200
+  },
+  {
+    "path": "/reference.pdf",
+    "status": 200
+  },
+  {
+    "path": "media_range",
+    "status": 206,
+    "length": 100
+  }
+]

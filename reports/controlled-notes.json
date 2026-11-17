@@ -1,0 +1,918 @@
+{
+  "model": {
+    "name": "Spotify Basic Pitch / ICASSP 2022 (ONNX CPU)",
+    "version": "0.4.0",
+    "runtime": "1.20.1",
+    "sha256": "2c3c1d144bfa61ad236e92e169c13535c880469a12a047d4e73451f2c059a0ec"
+  },
+  "decoder": "candidate",
+  "settings": {
+    "onset_thresh": 0.6,
+    "frame_thresh": 0.3,
+    "infer_onsets": false,
+    "melodia_trick": false,
+    "min_note_len": 7,
+    "min_freq": 27.5,
+    "max_freq": 4186.01,
+    "include_pitch_bends": false
+  },
+  "audio_sha256": "4960d6fedb6e6bbbe36b6aadd47b02967f8ed853453b2c151417c610113412b1",
+  "decoders": {
+    "baseline": {
+      "settings": {
+        "onset_thresh": 0.5,
+        "frame_thresh": 0.3,
+        "infer_onsets": true,
+        "melodia_trick": true,
+        "min_note_len": 7,
+        "min_freq": 27.5,
+        "max_freq": 4186.01,
+        "include_pitch_bends": false
+      },
+      "notes": [
+        {
+          "pitch": 60,
+          "onset": 0.603719,
+          "offset": 1.068118,
+          "confidence": 0.729623
+        },
+        {
+          "pitch": 64,
+          "onset": 0.893968,
+          "offset": 1.358367,
+          "confidence": 0.711367
+        },
+        {
+          "pitch": 67,
+          "onset": 1.195828,
+          "offset": 1.683447,
+          "confidence": 0.706207
+        },
+        {
+          "pitch": 72,
+          "onset": 1.497687,
+          "offset": 1.985306,
+          "confidence": 0.710126
+        },
+        {
+          "pitch": 76,
+          "onset": 1.799546,
+          "offset": 2.311669,
+          "confidence": 0.689496
+        },
+        {
+          "pitch": 67,
+          "onset": 2.09108,
+          "offset": 2.567089,
+          "confidence": 0.712047
+        },
+        {
+          "pitch": 72,
+          "onset": 2.392939,
+          "offset": 2.857338,
+          "confidence": 0.718549
+        },
+        {
+          "pitch": 76,
+          "onset": 2.694799,
+          "offset": 3.263688,
+          "confidence": 0.686947
+        },
+        {
+          "pitch": 60,
+          "onset": 2.996658,
+          "offset": 3.484277,
+          "confidence": 0.730276
+        },
+        {
+          "pitch": 64,
+          "onset": 3.298517,
+          "offset": 3.774527,
+          "confidence": 0.7075
+        },
+        {
+          "pitch": 67,
+          "onset": 3.600377,
+          "offset": 4.07767,
+          "confidence": 0.710405
+        },
+        {
+          "pitch": 72,
+          "onset": 3.902236,
+          "offset": 4.367919,
+          "confidence": 0.717763
+        },
+        {
+          "pitch": 76,
+          "onset": 4.19377,
+          "offset": 4.716219,
+          "confidence": 0.688223
+        },
+        {
+          "pitch": 67,
+          "onset": 4.495629,
+          "offset": 4.983248,
+          "confidence": 0.708554
+        },
+        {
+          "pitch": 72,
+          "onset": 4.797488,
+          "offset": 5.261888,
+          "confidence": 0.720731
+        },
+        {
+          "pitch": 76,
+          "onset": 5.099348,
+          "offset": 5.656627,
+          "confidence": 0.695687
+        },
+        {
+          "pitch": 60,
+          "onset": 5.401207,
+          "offset": 5.772727,
+          "confidence": 0.72484
+        },
+        {
+          "pitch": 62,
+          "onset": 5.703067,
+          "offset": 6.15714,
+          "confidence": 0.697373
+        },
+        {
+          "pitch": 69,
+          "onset": 5.9946,
+          "offset": 6.470609,
+          "confidence": 0.70794
+        },
+        {
+          "pitch": 74,
+          "onset": 6.284849,
+          "offset": 6.772468,
+          "confidence": 0.713105
+        },
+        {
+          "pitch": 78,
+          "onset": 6.598319,
+          "offset": 7.120768,
+          "confidence": 0.677947
+        },
+        {
+          "pitch": 69,
+          "onset": 6.900178,
+          "offset": 7.376187,
+          "confidence": 0.704445
+        },
+        {
+          "pitch": 74,
+          "onset": 7.202038,
+          "offset": 7.666437,
+          "confidence": 0.705918
+        },
+        {
+          "pitch": 77,
+          "onset": 7.503897,
+          "offset": 8.01602,
+          "confidence": 0.679309
+        },
+        {
+          "pitch": 60,
+          "onset": 7.805756,
+          "offset": 8.16695,
+          "confidence": 0.684831
+        },
+        {
+          "pitch": 62,
+          "onset": 8.08568,
+          "offset": 8.561689,
+          "confidence": 0.703539
+        },
+        {
+          "pitch": 69,
+          "onset": 8.399149,
+          "offset": 8.875158,
+          "confidence": 0.713689
+        },
+        {
+          "pitch": 74,
+          "onset": 8.701009,
+          "offset": 9.165408,
+          "confidence": 0.708813
+        },
+        {
+          "pitch": 77,
+          "onset": 8.979648,
+          "offset": 9.490487,
+          "confidence": 0.686908
+        },
+        {
+          "pitch": 69,
+          "onset": 9.304727,
+          "offset": 9.780737,
+          "confidence": 0.711653
+        },
+        {
+          "pitch": 74,
+          "onset": 9.594977,
+          "offset": 10.06066,
+          "confidence": 0.704576
+        },
+        {
+          "pitch": 77,
+          "onset": 9.908446,
+          "offset": 10.397349,
+          "confidence": 0.66366
+        },
+        {
+          "pitch": 59,
+          "onset": 10.19998,
+          "offset": 10.664379,
+          "confidence": 0.735204
+        },
+        {
+          "pitch": 62,
+          "onset": 10.501839,
+          "offset": 10.977848,
+          "confidence": 0.715043
+        },
+        {
+          "pitch": 67,
+          "onset": 10.792088,
+          "offset": 11.256488,
+          "confidence": 0.706757
+        },
+        {
+          "pitch": 74,
+          "onset": 11.093948,
+          "offset": 11.604787,
+          "confidence": 0.743499
+        },
+        {
+          "pitch": 77,
+          "onset": 11.604787,
+          "offset": 12.03564,
+          "confidence": 0.663893
+        },
+        {
+          "pitch": 67,
+          "onset": 11.709277,
+          "offset": 12.15174,
+          "confidence": 0.705594
+        },
+        {
+          "pitch": 74,
+          "onset": 11.9892,
+          "offset": 12.465209,
+          "confidence": 0.697374
+        },
+        {
+          "pitch": 77,
+          "onset": 12.291059,
+          "offset": 12.790288,
+          "confidence": 0.672038
+        },
+        {
+          "pitch": 59,
+          "onset": 12.592919,
+          "offset": 13.068928,
+          "confidence": 0.732543
+        },
+        {
+          "pitch": 62,
+          "onset": 12.894778,
+          "offset": 13.382397,
+          "confidence": 0.71936
+        },
+        {
+          "pitch": 67,
+          "onset": 13.208248,
+          "offset": 13.672647,
+          "confidence": 0.705321
+        },
+        {
+          "pitch": 74,
+          "onset": 13.498497,
+          "offset": 13.95257,
+          "confidence": 0.707663
+        },
+        {
+          "pitch": 77,
+          "onset": 13.800356,
+          "offset": 14.277649,
+          "confidence": 0.676113
+        },
+        {
+          "pitch": 67,
+          "onset": 14.09189,
+          "offset": 14.556289,
+          "confidence": 0.714581
+        },
+        {
+          "pitch": 74,
+          "onset": 14.393749,
+          "offset": 14.869758,
+          "confidence": 0.708129
+        },
+        {
+          "pitch": 77,
+          "onset": 14.695609,
+          "offset": 15.276107,
+          "confidence": 0.755004
+        }
+      ]
+    },
+    "candidate": {
+      "settings": {
+        "onset_thresh": 0.6,
+        "frame_thresh": 0.3,
+        "infer_onsets": false,
+        "melodia_trick": false,
+        "min_note_len": 7,
+        "min_freq": 27.5,
+        "max_freq": 4186.01,
+        "include_pitch_bends": false
+      },
+      "notes": [
+        {
+          "pitch": 60,
+          "onset": 0.603719,
+          "offset": 1.068118,
+          "confidence": 0.729623
+        },
+        {
+          "pitch": 64,
+          "onset": 0.893968,
+          "offset": 1.358367,
+          "confidence": 0.711367
+        },
+        {
+          "pitch": 67,
+          "onset": 1.195828,
+          "offset": 1.683447,
+          "confidence": 0.706207
+        },
+        {
+          "pitch": 72,
+          "onset": 1.497687,
+          "offset": 1.985306,
+          "confidence": 0.710126
+        },
+        {
+          "pitch": 76,
+          "onset": 1.799546,
+          "offset": 2.311669,
+          "confidence": 0.689496
+        },
+        {
+          "pitch": 67,
+          "onset": 2.09108,
+          "offset": 2.567089,
+          "confidence": 0.712047
+        },
+        {
+          "pitch": 72,
+          "onset": 2.392939,
+          "offset": 2.857338,
+          "confidence": 0.718549
+        },
+        {
+          "pitch": 76,
+          "onset": 2.694799,
+          "offset": 3.263688,
+          "confidence": 0.686947
+        },
+        {
+          "pitch": 60,
+          "onset": 2.996658,
+          "offset": 3.484277,
+          "confidence": 0.730276
+        },
+        {
+          "pitch": 64,
+          "onset": 3.298517,
+          "offset": 3.774527,
+          "confidence": 0.7075
+        },
+        {
+          "pitch": 67,
+          "onset": 3.600377,
+          "offset": 4.07767,
+          "confidence": 0.710405
+        },
+        {
+          "pitch": 72,
+          "onset": 3.902236,
+          "offset": 4.367919,
+          "confidence": 0.717763
+        },
+        {
+          "pitch": 76,
+          "onset": 4.19377,
+          "offset": 4.716219,
+          "confidence": 0.688223
+        },
+        {
+          "pitch": 67,
+          "onset": 4.495629,
+          "offset": 4.983248,
+          "confidence": 0.708554
+        },
+        {
+          "pitch": 72,
+          "onset": 4.797488,
+          "offset": 5.261888,
+          "confidence": 0.720731
+        },
+        {
+          "pitch": 76,
+          "onset": 5.099348,
+          "offset": 5.656627,
+          "confidence": 0.695687
+        },
+        {
+          "pitch": 60,
+          "onset": 5.401207,
+          "offset": 5.772727,
+          "confidence": 0.72484
+        },
+        {
+          "pitch": 62,
+          "onset": 5.703067,
+          "offset": 6.15714,
+          "confidence": 0.697373
+        },
+        {
+          "pitch": 69,
+          "onset": 5.9946,
+          "offset": 6.470609,
+          "confidence": 0.70794
+        },
+        {
+          "pitch": 74,
+          "onset": 6.284849,
+          "offset": 6.772468,
+          "confidence": 0.713105
+        },
+        {
+          "pitch": 78,
+          "onset": 6.598319,
+          "offset": 7.120768,
+          "confidence": 0.677947
+        },
+        {
+          "pitch": 69,
+          "onset": 6.900178,
+          "offset": 7.376187,
+          "confidence": 0.704445
+        },
+        {
+          "pitch": 74,
+          "onset": 7.202038,
+          "offset": 7.666437,
+          "confidence": 0.705918
+        },
+        {
+          "pitch": 77,
+          "onset": 7.503897,
+          "offset": 8.01602,
+          "confidence": 0.679309
+        },
+        {
+          "pitch": 60,
+          "onset": 7.805756,
+          "offset": 8.16695,
+          "confidence": 0.684831
+        },
+        {
+          "pitch": 62,
+          "onset": 8.08568,
+          "offset": 8.561689,
+          "confidence": 0.703539
+        },
+        {
+          "pitch": 69,
+          "onset": 8.399149,
+          "offset": 8.875158,
+          "confidence": 0.713689
+        },
+        {
+          "pitch": 74,
+          "onset": 8.701009,
+          "offset": 9.165408,
+          "confidence": 0.708813
+        },
+        {
+          "pitch": 77,
+          "onset": 8.991258,
+          "offset": 9.490487,
+          "confidence": 0.688114
+        },
+        {
+          "pitch": 69,
+          "onset": 9.304727,
+          "offset": 9.780737,
+          "confidence": 0.711653
+        },
+        {
+          "pitch": 74,
+          "onset": 9.594977,
+          "offset": 10.06066,
+          "confidence": 0.704576
+        },
+        {
+          "pitch": 77,
+          "onset": 9.908446,
+          "offset": 10.397349,
+          "confidence": 0.66366
+        },
+        {
+          "pitch": 59,
+          "onset": 10.19998,
+          "offset": 10.664379,
+          "confidence": 0.735204
+        },
+        {
+          "pitch": 62,
+          "onset": 10.501839,
+          "offset": 10.977848,
+          "confidence": 0.715043
+        },
+        {
+          "pitch": 67,
+          "onset": 10.792088,
+          "offset": 11.256488,
+          "confidence": 0.706757
+        },
+        {
+          "pitch": 74,
+          "onset": 11.093948,
+          "offset": 11.604787,
+          "confidence": 0.743499
+        },
+        {
+          "pitch": 77,
+          "onset": 11.604787,
+          "offset": 12.03564,
+          "confidence": 0.663893
+        },
+        {
+          "pitch": 67,
+          "onset": 11.709277,
+          "offset": 12.15174,
+          "confidence": 0.705594
+        },
+        {
+          "pitch": 74,
+          "onset": 11.9892,
+          "offset": 12.465209,
+          "confidence": 0.697374
+        },
+        {
+          "pitch": 77,
+          "onset": 12.291059,
+          "offset": 12.790288,
+          "confidence": 0.672038
+        },
+        {
+          "pitch": 59,
+          "onset": 12.592919,
+          "offset": 13.068928,
+          "confidence": 0.732543
+        },
+        {
+          "pitch": 62,
+          "onset": 12.894778,
+          "offset": 13.382397,
+          "confidence": 0.71936
+        },
+        {
+          "pitch": 67,
+          "onset": 13.208248,
+          "offset": 13.672647,
+          "confidence": 0.705321
+        },
+        {
+          "pitch": 74,
+          "onset": 13.498497,
+          "offset": 13.95257,
+          "confidence": 0.707663
+        },
+        {
+          "pitch": 77,
+          "onset": 13.800356,
+          "offset": 14.277649,
+          "confidence": 0.676113
+        },
+        {
+          "pitch": 67,
+          "onset": 14.09189,
+          "offset": 14.556289,
+          "confidence": 0.714581
+        },
+        {
+          "pitch": 74,
+          "onset": 14.393749,
+          "offset": 14.869758,
+          "confidence": 0.708129
+        },
+        {
+          "pitch": 77,
+          "onset": 14.695609,
+          "offset": 15.276107,
+          "confidence": 0.755004
+        }
+      ]
+    }
+  },
+  "elapsed_seconds": 1.377,
+  "notes": [
+    {
+      "pitch": 60,
+      "onset": 0.603719,
+      "offset": 1.068118,
+      "confidence": 0.729623
+    },
+    {
+      "pitch": 64,
+      "onset": 0.893968,
+      "offset": 1.358367,
+      "confidence": 0.711367
+    },
+    {
+      "pitch": 67,
+      "onset": 1.195828,
+      "offset": 1.683447,
+      "confidence": 0.706207
+    },
+    {
+      "pitch": 72,
+      "onset": 1.497687,
+      "offset": 1.985306,
+      "confidence": 0.710126
+    },
+    {
+      "pitch": 76,
+      "onset": 1.799546,
+      "offset": 2.311669,
+      "confidence": 0.689496
+    },
+    {
+      "pitch": 67,
+      "onset": 2.09108,
+      "offset": 2.567089,
+      "confidence": 0.712047
+    },
+    {
+      "pitch": 72,
+      "onset": 2.392939,
+      "offset": 2.857338,
+      "confidence": 0.718549
+    },
+    {
+      "pitch": 76,
+      "onset": 2.694799,
+      "offset": 3.263688,
+      "confidence": 0.686947
+    },
+    {
+      "pitch": 60,
+      "onset": 2.996658,
+      "offset": 3.484277,
+      "confidence": 0.730276
+    },
+    {
+      "pitch": 64,
+      "onset": 3.298517,
+      "offset": 3.774527,
+      "confidence": 0.7075
+    },
+    {
+      "pitch": 67,
+      "onset": 3.600377,
+      "offset": 4.07767,
+      "confidence": 0.710405
+    },
+    {
+      "pitch": 72,
+      "onset": 3.902236,
+      "offset": 4.367919,
+      "confidence": 0.717763
+    },
+    {
+      "pitch": 76,
+      "onset": 4.19377,
+      "offset": 4.716219,
+      "confidence": 0.688223
+    },
+    {
+      "pitch": 67,
+      "onset": 4.495629,
+      "offset": 4.983248,
+      "confidence": 0.708554
+    },
+    {
+      "pitch": 72,
+      "onset": 4.797488,
+      "offset": 5.261888,
+      "confidence": 0.720731
+    },
+    {
+      "pitch": 76,
+      "onset": 5.099348,
+      "offset": 5.656627,
+      "confidence": 0.695687
+    },
+    {
+      "pitch": 60,
+      "onset": 5.401207,
+      "offset": 5.772727,
+      "confidence": 0.72484
+    },
+    {
+      "pitch": 62,
+      "onset": 5.703067,
+      "offset": 6.15714,
+      "confidence": 0.697373
+    },
+    {
+      "pitch": 69,
+      "onset": 5.9946,
+      "offset": 6.470609,
+      "confidence": 0.70794
+    },
+    {
+      "pitch": 74,
+      "onset": 6.284849,
+      "offset": 6.772468,
+      "confidence": 0.713105
+    },
+    {
+      "pitch": 78,
+      "onset": 6.598319,
+      "offset": 7.120768,
+      "confidence": 0.677947
+    },
+    {
+      "pitch": 69,
+      "onset": 6.900178,
+      "offset": 7.376187,
+      "confidence": 0.704445
+    },
+    {
+      "pitch": 74,
+      "onset": 7.202038,
+      "offset": 7.666437,
+      "confidence": 0.705918
+    },
+    {
+      "pitch": 77,
+      "onset": 7.503897,
+      "offset": 8.01602,
+      "confidence": 0.679309
+    },
+    {
+      "pitch": 60,
+      "onset": 7.805756,
+      "offset": 8.16695,
+      "confidence": 0.684831
+    },
+    {
+      "pitch": 62,
+      "onset": 8.08568,
+      "offset": 8.561689,
+      "confidence": 0.703539
+    },
+    {
+      "pitch": 69,
+      "onset": 8.399149,
+      "offset": 8.875158,
+      "confidence": 0.713689
+    },
+    {
+      "pitch": 74,
+      "onset": 8.701009,
+      "offset": 9.165408,
+      "confidence": 0.708813
+    },
+    {
+      "pitch": 77,
+      "onset": 8.991258,
+      "offset": 9.490487,
+      "confidence": 0.688114
+    },
+    {
+      "pitch": 69,
+      "onset": 9.304727,
+      "offset": 9.780737,
+      "confidence": 0.711653
+    },
+    {
+      "pitch": 74,
+      "onset": 9.594977,
+      "offset": 10.06066,
+      "confidence": 0.704576
+    },
+    {
+      "pitch": 77,
+      "onset": 9.908446,
+      "offset": 10.397349,
+      "confidence": 0.66366
+    },
+    {
+      "pitch": 59,
+      "onset": 10.19998,
+      "offset": 10.664379,
+      "confidence": 0.735204
+    },
+    {
+      "pitch": 62,
+      "onset": 10.501839,
+      "offset": 10.977848,
+      "confidence": 0.715043
+    },
+    {
+      "pitch": 67,
+      "onset": 10.792088,
+      "offset": 11.256488,
+      "confidence": 0.706757
+    },
+    {
+      "pitch": 74,
+      "onset": 11.093948,
+      "offset": 11.604787,
+      "confidence": 0.743499
+    },
+    {
+      "pitch": 77,
+      "onset": 11.604787,
+      "offset": 12.03564,
+      "confidence": 0.663893
+    },
+    {
+      "pitch": 67,
+      "onset": 11.709277,
+      "offset": 12.15174,
+      "confidence": 0.705594
+    },
+    {
+      "pitch": 74,
+      "onset": 11.9892,
+      "offset": 12.465209,
+      "confidence": 0.697374
+    },
+    {
+      "pitch": 77,
+      "onset": 12.291059,
+      "offset": 12.790288,
+      "confidence": 0.672038
+    },
+    {
+      "pitch": 59,
+      "onset": 12.592919,
+      "offset": 13.068928,
+      "confidence": 0.732543
+    },
+    {
+      "pitch": 62,
+      "onset": 12.894778,
+      "offset": 13.382397,
+      "confidence": 0.71936
+    },
+    {
+      "pitch": 67,
+      "onset": 13.208248,
+      "offset": 13.672647,
+      "confidence": 0.705321
+    },
+    {
+      "pitch": 74,
+      "onset": 13.498497,
+      "offset": 13.95257,
+      "confidence": 0.707663
+    },
+    {
+      "pitch": 77,
+      "onset": 13.800356,
+      "offset": 14.277649,
+      "confidence": 0.676113
+    },
+    {
+      "pitch": 67,
+      "onset": 14.09189,
+      "offset": 14.556289,
+      "confidence": 0.714581
+    },
+    {
+      "pitch": 74,
+      "onset": 14.393749,
+      "offset": 14.869758,
+      "confidence": 0.708129
+    },
+    {
+      "pitch": 77,
+      "onset": 14.695609,
+      "offset": 15.276107,
+      "confidence": 0.755004
+    }
+  ],
+  "confidence_note": "Mean model activation, not a calibrated probability of correctness."
+}

@@ -1,0 +1,5094 @@
+{
+  "model": {
+    "name": "Spotify Basic Pitch / ICASSP 2022 (ONNX CPU)",
+    "version": "0.4.0",
+    "runtime": "1.20.1",
+    "sha256": "2c3c1d144bfa61ad236e92e169c13535c880469a12a047d4e73451f2c059a0ec"
+  },
+  "decoder": "candidate",
+  "settings": {
+    "onset_thresh": 0.6,
+    "frame_thresh": 0.3,
+    "infer_onsets": false,
+    "melodia_trick": false,
+    "min_note_len": 7,
+    "min_freq": 27.5,
+    "max_freq": 4186.01,
+    "include_pitch_bends": false
+  },
+  "audio_sha256": "1bf12d853e4525a52e357c62cedd55d9a4b2b3b5b74a2fdd50ebcccf3e255887",
+  "decoders": {
+    "baseline": {
+      "settings": {
+        "onset_thresh": 0.5,
+        "frame_thresh": 0.3,
+        "infer_onsets": true,
+        "melodia_trick": true,
+        "min_note_len": 7,
+        "min_freq": 27.5,
+        "max_freq": 4186.01,
+        "include_pitch_bends": false
+      },
+      "notes": [
+        {
+          "pitch": 60,
+          "onset": 0.08127,
+          "offset": 0.545669,
+          "confidence": 0.681818
+        },
+        {
+          "pitch": 64,
+          "onset": 0.325079,
+          "offset": 0.545669,
+          "confidence": 0.680596
+        },
+        {
+          "pitch": 60,
+          "onset": 0.545669,
+          "offset": 0.673379,
+          "confidence": 0.444144
+        },
+        {
+          "pitch": 64,
+          "onset": 0.545669,
+          "offset": 0.696599,
+          "confidence": 0.446059
+        },
+        {
+          "pitch": 67,
+          "onset": 0.545669,
+          "offset": 1.195828,
+          "confidence": 0.646898
+        },
+        {
+          "pitch": 79,
+          "onset": 0.545669,
+          "offset": 0.638549,
+          "confidence": 0.340421
+        },
+        {
+          "pitch": 76,
+          "onset": 0.638549,
+          "offset": 0.777868,
+          "confidence": 0.296882
+        },
+        {
+          "pitch": 72,
+          "onset": 0.754649,
+          "offset": 0.905578,
+          "confidence": 0.502653
+        },
+        {
+          "pitch": 64,
+          "onset": 0.975238,
+          "offset": 1.242268,
+          "confidence": 0.358914
+        },
+        {
+          "pitch": 76,
+          "onset": 0.975238,
+          "offset": 1.625397,
+          "confidence": 0.445602
+        },
+        {
+          "pitch": 72,
+          "onset": 1.033288,
+          "offset": 1.137778,
+          "confidence": 0.401327
+        },
+        {
+          "pitch": 67,
+          "onset": 1.195828,
+          "offset": 1.625397,
+          "confidence": 0.662559
+        },
+        {
+          "pitch": 48,
+          "onset": 1.219048,
+          "offset": 1.358367,
+          "confidence": 0.407215
+        },
+        {
+          "pitch": 72,
+          "onset": 1.404807,
+          "offset": 1.625397,
+          "confidence": 0.584433
+        },
+        {
+          "pitch": 67,
+          "onset": 1.625397,
+          "offset": 1.834376,
+          "confidence": 0.40498
+        },
+        {
+          "pitch": 72,
+          "onset": 1.625397,
+          "offset": 1.822766,
+          "confidence": 0.423543
+        },
+        {
+          "pitch": 76,
+          "onset": 1.625397,
+          "offset": 2.04464,
+          "confidence": 0.54162
+        },
+        {
+          "pitch": 60,
+          "onset": 1.869206,
+          "offset": 2.25362,
+          "confidence": 0.571607
+        },
+        {
+          "pitch": 64,
+          "onset": 2.05625,
+          "offset": 2.288449,
+          "confidence": 0.692817
+        },
+        {
+          "pitch": 76,
+          "onset": 2.05625,
+          "offset": 2.2304,
+          "confidence": 0.312537
+        },
+        {
+          "pitch": 64,
+          "onset": 2.288449,
+          "offset": 2.683189,
+          "confidence": 0.496029
+        },
+        {
+          "pitch": 67,
+          "onset": 2.288449,
+          "offset": 2.718019,
+          "confidence": 0.694968
+        },
+        {
+          "pitch": 79,
+          "onset": 2.288449,
+          "offset": 2.567089,
+          "confidence": 0.302905
+        },
+        {
+          "pitch": 76,
+          "onset": 2.369719,
+          "offset": 2.520649,
+          "confidence": 0.308407
+        },
+        {
+          "pitch": 72,
+          "onset": 2.497429,
+          "offset": 2.718019,
+          "confidence": 0.486764
+        },
+        {
+          "pitch": 64,
+          "onset": 2.706409,
+          "offset": 3.356567,
+          "confidence": 0.364281
+        },
+        {
+          "pitch": 67,
+          "onset": 2.718019,
+          "offset": 2.926998,
+          "confidence": 0.52578
+        },
+        {
+          "pitch": 72,
+          "onset": 2.718019,
+          "offset": 3.135978,
+          "confidence": 0.382855
+        },
+        {
+          "pitch": 76,
+          "onset": 2.718019,
+          "offset": 3.356567,
+          "confidence": 0.530412
+        },
+        {
+          "pitch": 67,
+          "onset": 2.926998,
+          "offset": 3.356567,
+          "confidence": 0.646335
+        },
+        {
+          "pitch": 79,
+          "onset": 2.926998,
+          "offset": 3.286907,
+          "confidence": 0.358444
+        },
+        {
+          "pitch": 48,
+          "onset": 2.961828,
+          "offset": 3.089538,
+          "confidence": 0.392773
+        },
+        {
+          "pitch": 72,
+          "onset": 3.135978,
+          "offset": 3.356567,
+          "confidence": 0.663154
+        },
+        {
+          "pitch": 64,
+          "onset": 3.356567,
+          "offset": 3.670037,
+          "confidence": 0.375628
+        },
+        {
+          "pitch": 67,
+          "onset": 3.356567,
+          "offset": 3.902236,
+          "confidence": 0.433317
+        },
+        {
+          "pitch": 72,
+          "onset": 3.356567,
+          "offset": 3.577157,
+          "confidence": 0.659056
+        },
+        {
+          "pitch": 76,
+          "onset": 3.356567,
+          "offset": 3.739697,
+          "confidence": 0.503003
+        },
+        {
+          "pitch": 60,
+          "onset": 3.577157,
+          "offset": 4.18216,
+          "confidence": 0.474717
+        },
+        {
+          "pitch": 72,
+          "onset": 3.577157,
+          "offset": 3.716477,
+          "confidence": 0.421384
+        },
+        {
+          "pitch": 62,
+          "onset": 3.774527,
+          "offset": 4.00801,
+          "confidence": 0.577506
+        },
+        {
+          "pitch": 62,
+          "onset": 4.00801,
+          "offset": 4.19377,
+          "confidence": 0.496867
+        },
+        {
+          "pitch": 69,
+          "onset": 4.00801,
+          "offset": 4.356309,
+          "confidence": 0.449698
+        },
+        {
+          "pitch": 62,
+          "onset": 4.19377,
+          "offset": 4.576899,
+          "confidence": 0.473304
+        },
+        {
+          "pitch": 74,
+          "onset": 4.20538,
+          "offset": 4.425969,
+          "confidence": 0.498941
+        },
+        {
+          "pitch": 77,
+          "onset": 4.437579,
+          "offset": 5.099348,
+          "confidence": 0.471127
+        },
+        {
+          "pitch": 69,
+          "onset": 4.507239,
+          "offset": 4.646559,
+          "confidence": 0.336557
+        },
+        {
+          "pitch": 62,
+          "onset": 4.658169,
+          "offset": 4.867148,
+          "confidence": 0.388672
+        },
+        {
+          "pitch": 69,
+          "onset": 4.658169,
+          "offset": 5.447647,
+          "confidence": 0.440041
+        },
+        {
+          "pitch": 62,
+          "onset": 4.867148,
+          "offset": 5.052908,
+          "confidence": 0.407796
+        },
+        {
+          "pitch": 74,
+          "onset": 4.867148,
+          "offset": 5.157398,
+          "confidence": 0.546359
+        },
+        {
+          "pitch": 77,
+          "onset": 5.099348,
+          "offset": 5.540527,
+          "confidence": 0.586413
+        },
+        {
+          "pitch": 60,
+          "onset": 5.308327,
+          "offset": 5.621797,
+          "confidence": 0.502183
+        },
+        {
+          "pitch": 62,
+          "onset": 5.517307,
+          "offset": 5.726287,
+          "confidence": 0.667489
+        },
+        {
+          "pitch": 62,
+          "onset": 5.726287,
+          "offset": 5.923656,
+          "confidence": 0.500678
+        },
+        {
+          "pitch": 69,
+          "onset": 5.726287,
+          "offset": 6.354509,
+          "confidence": 0.513369
+        },
+        {
+          "pitch": 50,
+          "onset": 5.737897,
+          "offset": 5.865606,
+          "confidence": 0.413681
+        },
+        {
+          "pitch": 62,
+          "onset": 5.923656,
+          "offset": 6.14553,
+          "confidence": 0.482257
+        },
+        {
+          "pitch": 74,
+          "onset": 5.923656,
+          "offset": 6.14553,
+          "confidence": 0.647957
+        },
+        {
+          "pitch": 77,
+          "onset": 6.13392,
+          "offset": 6.772468,
+          "confidence": 0.545598
+        },
+        {
+          "pitch": 62,
+          "onset": 6.14553,
+          "offset": 6.354509,
+          "confidence": 0.467137
+        },
+        {
+          "pitch": 74,
+          "onset": 6.14553,
+          "offset": 6.563489,
+          "confidence": 0.401937
+        },
+        {
+          "pitch": 81,
+          "onset": 6.342899,
+          "offset": 6.458999,
+          "confidence": 0.289887
+        },
+        {
+          "pitch": 62,
+          "onset": 6.354509,
+          "offset": 6.563489,
+          "confidence": 0.443822
+        },
+        {
+          "pitch": 69,
+          "onset": 6.354509,
+          "offset": 6.876958,
+          "confidence": 0.520974
+        },
+        {
+          "pitch": 86,
+          "onset": 6.551879,
+          "offset": 6.667979,
+          "confidence": 0.304783
+        },
+        {
+          "pitch": 62,
+          "onset": 6.563489,
+          "offset": 6.853738,
+          "confidence": 0.375601
+        },
+        {
+          "pitch": 74,
+          "onset": 6.563489,
+          "offset": 6.772468,
+          "confidence": 0.707821
+        },
+        {
+          "pitch": 50,
+          "onset": 6.575099,
+          "offset": 6.702809,
+          "confidence": 0.370749
+        },
+        {
+          "pitch": 74,
+          "onset": 6.772468,
+          "offset": 7.260088,
+          "confidence": 0.413048
+        },
+        {
+          "pitch": 77,
+          "onset": 6.772468,
+          "offset": 7.097548,
+          "confidence": 0.594068
+        },
+        {
+          "pitch": 69,
+          "onset": 6.876958,
+          "offset": 7.062718,
+          "confidence": 0.549047
+        },
+        {
+          "pitch": 59,
+          "onset": 6.993058,
+          "offset": 7.352967,
+          "confidence": 0.450777
+        },
+        {
+          "pitch": 77,
+          "onset": 7.097548,
+          "offset": 7.236868,
+          "confidence": 0.475064
+        },
+        {
+          "pitch": 62,
+          "onset": 7.202038,
+          "offset": 7.619997,
+          "confidence": 0.49634
+        },
+        {
+          "pitch": 74,
+          "onset": 7.399407,
+          "offset": 7.608387,
+          "confidence": 0.316676
+        },
+        {
+          "pitch": 67,
+          "onset": 7.411017,
+          "offset": 8.05085,
+          "confidence": 0.558665
+        },
+        {
+          "pitch": 79,
+          "onset": 7.411017,
+          "offset": 7.527117,
+          "confidence": 0.34097
+        },
+        {
+          "pitch": 62,
+          "onset": 7.619997,
+          "offset": 8.00441,
+          "confidence": 0.442826
+        },
+        {
+          "pitch": 74,
+          "onset": 7.619997,
+          "offset": 7.852196,
+          "confidence": 0.670608
+        },
+        {
+          "pitch": 77,
+          "onset": 7.840586,
+          "offset": 8.21339,
+          "confidence": 0.500377
+        },
+        {
+          "pitch": 74,
+          "onset": 7.852196,
+          "offset": 8.05085,
+          "confidence": 0.428014
+        },
+        {
+          "pitch": 67,
+          "onset": 8.05085,
+          "offset": 8.271439,
+          "confidence": 0.725063
+        },
+        {
+          "pitch": 79,
+          "onset": 8.05085,
+          "offset": 8.19017,
+          "confidence": 0.30391
+        },
+        {
+          "pitch": 74,
+          "onset": 8.259829,
+          "offset": 8.909988,
+          "confidence": 0.592227
+        },
+        {
+          "pitch": 67,
+          "onset": 8.271439,
+          "offset": 9.118968,
+          "confidence": 0.426353
+        },
+        {
+          "pitch": 77,
+          "onset": 8.480419,
+          "offset": 9.026088,
+          "confidence": 0.496154
+        },
+        {
+          "pitch": 59,
+          "onset": 8.701009,
+          "offset": 9.084138,
+          "confidence": 0.468381
+        },
+        {
+          "pitch": 62,
+          "onset": 8.909988,
+          "offset": 9.316337,
+          "confidence": 0.577434
+        },
+        {
+          "pitch": 67,
+          "onset": 9.118968,
+          "offset": 9.316337,
+          "confidence": 0.708549
+        },
+        {
+          "pitch": 79,
+          "onset": 9.118968,
+          "offset": 9.455657,
+          "confidence": 0.32023
+        },
+        {
+          "pitch": 62,
+          "onset": 9.316337,
+          "offset": 9.560147,
+          "confidence": 0.446728
+        },
+        {
+          "pitch": 67,
+          "onset": 9.316337,
+          "offset": 9.757517,
+          "confidence": 0.468708
+        },
+        {
+          "pitch": 74,
+          "onset": 9.316337,
+          "offset": 9.803956,
+          "confidence": 0.556697
+        },
+        {
+          "pitch": 77,
+          "onset": 9.536927,
+          "offset": 10.16515,
+          "confidence": 0.570937
+        },
+        {
+          "pitch": 62,
+          "onset": 9.560147,
+          "offset": 9.931666,
+          "confidence": 0.393862
+        },
+        {
+          "pitch": 43,
+          "onset": 9.606587,
+          "offset": 9.896836,
+          "confidence": 0.333428
+        },
+        {
+          "pitch": 67,
+          "onset": 9.757517,
+          "offset": 10.838528,
+          "confidence": 0.478498
+        },
+        {
+          "pitch": 62,
+          "onset": 9.96778,
+          "offset": 10.11871,
+          "confidence": 0.317995
+        },
+        {
+          "pitch": 74,
+          "onset": 9.96778,
+          "offset": 10.16515,
+          "confidence": 0.642363
+        },
+        {
+          "pitch": 74,
+          "onset": 10.16515,
+          "offset": 10.408959,
+          "confidence": 0.458426
+        },
+        {
+          "pitch": 77,
+          "onset": 10.16515,
+          "offset": 10.594719,
+          "confidence": 0.551767
+        },
+        {
+          "pitch": 60,
+          "onset": 10.408959,
+          "offset": 11.047508,
+          "confidence": 0.524314
+        },
+        {
+          "pitch": 64,
+          "onset": 10.606329,
+          "offset": 10.954628,
+          "confidence": 0.472224
+        },
+        {
+          "pitch": 67,
+          "onset": 10.838528,
+          "offset": 11.477077,
+          "confidence": 0.551717
+        },
+        {
+          "pitch": 72,
+          "onset": 11.035898,
+          "offset": 11.128778,
+          "confidence": 0.333249
+        },
+        {
+          "pitch": 60,
+          "onset": 11.047508,
+          "offset": 11.210048,
+          "confidence": 0.447435
+        },
+        {
+          "pitch": 76,
+          "onset": 11.256488,
+          "offset": 11.883426,
+          "confidence": 0.506395
+        },
+        {
+          "pitch": 67,
+          "onset": 11.477077,
+          "offset": 11.895036,
+          "confidence": 0.695268
+        },
+        {
+          "pitch": 79,
+          "onset": 11.477077,
+          "offset": 11.790546,
+          "confidence": 0.366262
+        },
+        {
+          "pitch": 48,
+          "onset": 11.546737,
+          "offset": 11.651227,
+          "confidence": 0.372617
+        },
+        {
+          "pitch": 72,
+          "onset": 11.686057,
+          "offset": 11.848596,
+          "confidence": 0.518151
+        },
+        {
+          "pitch": 76,
+          "onset": 11.883426,
+          "offset": 12.465209,
+          "confidence": 0.510231
+        },
+        {
+          "pitch": 67,
+          "onset": 11.895036,
+          "offset": 12.511649,
+          "confidence": 0.51521
+        },
+        {
+          "pitch": 72,
+          "onset": 11.895036,
+          "offset": 12.03564,
+          "confidence": 0.370597
+        },
+        {
+          "pitch": 60,
+          "onset": 12.1053,
+          "offset": 12.674189,
+          "confidence": 0.493569
+        },
+        {
+          "pitch": 48,
+          "onset": 12.12852,
+          "offset": 12.23301,
+          "confidence": 0.370984
+        },
+        {
+          "pitch": 64,
+          "onset": 12.302669,
+          "offset": 12.511649,
+          "confidence": 0.672677
+        },
+        {
+          "pitch": 64,
+          "onset": 12.511649,
+          "offset": 12.859948,
+          "confidence": 0.445326
+        },
+        {
+          "pitch": 67,
+          "onset": 12.511649,
+          "offset": 12.720629,
+          "confidence": 0.740279
+        },
+        {
+          "pitch": 79,
+          "onset": 12.511649,
+          "offset": 12.720629,
+          "confidence": 0.452447
+        },
+        {
+          "pitch": 76,
+          "onset": 12.592919,
+          "offset": 12.929608,
+          "confidence": 0.36049
+        },
+        {
+          "pitch": 67,
+          "onset": 12.720629,
+          "offset": 13.161808,
+          "confidence": 0.593132
+        },
+        {
+          "pitch": 72,
+          "onset": 12.720629,
+          "offset": 12.964438,
+          "confidence": 0.639329
+        },
+        {
+          "pitch": 79,
+          "onset": 12.720629,
+          "offset": 12.883168,
+          "confidence": 0.39481
+        },
+        {
+          "pitch": 64,
+          "onset": 12.941218,
+          "offset": 13.103758,
+          "confidence": 0.313149
+        },
+        {
+          "pitch": 76,
+          "onset": 12.941218,
+          "offset": 13.161808,
+          "confidence": 0.611246
+        },
+        {
+          "pitch": 72,
+          "onset": 12.964438,
+          "offset": 13.173418,
+          "confidence": 0.567801
+        },
+        {
+          "pitch": 67,
+          "onset": 13.161808,
+          "offset": 13.370787,
+          "confidence": 0.727712
+        },
+        {
+          "pitch": 79,
+          "onset": 13.347567,
+          "offset": 13.452057,
+          "confidence": 0.377789
+        },
+        {
+          "pitch": 67,
+          "onset": 13.370787,
+          "offset": 13.9874,
+          "confidence": 0.587508
+        },
+        {
+          "pitch": 72,
+          "onset": 13.370787,
+          "offset": 13.94096,
+          "confidence": 0.542441
+        },
+        {
+          "pitch": 76,
+          "onset": 13.370787,
+          "offset": 13.568157,
+          "confidence": 0.384171
+        },
+        {
+          "pitch": 64,
+          "onset": 13.382397,
+          "offset": 13.533327,
+          "confidence": 0.355037
+        },
+        {
+          "pitch": 76,
+          "onset": 13.579767,
+          "offset": 13.96418,
+          "confidence": 0.557851
+        },
+        {
+          "pitch": 60,
+          "onset": 13.811966,
+          "offset": 14.20799,
+          "confidence": 0.561554
+        },
+        {
+          "pitch": 64,
+          "onset": 13.9874,
+          "offset": 14.440189,
+          "confidence": 0.640531
+        },
+        {
+          "pitch": 67,
+          "onset": 13.9874,
+          "offset": 14.09189,
+          "confidence": 0.393074
+        },
+        {
+          "pitch": 69,
+          "onset": 14.2196,
+          "offset": 14.637559,
+          "confidence": 0.472293
+        },
+        {
+          "pitch": 76,
+          "onset": 14.428579,
+          "offset": 14.556289,
+          "confidence": 0.568295
+        },
+        {
+          "pitch": 64,
+          "onset": 14.440189,
+          "offset": 14.869758,
+          "confidence": 0.369683
+        },
+        {
+          "pitch": 69,
+          "onset": 14.637559,
+          "offset": 14.869758,
+          "confidence": 0.41171
+        },
+        {
+          "pitch": 81,
+          "onset": 14.637559,
+          "offset": 15.276107,
+          "confidence": 0.651233
+        },
+        {
+          "pitch": 76,
+          "onset": 14.858148,
+          "offset": 15.055518,
+          "confidence": 0.505142
+        },
+        {
+          "pitch": 64,
+          "onset": 14.869758,
+          "offset": 15.067128,
+          "confidence": 0.404077
+        },
+        {
+          "pitch": 69,
+          "onset": 14.869758,
+          "offset": 15.276107,
+          "confidence": 0.520315
+        },
+        {
+          "pitch": 76,
+          "onset": 15.055518,
+          "offset": 15.694067,
+          "confidence": 0.495033
+        },
+        {
+          "pitch": 64,
+          "onset": 15.067128,
+          "offset": 15.357377,
+          "confidence": 0.389264
+        },
+        {
+          "pitch": 69,
+          "onset": 15.276107,
+          "offset": 15.89272,
+          "confidence": 0.507297
+        },
+        {
+          "pitch": 81,
+          "onset": 15.276107,
+          "offset": 15.810166,
+          "confidence": 0.579168
+        },
+        {
+          "pitch": 60,
+          "onset": 15.496697,
+          "offset": 15.856606,
+          "confidence": 0.518883
+        },
+        {
+          "pitch": 64,
+          "onset": 15.694067,
+          "offset": 15.89272,
+          "confidence": 0.632745
+        },
+        {
+          "pitch": 76,
+          "onset": 15.694067,
+          "offset": 16.1017,
+          "confidence": 0.458982
+        },
+        {
+          "pitch": 64,
+          "onset": 15.89272,
+          "offset": 16.1017,
+          "confidence": 0.516624
+        },
+        {
+          "pitch": 69,
+          "onset": 15.89272,
+          "offset": 16.333899,
+          "confidence": 0.534723
+        },
+        {
+          "pitch": 81,
+          "onset": 15.9856,
+          "offset": 16.322289,
+          "confidence": 0.354689
+        },
+        {
+          "pitch": 64,
+          "onset": 16.1017,
+          "offset": 16.600929,
+          "confidence": 0.338243
+        },
+        {
+          "pitch": 76,
+          "onset": 16.1017,
+          "offset": 16.345509,
+          "confidence": 0.649963
+        },
+        {
+          "pitch": 69,
+          "onset": 16.333899,
+          "offset": 16.542879,
+          "confidence": 0.49822
+        },
+        {
+          "pitch": 81,
+          "onset": 16.333899,
+          "offset": 16.960838,
+          "confidence": 0.675337
+        },
+        {
+          "pitch": 69,
+          "onset": 16.542879,
+          "offset": 16.960838,
+          "confidence": 0.538888
+        },
+        {
+          "pitch": 76,
+          "onset": 16.542879,
+          "offset": 16.740249,
+          "confidence": 0.49691
+        },
+        {
+          "pitch": 64,
+          "onset": 16.740249,
+          "offset": 16.926008,
+          "confidence": 0.342414
+        },
+        {
+          "pitch": 76,
+          "onset": 16.740249,
+          "offset": 17.309137,
+          "confidence": 0.600082
+        },
+        {
+          "pitch": 69,
+          "onset": 16.960838,
+          "offset": 17.227868,
+          "confidence": 0.518264
+        },
+        {
+          "pitch": 81,
+          "onset": 16.960838,
+          "offset": 17.309137,
+          "confidence": 0.608933
+        },
+        {
+          "pitch": 60,
+          "onset": 17.181428,
+          "offset": 17.727097,
+          "confidence": 0.512454
+        },
+        {
+          "pitch": 62,
+          "onset": 17.402017,
+          "offset": 17.87931,
+          "confidence": 0.527433
+        },
+        {
+          "pitch": 66,
+          "onset": 17.610997,
+          "offset": 17.93736,
+          "confidence": 0.475569
+        },
+        {
+          "pitch": 69,
+          "onset": 17.610997,
+          "offset": 17.819976,
+          "confidence": 0.313453
+        },
+        {
+          "pitch": 69,
+          "onset": 17.819976,
+          "offset": 18.448199,
+          "confidence": 0.458204
+        },
+        {
+          "pitch": 62,
+          "onset": 18.04185,
+          "offset": 18.715229,
+          "confidence": 0.487538
+        },
+        {
+          "pitch": 74,
+          "onset": 18.04185,
+          "offset": 18.657179,
+          "confidence": 0.633779
+        },
+        {
+          "pitch": 66,
+          "onset": 18.250829,
+          "offset": 18.819718,
+          "confidence": 0.515254
+        },
+        {
+          "pitch": 69,
+          "onset": 18.448199,
+          "offset": 18.877768,
+          "confidence": 0.424757
+        },
+        {
+          "pitch": 74,
+          "onset": 18.657179,
+          "offset": 19.736907,
+          "confidence": 0.510363
+        },
+        {
+          "pitch": 60,
+          "onset": 18.889378,
+          "offset": 19.400217,
+          "confidence": 0.470499
+        },
+        {
+          "pitch": 62,
+          "onset": 19.098358,
+          "offset": 19.516317,
+          "confidence": 0.524059
+        },
+        {
+          "pitch": 66,
+          "onset": 19.098358,
+          "offset": 19.307337,
+          "confidence": 0.387702
+        },
+        {
+          "pitch": 66,
+          "onset": 19.318947,
+          "offset": 19.713687,
+          "confidence": 0.539057
+        },
+        {
+          "pitch": 69,
+          "onset": 19.365387,
+          "offset": 19.516317,
+          "confidence": 0.284945
+        },
+        {
+          "pitch": 62,
+          "onset": 19.516317,
+          "offset": 19.736907,
+          "confidence": 0.37755
+        },
+        {
+          "pitch": 69,
+          "onset": 19.527927,
+          "offset": 20.16776,
+          "confidence": 0.526533
+        },
+        {
+          "pitch": 62,
+          "onset": 19.736907,
+          "offset": 20.10971,
+          "confidence": 0.415694
+        },
+        {
+          "pitch": 74,
+          "onset": 19.736907,
+          "offset": 20.15615,
+          "confidence": 0.72922
+        },
+        {
+          "pitch": 66,
+          "onset": 19.94717,
+          "offset": 20.15615,
+          "confidence": 0.637315
+        },
+        {
+          "pitch": 78,
+          "onset": 19.95878,
+          "offset": 20.15615,
+          "confidence": 0.290676
+        },
+        {
+          "pitch": 66,
+          "onset": 20.15615,
+          "offset": 20.341909,
+          "confidence": 0.440413
+        },
+        {
+          "pitch": 74,
+          "onset": 20.15615,
+          "offset": 20.365129,
+          "confidence": 0.585922
+        },
+        {
+          "pitch": 78,
+          "onset": 20.15615,
+          "offset": 20.318689,
+          "confidence": 0.382944
+        },
+        {
+          "pitch": 69,
+          "onset": 20.16776,
+          "offset": 20.632159,
+          "confidence": 0.597723
+        },
+        {
+          "pitch": 74,
+          "onset": 20.365129,
+          "offset": 20.783088,
+          "confidence": 0.671805
+        },
+        {
+          "pitch": 86,
+          "onset": 20.376739,
+          "offset": 20.469619,
+          "confidence": 0.326956
+        },
+        {
+          "pitch": 66,
+          "onset": 20.469619,
+          "offset": 20.690209,
+          "confidence": 0.336757
+        },
+        {
+          "pitch": 59,
+          "onset": 20.562499,
+          "offset": 21.038508,
+          "confidence": 0.448181
+        },
+        {
+          "pitch": 62,
+          "onset": 20.585719,
+          "offset": 20.771478,
+          "confidence": 0.275491
+        },
+        {
+          "pitch": 62,
+          "onset": 20.783088,
+          "offset": 21.201048,
+          "confidence": 0.586258
+        },
+        {
+          "pitch": 74,
+          "onset": 20.783088,
+          "offset": 20.875968,
+          "confidence": 0.481519
+        },
+        {
+          "pitch": 67,
+          "onset": 21.003678,
+          "offset": 21.212658,
+          "confidence": 0.705387
+        },
+        {
+          "pitch": 79,
+          "onset": 21.003678,
+          "offset": 21.131388,
+          "confidence": 0.317168
+        },
+        {
+          "pitch": 62,
+          "onset": 21.201048,
+          "offset": 21.85249,
+          "confidence": 0.342624
+        },
+        {
+          "pitch": 67,
+          "onset": 21.212658,
+          "offset": 21.421637,
+          "confidence": 0.621711
+        },
+        {
+          "pitch": 74,
+          "onset": 21.212658,
+          "offset": 21.665447,
+          "confidence": 0.573471
+        },
+        {
+          "pitch": 79,
+          "onset": 21.293927,
+          "offset": 21.410027,
+          "confidence": 0.348428
+        },
+        {
+          "pitch": 67,
+          "onset": 21.421637,
+          "offset": 21.642227,
+          "confidence": 0.557247
+        },
+        {
+          "pitch": 79,
+          "onset": 21.421637,
+          "offset": 22.06147,
+          "confidence": 0.566003
+        },
+        {
+          "pitch": 67,
+          "onset": 21.642227,
+          "offset": 21.85249,
+          "confidence": 0.696997
+        },
+        {
+          "pitch": 62,
+          "onset": 21.85249,
+          "offset": 22.00342,
+          "confidence": 0.433814
+        },
+        {
+          "pitch": 67,
+          "onset": 21.85249,
+          "offset": 22.04986,
+          "confidence": 0.560747
+        },
+        {
+          "pitch": 74,
+          "onset": 21.85249,
+          "offset": 22.06147,
+          "confidence": 0.678626
+        },
+        {
+          "pitch": 74,
+          "onset": 22.06147,
+          "offset": 22.479429,
+          "confidence": 0.468249
+        },
+        {
+          "pitch": 79,
+          "onset": 22.06147,
+          "offset": 22.746459,
+          "confidence": 0.635653
+        },
+        {
+          "pitch": 67,
+          "onset": 22.17757,
+          "offset": 22.700019,
+          "confidence": 0.464649
+        },
+        {
+          "pitch": 59,
+          "onset": 22.282059,
+          "offset": 22.641969,
+          "confidence": 0.488442
+        },
+        {
+          "pitch": 62,
+          "onset": 22.491039,
+          "offset": 22.908998,
+          "confidence": 0.646129
+        },
+        {
+          "pitch": 67,
+          "onset": 22.711629,
+          "offset": 22.920608,
+          "confidence": 0.709348
+        },
+        {
+          "pitch": 62,
+          "onset": 22.908998,
+          "offset": 23.524327,
+          "confidence": 0.428329
+        },
+        {
+          "pitch": 74,
+          "onset": 22.908998,
+          "offset": 23.547547,
+          "confidence": 0.549609
+        },
+        {
+          "pitch": 67,
+          "onset": 22.920608,
+          "offset": 23.129588,
+          "confidence": 0.625522
+        },
+        {
+          "pitch": 79,
+          "onset": 22.920608,
+          "offset": 23.117978,
+          "confidence": 0.527889
+        },
+        {
+          "pitch": 67,
+          "onset": 23.129588,
+          "offset": 23.338567,
+          "confidence": 0.431123
+        },
+        {
+          "pitch": 79,
+          "onset": 23.129588,
+          "offset": 23.547547,
+          "confidence": 0.714707
+        },
+        {
+          "pitch": 67,
+          "onset": 23.338567,
+          "offset": 23.547547,
+          "confidence": 0.727975
+        },
+        {
+          "pitch": 62,
+          "onset": 23.535937,
+          "offset": 23.710087,
+          "confidence": 0.296946
+        },
+        {
+          "pitch": 67,
+          "onset": 23.547547,
+          "offset": 24.23382,
+          "confidence": 0.497848
+        },
+        {
+          "pitch": 74,
+          "onset": 23.547547,
+          "offset": 23.756527,
+          "confidence": 0.76187
+        },
+        {
+          "pitch": 79,
+          "onset": 23.547547,
+          "offset": 23.756527,
+          "confidence": 0.607835
+        },
+        {
+          "pitch": 74,
+          "onset": 23.756527,
+          "offset": 24.12933,
+          "confidence": 0.572158
+        },
+        {
+          "pitch": 79,
+          "onset": 23.756527,
+          "offset": 24.22221,
+          "confidence": 0.706859
+        },
+        {
+          "pitch": 59,
+          "onset": 23.96679,
+          "offset": 24.17577,
+          "confidence": 0.521273
+        },
+        {
+          "pitch": 71,
+          "onset": 23.96679,
+          "offset": 24.0945,
+          "confidence": 0.312898
+        },
+        {
+          "pitch": 60,
+          "onset": 24.17577,
+          "offset": 25.255498,
+          "confidence": 0.495813
+        },
+        {
+          "pitch": 71,
+          "onset": 24.23382,
+          "offset": 24.558899,
+          "confidence": 0.346358
+        },
+        {
+          "pitch": 64,
+          "onset": 24.407969,
+          "offset": 24.791098,
+          "confidence": 0.537648
+        },
+        {
+          "pitch": 67,
+          "onset": 24.605339,
+          "offset": 24.837538,
+          "confidence": 0.645491
+        },
+        {
+          "pitch": 79,
+          "onset": 24.616949,
+          "offset": 24.976858,
+          "confidence": 0.392164
+        },
+        {
+          "pitch": 64,
+          "onset": 24.837538,
+          "offset": 25.034908,
+          "confidence": 0.314276
+        },
+        {
+          "pitch": 67,
+          "onset": 24.837538,
+          "offset": 25.255498,
+          "confidence": 0.529183
+        },
+        {
+          "pitch": 72,
+          "onset": 24.837538,
+          "offset": 25.476087,
+          "confidence": 0.62434
+        },
+        {
+          "pitch": 64,
+          "onset": 25.034908,
+          "offset": 26.10431,
+          "confidence": 0.396466
+        },
+        {
+          "pitch": 60,
+          "onset": 25.255498,
+          "offset": 25.522527,
+          "confidence": 0.305807
+        },
+        {
+          "pitch": 67,
+          "onset": 25.255498,
+          "offset": 25.627017,
+          "confidence": 0.559347
+        },
+        {
+          "pitch": 72,
+          "onset": 25.476087,
+          "offset": 25.88372,
+          "confidence": 0.661695
+        },
+        {
+          "pitch": 59,
+          "onset": 25.696677,
+          "offset": 25.88372,
+          "confidence": 0.562739
+        },
+        {
+          "pitch": 60,
+          "onset": 25.88372,
+          "offset": 26.475829,
+          "confidence": 0.51468
+        },
+        {
+          "pitch": 72,
+          "onset": 25.88372,
+          "offset": 26.522269,
+          "confidence": 0.578995
+        },
+        {
+          "pitch": 64,
+          "onset": 26.10431,
+          "offset": 26.499049,
+          "confidence": 0.530285
+        },
+        {
+          "pitch": 67,
+          "onset": 26.11592,
+          "offset": 26.301679,
+          "confidence": 0.354117
+        },
+        {
+          "pitch": 76,
+          "onset": 26.16236,
+          "offset": 26.255239,
+          "confidence": 0.3443
+        },
+        {
+          "pitch": 67,
+          "onset": 26.313289,
+          "offset": 26.522269,
+          "confidence": 0.692922
+        },
+        {
+          "pitch": 67,
+          "onset": 26.522269,
+          "offset": 26.940228,
+          "confidence": 0.512536
+        },
+        {
+          "pitch": 72,
+          "onset": 26.522269,
+          "offset": 27.137598,
+          "confidence": 0.63266
+        },
+        {
+          "pitch": 64,
+          "onset": 26.731249,
+          "offset": 26.940228,
+          "confidence": 0.515949
+        },
+        {
+          "pitch": 64,
+          "onset": 26.940228,
+          "offset": 27.091158,
+          "confidence": 0.379695
+        },
+        {
+          "pitch": 67,
+          "onset": 26.940228,
+          "offset": 27.578777,
+          "confidence": 0.667256
+        },
+        {
+          "pitch": 72,
+          "onset": 27.137598,
+          "offset": 27.555557,
+          "confidence": 0.57613
+        },
+        {
+          "pitch": 64,
+          "onset": 27.149208,
+          "offset": 27.288527,
+          "confidence": 0.352898
+        },
+        {
+          "pitch": 79,
+          "onset": 27.195648,
+          "offset": 27.288527,
+          "confidence": 0.375301
+        },
+        {
+          "pitch": 60,
+          "onset": 27.311747,
+          "offset": 27.555557,
+          "confidence": 0.331272
+        },
+        {
+          "pitch": 57,
+          "onset": 27.369797,
+          "offset": 28.14895,
+          "confidence": 0.456815
+        },
+        {
+          "pitch": 60,
+          "onset": 27.567167,
+          "offset": 27.99802,
+          "confidence": 0.620005
+        },
+        {
+          "pitch": 67,
+          "onset": 27.729707,
+          "offset": 27.98641,
+          "confidence": 0.368134
+        },
+        {
+          "pitch": 64,
+          "onset": 27.787756,
+          "offset": 28.16056,
+          "confidence": 0.547176
+        },
+        {
+          "pitch": 60,
+          "onset": 27.99802,
+          "offset": 28.14895,
+          "confidence": 0.442783
+        },
+        {
+          "pitch": 67,
+          "onset": 27.99802,
+          "offset": 28.636569,
+          "confidence": 0.615777
+        },
+        {
+          "pitch": 79,
+          "onset": 27.99802,
+          "offset": 28.694619,
+          "confidence": 0.30817
+        },
+        {
+          "pitch": 72,
+          "onset": 28.21861,
+          "offset": 28.857158,
+          "confidence": 0.513104
+        },
+        {
+          "pitch": 60,
+          "onset": 28.404369,
+          "offset": 28.729449,
+          "confidence": 0.425585
+        },
+        {
+          "pitch": 64,
+          "onset": 28.427589,
+          "offset": 28.648179,
+          "confidence": 0.498895
+        },
+        {
+          "pitch": 67,
+          "onset": 28.636569,
+          "offset": 29.240288,
+          "confidence": 0.607373
+        },
+        {
+          "pitch": 64,
+          "onset": 28.648179,
+          "offset": 28.787498,
+          "confidence": 0.409278
+        },
+        {
+          "pitch": 72,
+          "onset": 28.857158,
+          "offset": 29.92656,
+          "confidence": 0.474817
+        },
+        {
+          "pitch": 48,
+          "onset": 28.973258,
+          "offset": 29.170628,
+          "confidence": 0.368264
+        },
+        {
+          "pitch": 60,
+          "onset": 28.984868,
+          "offset": 29.286727,
+          "confidence": 0.38132
+        },
+        {
+          "pitch": 57,
+          "onset": 29.089358,
+          "offset": 29.507317,
+          "confidence": 0.567969
+        },
+        {
+          "pitch": 60,
+          "onset": 29.298337,
+          "offset": 29.716297,
+          "confidence": 0.617657
+        },
+        {
+          "pitch": 64,
+          "onset": 29.495707,
+          "offset": 29.727907,
+          "confidence": 0.604153
+        },
+        {
+          "pitch": 57,
+          "onset": 29.507317,
+          "offset": 29.635027,
+          "confidence": 0.41934
+        },
+        {
+          "pitch": 60,
+          "onset": 29.716297,
+          "offset": 29.88012,
+          "confidence": 0.457053
+        },
+        {
+          "pitch": 67,
+          "onset": 29.716297,
+          "offset": 30.356129,
+          "confidence": 0.660174
+        },
+        {
+          "pitch": 79,
+          "onset": 29.716297,
+          "offset": 29.79885,
+          "confidence": 0.291207
+        },
+        {
+          "pitch": 64,
+          "onset": 29.727907,
+          "offset": 30.13554,
+          "confidence": 0.4097
+        },
+        {
+          "pitch": 72,
+          "onset": 29.92656,
+          "offset": 30.565109,
+          "confidence": 0.539769
+        },
+        {
+          "pitch": 64,
+          "onset": 30.13554,
+          "offset": 30.356129,
+          "confidence": 0.547304
+        },
+        {
+          "pitch": 60,
+          "onset": 30.17037,
+          "offset": 30.321299,
+          "confidence": 0.411893
+        },
+        {
+          "pitch": 64,
+          "onset": 30.356129,
+          "offset": 30.669599,
+          "confidence": 0.396801
+        },
+        {
+          "pitch": 67,
+          "onset": 30.356129,
+          "offset": 30.565109,
+          "confidence": 0.741656
+        },
+        {
+          "pitch": 79,
+          "onset": 30.356129,
+          "offset": 30.669599,
+          "confidence": 0.291052
+        },
+        {
+          "pitch": 67,
+          "onset": 30.565109,
+          "offset": 30.785698,
+          "confidence": 0.673095
+        },
+        {
+          "pitch": 72,
+          "onset": 30.565109,
+          "offset": 31.679667,
+          "confidence": 0.51958
+        },
+        {
+          "pitch": 50,
+          "onset": 30.785698,
+          "offset": 31.215268,
+          "confidence": 0.718831
+        },
+        {
+          "pitch": 67,
+          "onset": 30.785698,
+          "offset": 31.366197,
+          "confidence": 0.390164
+        },
+        {
+          "pitch": 57,
+          "onset": 30.983068,
+          "offset": 31.401027,
+          "confidence": 0.479924
+        },
+        {
+          "pitch": 50,
+          "onset": 31.215268,
+          "offset": 31.435857,
+          "confidence": 0.705107
+        },
+        {
+          "pitch": 62,
+          "onset": 31.226878,
+          "offset": 31.389417,
+          "confidence": 0.45897
+        },
+        {
+          "pitch": 50,
+          "onset": 31.435857,
+          "offset": 31.679667,
+          "confidence": 0.643031
+        },
+        {
+          "pitch": 66,
+          "onset": 31.435857,
+          "offset": 32.07569,
+          "confidence": 0.512633
+        },
+        {
+          "pitch": 38,
+          "onset": 31.505517,
+          "offset": 31.94798,
+          "confidence": 0.400373
+        },
+        {
+          "pitch": 50,
+          "onset": 31.679667,
+          "offset": 31.86671,
+          "confidence": 0.533403
+        },
+        {
+          "pitch": 72,
+          "onset": 31.679667,
+          "offset": 32.284669,
+          "confidence": 0.613095
+        },
+        {
+          "pitch": 62,
+          "onset": 31.8551,
+          "offset": 32.249839,
+          "confidence": 0.410833
+        },
+        {
+          "pitch": 50,
+          "onset": 31.86671,
+          "offset": 32.0873,
+          "confidence": 0.585359
+        },
+        {
+          "pitch": 66,
+          "onset": 32.07569,
+          "offset": 33.120588,
+          "confidence": 0.46651
+        },
+        {
+          "pitch": 50,
+          "onset": 32.0873,
+          "offset": 32.505259,
+          "confidence": 0.5215
+        },
+        {
+          "pitch": 72,
+          "onset": 32.284669,
+          "offset": 33.364397,
+          "confidence": 0.574924
+        },
+        {
+          "pitch": 50,
+          "onset": 32.505259,
+          "offset": 32.934828,
+          "confidence": 0.728529
+        },
+        {
+          "pitch": 57,
+          "onset": 32.702629,
+          "offset": 33.306347,
+          "confidence": 0.445984
+        },
+        {
+          "pitch": 38,
+          "onset": 32.807118,
+          "offset": 32.899998,
+          "confidence": 0.364639
+        },
+        {
+          "pitch": 50,
+          "onset": 32.934828,
+          "offset": 33.77203,
+          "confidence": 0.624654
+        },
+        {
+          "pitch": 62,
+          "onset": 32.934828,
+          "offset": 33.062538,
+          "confidence": 0.439666
+        },
+        {
+          "pitch": 66,
+          "onset": 33.120588,
+          "offset": 33.770746,
+          "confidence": 0.570822
+        },
+        {
+          "pitch": 38,
+          "onset": 33.167028,
+          "offset": 33.341177,
+          "confidence": 0.355472
+        },
+        {
+          "pitch": 72,
+          "onset": 33.364397,
+          "offset": 33.98101,
+          "confidence": 0.582981
+        },
+        {
+          "pitch": 62,
+          "onset": 33.573377,
+          "offset": 33.84169,
+          "confidence": 0.344533
+        },
+        {
+          "pitch": 66,
+          "onset": 33.770746,
+          "offset": 34.282869,
+          "confidence": 0.48743
+        },
+        {
+          "pitch": 50,
+          "onset": 33.77203,
+          "offset": 34.17838,
+          "confidence": 0.51995
+        },
+        {
+          "pitch": 72,
+          "onset": 33.98101,
+          "offset": 34.352529,
+          "confidence": 0.524979
+        },
+        {
+          "pitch": 55,
+          "onset": 34.21321,
+          "offset": 34.793708,
+          "confidence": 0.548562
+        },
+        {
+          "pitch": 43,
+          "onset": 34.398969,
+          "offset": 34.619559,
+          "confidence": 0.412518
+        },
+        {
+          "pitch": 71,
+          "onset": 34.410579,
+          "offset": 34.584729,
+          "confidence": 0.329702
+        },
+        {
+          "pitch": 59,
+          "onset": 34.445409,
+          "offset": 34.816928,
+          "confidence": 0.481311
+        },
+        {
+          "pitch": 67,
+          "onset": 34.445409,
+          "offset": 34.607949,
+          "confidence": 0.331787
+        },
+        {
+          "pitch": 43,
+          "onset": 34.631169,
+          "offset": 35.722507,
+          "confidence": 0.433032
+        },
+        {
+          "pitch": 62,
+          "onset": 34.642779,
+          "offset": 34.782098,
+          "confidence": 0.420557
+        },
+        {
+          "pitch": 55,
+          "onset": 34.851758,
+          "offset": 35.269717,
+          "confidence": 0.412996
+        },
+        {
+          "pitch": 67,
+          "onset": 34.851758,
+          "offset": 35.513527,
+          "confidence": 0.515918
+        },
+        {
+          "pitch": 79,
+          "onset": 34.851758,
+          "offset": 34.991078,
+          "confidence": 0.39403
+        },
+        {
+          "pitch": 71,
+          "onset": 35.083958,
+          "offset": 35.722507,
+          "confidence": 0.67732
+        },
+        {
+          "pitch": 62,
+          "onset": 35.304547,
+          "offset": 35.478697,
+          "confidence": 0.414164
+        },
+        {
+          "pitch": 55,
+          "onset": 35.513527,
+          "offset": 35.94438,
+          "confidence": 0.312841
+        },
+        {
+          "pitch": 67,
+          "onset": 35.513527,
+          "offset": 35.94438,
+          "confidence": 0.651038
+        },
+        {
+          "pitch": 43,
+          "onset": 35.722507,
+          "offset": 35.94438,
+          "confidence": 0.517063
+        },
+        {
+          "pitch": 71,
+          "onset": 35.722507,
+          "offset": 36.15336,
+          "confidence": 0.707013
+        },
+        {
+          "pitch": 43,
+          "onset": 35.94438,
+          "offset": 36.269459,
+          "confidence": 0.46879
+        },
+        {
+          "pitch": 55,
+          "onset": 35.94438,
+          "offset": 36.362339,
+          "confidence": 0.573221
+        },
+        {
+          "pitch": 67,
+          "onset": 35.94438,
+          "offset": 36.571319,
+          "confidence": 0.495831
+        },
+        {
+          "pitch": 59,
+          "onset": 36.15336,
+          "offset": 36.768688,
+          "confidence": 0.498059
+        },
+        {
+          "pitch": 71,
+          "onset": 36.15336,
+          "offset": 36.791908,
+          "confidence": 0.469657
+        },
+        {
+          "pitch": 55,
+          "onset": 36.362339,
+          "offset": 36.571319,
+          "confidence": 0.436238
+        },
+        {
+          "pitch": 62,
+          "onset": 36.373949,
+          "offset": 36.791908,
+          "confidence": 0.499716
+        },
+        {
+          "pitch": 43,
+          "onset": 36.397169,
+          "offset": 36.559709,
+          "confidence": 0.410885
+        },
+        {
+          "pitch": 55,
+          "onset": 36.571319,
+          "offset": 36.966058,
+          "confidence": 0.439215
+        },
+        {
+          "pitch": 67,
+          "onset": 36.571319,
+          "offset": 37.209868,
+          "confidence": 0.613833
+        },
+        {
+          "pitch": 79,
+          "onset": 36.571319,
+          "offset": 36.733859,
+          "confidence": 0.418862
+        },
+        {
+          "pitch": 43,
+          "onset": 36.791908,
+          "offset": 36.966058,
+          "confidence": 0.400323
+        },
+        {
+          "pitch": 59,
+          "onset": 36.791908,
+          "offset": 36.896398,
+          "confidence": 0.315179
+        },
+        {
+          "pitch": 62,
+          "onset": 36.791908,
+          "offset": 37.000888,
+          "confidence": 0.321962
+        },
+        {
+          "pitch": 71,
+          "onset": 36.791908,
+          "offset": 37.209868,
+          "confidence": 0.723197
+        },
+        {
+          "pitch": 62,
+          "onset": 37.000888,
+          "offset": 37.209868,
+          "confidence": 0.542761
+        },
+        {
+          "pitch": 43,
+          "onset": 37.198258,
+          "offset": 37.384017,
+          "confidence": 0.391381
+        },
+        {
+          "pitch": 55,
+          "onset": 37.198258,
+          "offset": 37.384017,
+          "confidence": 0.333143
+        },
+        {
+          "pitch": 62,
+          "onset": 37.209868,
+          "offset": 37.384017,
+          "confidence": 0.338447
+        },
+        {
+          "pitch": 67,
+          "onset": 37.209868,
+          "offset": 37.384017,
+          "confidence": 0.718904
+        },
+        {
+          "pitch": 71,
+          "onset": 37.209868,
+          "offset": 37.384017,
+          "confidence": 0.586203
+        },
+        {
+          "pitch": 79,
+          "onset": 37.209868,
+          "offset": 37.384017,
+          "confidence": 0.608893
+        }
+      ]
+    },
+    "candidate": {
+      "settings": {
+        "onset_thresh": 0.6,
+        "frame_thresh": 0.3,
+        "infer_onsets": false,
+        "melodia_trick": false,
+        "min_note_len": 7,
+        "min_freq": 27.5,
+        "max_freq": 4186.01,
+        "include_pitch_bends": false
+      },
+      "notes": [
+        {
+          "pitch": 60,
+          "onset": 0.09288,
+          "offset": 0.545669,
+          "confidence": 0.6861
+        },
+        {
+          "pitch": 64,
+          "onset": 0.325079,
+          "offset": 0.696599,
+          "confidence": 0.585315
+        },
+        {
+          "pitch": 60,
+          "onset": 0.545669,
+          "offset": 0.673379,
+          "confidence": 0.444144
+        },
+        {
+          "pitch": 67,
+          "onset": 0.545669,
+          "offset": 1.195828,
+          "confidence": 0.646898
+        },
+        {
+          "pitch": 79,
+          "onset": 0.545669,
+          "offset": 0.638549,
+          "confidence": 0.340421
+        },
+        {
+          "pitch": 72,
+          "onset": 0.754649,
+          "offset": 0.905578,
+          "confidence": 0.502653
+        },
+        {
+          "pitch": 64,
+          "onset": 0.975238,
+          "offset": 1.242268,
+          "confidence": 0.358914
+        },
+        {
+          "pitch": 76,
+          "onset": 0.975238,
+          "offset": 1.625397,
+          "confidence": 0.445602
+        },
+        {
+          "pitch": 67,
+          "onset": 1.195828,
+          "offset": 1.834376,
+          "confidence": 0.578261
+        },
+        {
+          "pitch": 72,
+          "onset": 1.404807,
+          "offset": 1.822766,
+          "confidence": 0.508457
+        },
+        {
+          "pitch": 76,
+          "onset": 1.625397,
+          "offset": 2.2304,
+          "confidence": 0.471998
+        },
+        {
+          "pitch": 60,
+          "onset": 1.869206,
+          "offset": 2.25362,
+          "confidence": 0.571607
+        },
+        {
+          "pitch": 64,
+          "onset": 2.05625,
+          "offset": 2.288449,
+          "confidence": 0.692817
+        },
+        {
+          "pitch": 64,
+          "onset": 2.288449,
+          "offset": 2.683189,
+          "confidence": 0.496029
+        },
+        {
+          "pitch": 67,
+          "onset": 2.288449,
+          "offset": 2.926998,
+          "confidence": 0.639598
+        },
+        {
+          "pitch": 79,
+          "onset": 2.288449,
+          "offset": 2.567089,
+          "confidence": 0.302905
+        },
+        {
+          "pitch": 72,
+          "onset": 2.497429,
+          "offset": 3.135978,
+          "confidence": 0.418751
+        },
+        {
+          "pitch": 64,
+          "onset": 2.706409,
+          "offset": 3.356567,
+          "confidence": 0.364281
+        },
+        {
+          "pitch": 76,
+          "onset": 2.718019,
+          "offset": 3.356567,
+          "confidence": 0.530412
+        },
+        {
+          "pitch": 67,
+          "onset": 2.926998,
+          "offset": 3.902236,
+          "confidence": 0.527146
+        },
+        {
+          "pitch": 79,
+          "onset": 2.926998,
+          "offset": 3.286907,
+          "confidence": 0.358444
+        },
+        {
+          "pitch": 72,
+          "onset": 3.135978,
+          "offset": 3.356567,
+          "confidence": 0.663154
+        },
+        {
+          "pitch": 64,
+          "onset": 3.356567,
+          "offset": 3.670037,
+          "confidence": 0.375628
+        },
+        {
+          "pitch": 72,
+          "onset": 3.356567,
+          "offset": 3.716477,
+          "confidence": 0.567054
+        },
+        {
+          "pitch": 76,
+          "onset": 3.356567,
+          "offset": 3.739697,
+          "confidence": 0.503003
+        },
+        {
+          "pitch": 60,
+          "onset": 3.577157,
+          "offset": 4.18216,
+          "confidence": 0.474717
+        },
+        {
+          "pitch": 62,
+          "onset": 3.774527,
+          "offset": 4.19377,
+          "confidence": 0.542635
+        },
+        {
+          "pitch": 69,
+          "onset": 4.00801,
+          "offset": 4.356309,
+          "confidence": 0.449698
+        },
+        {
+          "pitch": 62,
+          "onset": 4.19377,
+          "offset": 4.576899,
+          "confidence": 0.473304
+        },
+        {
+          "pitch": 74,
+          "onset": 4.20538,
+          "offset": 4.425969,
+          "confidence": 0.498941
+        },
+        {
+          "pitch": 77,
+          "onset": 4.437579,
+          "offset": 5.099348,
+          "confidence": 0.471127
+        },
+        {
+          "pitch": 62,
+          "onset": 4.658169,
+          "offset": 4.867148,
+          "confidence": 0.388672
+        },
+        {
+          "pitch": 69,
+          "onset": 4.658169,
+          "offset": 5.447647,
+          "confidence": 0.440041
+        },
+        {
+          "pitch": 62,
+          "onset": 4.867148,
+          "offset": 5.052908,
+          "confidence": 0.407796
+        },
+        {
+          "pitch": 74,
+          "onset": 4.867148,
+          "offset": 5.157398,
+          "confidence": 0.546359
+        },
+        {
+          "pitch": 77,
+          "onset": 5.099348,
+          "offset": 5.540527,
+          "confidence": 0.586413
+        },
+        {
+          "pitch": 60,
+          "onset": 5.308327,
+          "offset": 5.621797,
+          "confidence": 0.502183
+        },
+        {
+          "pitch": 62,
+          "onset": 5.517307,
+          "offset": 5.726287,
+          "confidence": 0.667489
+        },
+        {
+          "pitch": 62,
+          "onset": 5.726287,
+          "offset": 5.923656,
+          "confidence": 0.500678
+        },
+        {
+          "pitch": 69,
+          "onset": 5.726287,
+          "offset": 6.354509,
+          "confidence": 0.513369
+        },
+        {
+          "pitch": 62,
+          "onset": 5.923656,
+          "offset": 6.354509,
+          "confidence": 0.475095
+        },
+        {
+          "pitch": 74,
+          "onset": 5.923656,
+          "offset": 6.563489,
+          "confidence": 0.489801
+        },
+        {
+          "pitch": 77,
+          "onset": 6.13392,
+          "offset": 6.772468,
+          "confidence": 0.545598
+        },
+        {
+          "pitch": 81,
+          "onset": 6.342899,
+          "offset": 6.458999,
+          "confidence": 0.289887
+        },
+        {
+          "pitch": 62,
+          "onset": 6.354509,
+          "offset": 6.563489,
+          "confidence": 0.443822
+        },
+        {
+          "pitch": 69,
+          "onset": 6.354509,
+          "offset": 7.062718,
+          "confidence": 0.528337
+        },
+        {
+          "pitch": 62,
+          "onset": 6.563489,
+          "offset": 6.853738,
+          "confidence": 0.375601
+        },
+        {
+          "pitch": 74,
+          "onset": 6.563489,
+          "offset": 7.260088,
+          "confidence": 0.50148
+        },
+        {
+          "pitch": 77,
+          "onset": 6.772468,
+          "offset": 7.236868,
+          "confidence": 0.558367
+        },
+        {
+          "pitch": 59,
+          "onset": 6.993058,
+          "offset": 7.352967,
+          "confidence": 0.450777
+        },
+        {
+          "pitch": 62,
+          "onset": 7.202038,
+          "offset": 7.619997,
+          "confidence": 0.49634
+        },
+        {
+          "pitch": 67,
+          "onset": 7.411017,
+          "offset": 8.05085,
+          "confidence": 0.558665
+        },
+        {
+          "pitch": 62,
+          "onset": 7.619997,
+          "offset": 8.00441,
+          "confidence": 0.442826
+        },
+        {
+          "pitch": 74,
+          "onset": 7.619997,
+          "offset": 8.05085,
+          "confidence": 0.555695
+        },
+        {
+          "pitch": 77,
+          "onset": 7.840586,
+          "offset": 8.21339,
+          "confidence": 0.500377
+        },
+        {
+          "pitch": 67,
+          "onset": 8.05085,
+          "offset": 8.271439,
+          "confidence": 0.725063
+        },
+        {
+          "pitch": 79,
+          "onset": 8.05085,
+          "offset": 8.19017,
+          "confidence": 0.30391
+        },
+        {
+          "pitch": 74,
+          "onset": 8.259829,
+          "offset": 8.909988,
+          "confidence": 0.592227
+        },
+        {
+          "pitch": 67,
+          "onset": 8.271439,
+          "offset": 9.118968,
+          "confidence": 0.426353
+        },
+        {
+          "pitch": 77,
+          "onset": 8.480419,
+          "offset": 9.026088,
+          "confidence": 0.496154
+        },
+        {
+          "pitch": 59,
+          "onset": 8.701009,
+          "offset": 9.084138,
+          "confidence": 0.468381
+        },
+        {
+          "pitch": 62,
+          "onset": 8.909988,
+          "offset": 9.316337,
+          "confidence": 0.577434
+        },
+        {
+          "pitch": 67,
+          "onset": 9.118968,
+          "offset": 9.757517,
+          "confidence": 0.54284
+        },
+        {
+          "pitch": 79,
+          "onset": 9.118968,
+          "offset": 9.455657,
+          "confidence": 0.32023
+        },
+        {
+          "pitch": 62,
+          "onset": 9.316337,
+          "offset": 9.931666,
+          "confidence": 0.414809
+        },
+        {
+          "pitch": 74,
+          "onset": 9.316337,
+          "offset": 9.803956,
+          "confidence": 0.556697
+        },
+        {
+          "pitch": 77,
+          "onset": 9.536927,
+          "offset": 10.16515,
+          "confidence": 0.570937
+        },
+        {
+          "pitch": 67,
+          "onset": 9.757517,
+          "offset": 10.838528,
+          "confidence": 0.478498
+        },
+        {
+          "pitch": 62,
+          "onset": 9.96778,
+          "offset": 10.11871,
+          "confidence": 0.317995
+        },
+        {
+          "pitch": 74,
+          "onset": 9.96778,
+          "offset": 10.408959,
+          "confidence": 0.540713
+        },
+        {
+          "pitch": 77,
+          "onset": 10.16515,
+          "offset": 10.594719,
+          "confidence": 0.551767
+        },
+        {
+          "pitch": 60,
+          "onset": 10.408959,
+          "offset": 11.210048,
+          "confidence": 0.508715
+        },
+        {
+          "pitch": 64,
+          "onset": 10.606329,
+          "offset": 10.954628,
+          "confidence": 0.472224
+        },
+        {
+          "pitch": 67,
+          "onset": 10.838528,
+          "offset": 11.477077,
+          "confidence": 0.551717
+        },
+        {
+          "pitch": 72,
+          "onset": 11.035898,
+          "offset": 11.128778,
+          "confidence": 0.333249
+        },
+        {
+          "pitch": 76,
+          "onset": 11.256488,
+          "offset": 11.883426,
+          "confidence": 0.506395
+        },
+        {
+          "pitch": 67,
+          "onset": 11.477077,
+          "offset": 12.511649,
+          "confidence": 0.587233
+        },
+        {
+          "pitch": 79,
+          "onset": 11.477077,
+          "offset": 11.790546,
+          "confidence": 0.366262
+        },
+        {
+          "pitch": 72,
+          "onset": 11.686057,
+          "offset": 12.03564,
+          "confidence": 0.42179
+        },
+        {
+          "pitch": 76,
+          "onset": 11.883426,
+          "offset": 12.465209,
+          "confidence": 0.510231
+        },
+        {
+          "pitch": 60,
+          "onset": 12.1053,
+          "offset": 12.674189,
+          "confidence": 0.493569
+        },
+        {
+          "pitch": 64,
+          "onset": 12.302669,
+          "offset": 12.511649,
+          "confidence": 0.672677
+        },
+        {
+          "pitch": 64,
+          "onset": 12.511649,
+          "offset": 12.859948,
+          "confidence": 0.445326
+        },
+        {
+          "pitch": 67,
+          "onset": 12.511649,
+          "offset": 13.161808,
+          "confidence": 0.640429
+        },
+        {
+          "pitch": 79,
+          "onset": 12.511649,
+          "offset": 12.883168,
+          "confidence": 0.427231
+        },
+        {
+          "pitch": 72,
+          "onset": 12.720629,
+          "offset": 13.173418,
+          "confidence": 0.606316
+        },
+        {
+          "pitch": 64,
+          "onset": 12.941218,
+          "offset": 13.103758,
+          "confidence": 0.313149
+        },
+        {
+          "pitch": 76,
+          "onset": 12.941218,
+          "offset": 13.161808,
+          "confidence": 0.611246
+        },
+        {
+          "pitch": 67,
+          "onset": 13.161808,
+          "offset": 14.09189,
+          "confidence": 0.597061
+        },
+        {
+          "pitch": 72,
+          "onset": 13.370787,
+          "offset": 13.94096,
+          "confidence": 0.542441
+        },
+        {
+          "pitch": 76,
+          "onset": 13.579767,
+          "offset": 13.96418,
+          "confidence": 0.557851
+        },
+        {
+          "pitch": 60,
+          "onset": 13.811966,
+          "offset": 14.20799,
+          "confidence": 0.561554
+        },
+        {
+          "pitch": 64,
+          "onset": 13.9874,
+          "offset": 14.440189,
+          "confidence": 0.640531
+        },
+        {
+          "pitch": 69,
+          "onset": 14.2196,
+          "offset": 14.637559,
+          "confidence": 0.472293
+        },
+        {
+          "pitch": 76,
+          "onset": 14.428579,
+          "offset": 14.556289,
+          "confidence": 0.568295
+        },
+        {
+          "pitch": 64,
+          "onset": 14.440189,
+          "offset": 15.357377,
+          "confidence": 0.383281
+        },
+        {
+          "pitch": 69,
+          "onset": 14.637559,
+          "offset": 14.869758,
+          "confidence": 0.41171
+        },
+        {
+          "pitch": 81,
+          "onset": 14.637559,
+          "offset": 15.276107,
+          "confidence": 0.651233
+        },
+        {
+          "pitch": 76,
+          "onset": 14.858148,
+          "offset": 15.055518,
+          "confidence": 0.505142
+        },
+        {
+          "pitch": 69,
+          "onset": 14.869758,
+          "offset": 15.276107,
+          "confidence": 0.520315
+        },
+        {
+          "pitch": 76,
+          "onset": 15.055518,
+          "offset": 16.1017,
+          "confidence": 0.480771
+        },
+        {
+          "pitch": 69,
+          "onset": 15.276107,
+          "offset": 15.89272,
+          "confidence": 0.507297
+        },
+        {
+          "pitch": 81,
+          "onset": 15.276107,
+          "offset": 15.810166,
+          "confidence": 0.579168
+        },
+        {
+          "pitch": 60,
+          "onset": 15.496697,
+          "offset": 15.856606,
+          "confidence": 0.518883
+        },
+        {
+          "pitch": 64,
+          "onset": 15.694067,
+          "offset": 16.1017,
+          "confidence": 0.574684
+        },
+        {
+          "pitch": 69,
+          "onset": 15.89272,
+          "offset": 16.333899,
+          "confidence": 0.534723
+        },
+        {
+          "pitch": 64,
+          "onset": 16.1017,
+          "offset": 16.600929,
+          "confidence": 0.338243
+        },
+        {
+          "pitch": 76,
+          "onset": 16.1017,
+          "offset": 16.345509,
+          "confidence": 0.649963
+        },
+        {
+          "pitch": 69,
+          "onset": 16.333899,
+          "offset": 16.542879,
+          "confidence": 0.49822
+        },
+        {
+          "pitch": 81,
+          "onset": 16.333899,
+          "offset": 16.960838,
+          "confidence": 0.675337
+        },
+        {
+          "pitch": 69,
+          "onset": 16.542879,
+          "offset": 16.960838,
+          "confidence": 0.538888
+        },
+        {
+          "pitch": 64,
+          "onset": 16.740249,
+          "offset": 16.926008,
+          "confidence": 0.342414
+        },
+        {
+          "pitch": 76,
+          "onset": 16.740249,
+          "offset": 17.309137,
+          "confidence": 0.600082
+        },
+        {
+          "pitch": 69,
+          "onset": 16.960838,
+          "offset": 17.227868,
+          "confidence": 0.518264
+        },
+        {
+          "pitch": 81,
+          "onset": 16.960838,
+          "offset": 17.309137,
+          "confidence": 0.608933
+        },
+        {
+          "pitch": 60,
+          "onset": 17.181428,
+          "offset": 17.727097,
+          "confidence": 0.512454
+        },
+        {
+          "pitch": 62,
+          "onset": 17.402017,
+          "offset": 17.87931,
+          "confidence": 0.527433
+        },
+        {
+          "pitch": 66,
+          "onset": 17.610997,
+          "offset": 17.93736,
+          "confidence": 0.475569
+        },
+        {
+          "pitch": 69,
+          "onset": 17.610997,
+          "offset": 17.819976,
+          "confidence": 0.313453
+        },
+        {
+          "pitch": 69,
+          "onset": 17.819976,
+          "offset": 18.448199,
+          "confidence": 0.458204
+        },
+        {
+          "pitch": 62,
+          "onset": 18.04185,
+          "offset": 18.715229,
+          "confidence": 0.487538
+        },
+        {
+          "pitch": 74,
+          "onset": 18.04185,
+          "offset": 18.657179,
+          "confidence": 0.633779
+        },
+        {
+          "pitch": 66,
+          "onset": 18.250829,
+          "offset": 18.819718,
+          "confidence": 0.515254
+        },
+        {
+          "pitch": 69,
+          "onset": 18.448199,
+          "offset": 18.877768,
+          "confidence": 0.424757
+        },
+        {
+          "pitch": 74,
+          "onset": 18.657179,
+          "offset": 19.736907,
+          "confidence": 0.510363
+        },
+        {
+          "pitch": 60,
+          "onset": 18.889378,
+          "offset": 19.400217,
+          "confidence": 0.470499
+        },
+        {
+          "pitch": 62,
+          "onset": 19.098358,
+          "offset": 19.736907,
+          "confidence": 0.473447
+        },
+        {
+          "pitch": 66,
+          "onset": 19.318947,
+          "offset": 19.713687,
+          "confidence": 0.539057
+        },
+        {
+          "pitch": 69,
+          "onset": 19.527927,
+          "offset": 20.16776,
+          "confidence": 0.526533
+        },
+        {
+          "pitch": 62,
+          "onset": 19.736907,
+          "offset": 20.10971,
+          "confidence": 0.415694
+        },
+        {
+          "pitch": 74,
+          "onset": 19.736907,
+          "offset": 20.365129,
+          "confidence": 0.682322
+        },
+        {
+          "pitch": 66,
+          "onset": 19.94717,
+          "offset": 20.341909,
+          "confidence": 0.544655
+        },
+        {
+          "pitch": 69,
+          "onset": 20.16776,
+          "offset": 20.632159,
+          "confidence": 0.597723
+        },
+        {
+          "pitch": 74,
+          "onset": 20.365129,
+          "offset": 20.783088,
+          "confidence": 0.671805
+        },
+        {
+          "pitch": 86,
+          "onset": 20.376739,
+          "offset": 20.469619,
+          "confidence": 0.326956
+        },
+        {
+          "pitch": 59,
+          "onset": 20.562499,
+          "offset": 21.038508,
+          "confidence": 0.448181
+        },
+        {
+          "pitch": 62,
+          "onset": 20.783088,
+          "offset": 21.201048,
+          "confidence": 0.586258
+        },
+        {
+          "pitch": 74,
+          "onset": 20.783088,
+          "offset": 20.875968,
+          "confidence": 0.481519
+        },
+        {
+          "pitch": 67,
+          "onset": 21.003678,
+          "offset": 21.421637,
+          "confidence": 0.663549
+        },
+        {
+          "pitch": 62,
+          "onset": 21.201048,
+          "offset": 21.85249,
+          "confidence": 0.342624
+        },
+        {
+          "pitch": 74,
+          "onset": 21.212658,
+          "offset": 21.665447,
+          "confidence": 0.573471
+        },
+        {
+          "pitch": 67,
+          "onset": 21.421637,
+          "offset": 21.642227,
+          "confidence": 0.557247
+        },
+        {
+          "pitch": 79,
+          "onset": 21.421637,
+          "offset": 22.06147,
+          "confidence": 0.566003
+        },
+        {
+          "pitch": 67,
+          "onset": 21.642227,
+          "offset": 22.04986,
+          "confidence": 0.632656
+        },
+        {
+          "pitch": 62,
+          "onset": 21.85249,
+          "offset": 22.00342,
+          "confidence": 0.433814
+        },
+        {
+          "pitch": 74,
+          "onset": 21.85249,
+          "offset": 22.479429,
+          "confidence": 0.538375
+        },
+        {
+          "pitch": 79,
+          "onset": 22.06147,
+          "offset": 22.746459,
+          "confidence": 0.635653
+        },
+        {
+          "pitch": 59,
+          "onset": 22.282059,
+          "offset": 22.641969,
+          "confidence": 0.488442
+        },
+        {
+          "pitch": 62,
+          "onset": 22.491039,
+          "offset": 23.524327,
+          "confidence": 0.516428
+        },
+        {
+          "pitch": 67,
+          "onset": 22.711629,
+          "offset": 22.920608,
+          "confidence": 0.709348
+        },
+        {
+          "pitch": 74,
+          "onset": 22.908998,
+          "offset": 23.547547,
+          "confidence": 0.549609
+        },
+        {
+          "pitch": 67,
+          "onset": 22.920608,
+          "offset": 23.129588,
+          "confidence": 0.625522
+        },
+        {
+          "pitch": 67,
+          "onset": 23.129588,
+          "offset": 23.338567,
+          "confidence": 0.431123
+        },
+        {
+          "pitch": 79,
+          "onset": 23.129588,
+          "offset": 23.547547,
+          "confidence": 0.714707
+        },
+        {
+          "pitch": 67,
+          "onset": 23.338567,
+          "offset": 23.547547,
+          "confidence": 0.727975
+        },
+        {
+          "pitch": 62,
+          "onset": 23.535937,
+          "offset": 23.710087,
+          "confidence": 0.296946
+        },
+        {
+          "pitch": 67,
+          "onset": 23.547547,
+          "offset": 24.23382,
+          "confidence": 0.497848
+        },
+        {
+          "pitch": 74,
+          "onset": 23.547547,
+          "offset": 23.756527,
+          "confidence": 0.76187
+        },
+        {
+          "pitch": 79,
+          "onset": 23.547547,
+          "offset": 23.756527,
+          "confidence": 0.607835
+        },
+        {
+          "pitch": 74,
+          "onset": 23.756527,
+          "offset": 24.12933,
+          "confidence": 0.572158
+        },
+        {
+          "pitch": 79,
+          "onset": 23.756527,
+          "offset": 24.22221,
+          "confidence": 0.706859
+        },
+        {
+          "pitch": 59,
+          "onset": 23.96679,
+          "offset": 24.17577,
+          "confidence": 0.521273
+        },
+        {
+          "pitch": 60,
+          "onset": 24.17577,
+          "offset": 25.522527,
+          "confidence": 0.458139
+        },
+        {
+          "pitch": 64,
+          "onset": 24.407969,
+          "offset": 25.034908,
+          "confidence": 0.44662
+        },
+        {
+          "pitch": 67,
+          "onset": 24.605339,
+          "offset": 24.837538,
+          "confidence": 0.645491
+        },
+        {
+          "pitch": 67,
+          "onset": 24.837538,
+          "offset": 25.255498,
+          "confidence": 0.529183
+        },
+        {
+          "pitch": 72,
+          "onset": 24.837538,
+          "offset": 25.476087,
+          "confidence": 0.62434
+        },
+        {
+          "pitch": 64,
+          "onset": 25.034908,
+          "offset": 26.10431,
+          "confidence": 0.396466
+        },
+        {
+          "pitch": 67,
+          "onset": 25.255498,
+          "offset": 25.627017,
+          "confidence": 0.559347
+        },
+        {
+          "pitch": 72,
+          "onset": 25.476087,
+          "offset": 26.522269,
+          "confidence": 0.611711
+        },
+        {
+          "pitch": 59,
+          "onset": 25.696677,
+          "offset": 25.88372,
+          "confidence": 0.562739
+        },
+        {
+          "pitch": 60,
+          "onset": 25.88372,
+          "offset": 26.475829,
+          "confidence": 0.51468
+        },
+        {
+          "pitch": 64,
+          "onset": 26.10431,
+          "offset": 26.499049,
+          "confidence": 0.530285
+        },
+        {
+          "pitch": 67,
+          "onset": 26.313289,
+          "offset": 26.940228,
+          "confidence": 0.572664
+        },
+        {
+          "pitch": 72,
+          "onset": 26.522269,
+          "offset": 27.137598,
+          "confidence": 0.63266
+        },
+        {
+          "pitch": 64,
+          "onset": 26.731249,
+          "offset": 27.288527,
+          "confidence": 0.412198
+        },
+        {
+          "pitch": 67,
+          "onset": 26.940228,
+          "offset": 27.578777,
+          "confidence": 0.667256
+        },
+        {
+          "pitch": 72,
+          "onset": 27.137598,
+          "offset": 27.555557,
+          "confidence": 0.57613
+        },
+        {
+          "pitch": 57,
+          "onset": 27.369797,
+          "offset": 28.14895,
+          "confidence": 0.456815
+        },
+        {
+          "pitch": 60,
+          "onset": 27.567167,
+          "offset": 28.14895,
+          "confidence": 0.574831
+        },
+        {
+          "pitch": 64,
+          "onset": 27.787756,
+          "offset": 28.16056,
+          "confidence": 0.547176
+        },
+        {
+          "pitch": 67,
+          "onset": 27.99802,
+          "offset": 28.636569,
+          "confidence": 0.615777
+        },
+        {
+          "pitch": 79,
+          "onset": 27.99802,
+          "offset": 28.694619,
+          "confidence": 0.30817
+        },
+        {
+          "pitch": 72,
+          "onset": 28.21861,
+          "offset": 28.857158,
+          "confidence": 0.513104
+        },
+        {
+          "pitch": 64,
+          "onset": 28.427589,
+          "offset": 28.787498,
+          "confidence": 0.464205
+        },
+        {
+          "pitch": 67,
+          "onset": 28.636569,
+          "offset": 29.240288,
+          "confidence": 0.607373
+        },
+        {
+          "pitch": 72,
+          "onset": 28.857158,
+          "offset": 29.92656,
+          "confidence": 0.474817
+        },
+        {
+          "pitch": 57,
+          "onset": 29.089358,
+          "offset": 29.507317,
+          "confidence": 0.567969
+        },
+        {
+          "pitch": 60,
+          "onset": 29.298337,
+          "offset": 29.88012,
+          "confidence": 0.57042
+        },
+        {
+          "pitch": 64,
+          "onset": 29.495707,
+          "offset": 29.727907,
+          "confidence": 0.604153
+        },
+        {
+          "pitch": 57,
+          "onset": 29.507317,
+          "offset": 29.635027,
+          "confidence": 0.41934
+        },
+        {
+          "pitch": 67,
+          "onset": 29.716297,
+          "offset": 30.356129,
+          "confidence": 0.660174
+        },
+        {
+          "pitch": 79,
+          "onset": 29.716297,
+          "offset": 29.79885,
+          "confidence": 0.291207
+        },
+        {
+          "pitch": 64,
+          "onset": 29.727907,
+          "offset": 30.13554,
+          "confidence": 0.4097
+        },
+        {
+          "pitch": 72,
+          "onset": 29.92656,
+          "offset": 30.565109,
+          "confidence": 0.539769
+        },
+        {
+          "pitch": 64,
+          "onset": 30.13554,
+          "offset": 30.356129,
+          "confidence": 0.547304
+        },
+        {
+          "pitch": 64,
+          "onset": 30.356129,
+          "offset": 30.669599,
+          "confidence": 0.396801
+        },
+        {
+          "pitch": 67,
+          "onset": 30.356129,
+          "offset": 31.366197,
+          "confidence": 0.524676
+        },
+        {
+          "pitch": 79,
+          "onset": 30.356129,
+          "offset": 30.669599,
+          "confidence": 0.291052
+        },
+        {
+          "pitch": 72,
+          "onset": 30.565109,
+          "offset": 31.679667,
+          "confidence": 0.51958
+        },
+        {
+          "pitch": 50,
+          "onset": 30.785698,
+          "offset": 31.215268,
+          "confidence": 0.718831
+        },
+        {
+          "pitch": 57,
+          "onset": 30.983068,
+          "offset": 31.401027,
+          "confidence": 0.479924
+        },
+        {
+          "pitch": 50,
+          "onset": 31.215268,
+          "offset": 32.505259,
+          "confidence": 0.588075
+        },
+        {
+          "pitch": 62,
+          "onset": 31.226878,
+          "offset": 31.389417,
+          "confidence": 0.45897
+        },
+        {
+          "pitch": 66,
+          "onset": 31.435857,
+          "offset": 32.07569,
+          "confidence": 0.512633
+        },
+        {
+          "pitch": 72,
+          "onset": 31.679667,
+          "offset": 32.284669,
+          "confidence": 0.613095
+        },
+        {
+          "pitch": 62,
+          "onset": 31.8551,
+          "offset": 32.249839,
+          "confidence": 0.410833
+        },
+        {
+          "pitch": 66,
+          "onset": 32.07569,
+          "offset": 33.120588,
+          "confidence": 0.46651
+        },
+        {
+          "pitch": 72,
+          "onset": 32.284669,
+          "offset": 33.364397,
+          "confidence": 0.574924
+        },
+        {
+          "pitch": 50,
+          "onset": 32.505259,
+          "offset": 32.934828,
+          "confidence": 0.728529
+        },
+        {
+          "pitch": 57,
+          "onset": 32.702629,
+          "offset": 33.306347,
+          "confidence": 0.445984
+        },
+        {
+          "pitch": 50,
+          "onset": 32.934828,
+          "offset": 34.17838,
+          "confidence": 0.590722
+        },
+        {
+          "pitch": 62,
+          "onset": 32.934828,
+          "offset": 33.062538,
+          "confidence": 0.439666
+        },
+        {
+          "pitch": 66,
+          "onset": 33.120588,
+          "offset": 33.770746,
+          "confidence": 0.570822
+        },
+        {
+          "pitch": 72,
+          "onset": 33.364397,
+          "offset": 33.98101,
+          "confidence": 0.582981
+        },
+        {
+          "pitch": 62,
+          "onset": 33.573377,
+          "offset": 33.84169,
+          "confidence": 0.344533
+        },
+        {
+          "pitch": 66,
+          "onset": 33.770746,
+          "offset": 34.282869,
+          "confidence": 0.48743
+        },
+        {
+          "pitch": 72,
+          "onset": 33.98101,
+          "offset": 34.352529,
+          "confidence": 0.524979
+        },
+        {
+          "pitch": 55,
+          "onset": 34.21321,
+          "offset": 35.269717,
+          "confidence": 0.479558
+        },
+        {
+          "pitch": 59,
+          "onset": 34.410579,
+          "offset": 34.816928,
+          "confidence": 0.484351
+        },
+        {
+          "pitch": 62,
+          "onset": 34.642779,
+          "offset": 34.782098,
+          "confidence": 0.420557
+        },
+        {
+          "pitch": 67,
+          "onset": 34.851758,
+          "offset": 35.513527,
+          "confidence": 0.515918
+        },
+        {
+          "pitch": 79,
+          "onset": 34.851758,
+          "offset": 34.991078,
+          "confidence": 0.39403
+        },
+        {
+          "pitch": 71,
+          "onset": 35.083958,
+          "offset": 35.722507,
+          "confidence": 0.67732
+        },
+        {
+          "pitch": 62,
+          "onset": 35.304547,
+          "offset": 35.478697,
+          "confidence": 0.414164
+        },
+        {
+          "pitch": 55,
+          "onset": 35.513527,
+          "offset": 35.94438,
+          "confidence": 0.312841
+        },
+        {
+          "pitch": 67,
+          "onset": 35.513527,
+          "offset": 35.94438,
+          "confidence": 0.651038
+        },
+        {
+          "pitch": 43,
+          "onset": 35.722507,
+          "offset": 36.269459,
+          "confidence": 0.488904
+        },
+        {
+          "pitch": 71,
+          "onset": 35.722507,
+          "offset": 36.15336,
+          "confidence": 0.707013
+        },
+        {
+          "pitch": 55,
+          "onset": 35.94438,
+          "offset": 36.571319,
+          "confidence": 0.52756
+        },
+        {
+          "pitch": 67,
+          "onset": 35.94438,
+          "offset": 36.571319,
+          "confidence": 0.495831
+        },
+        {
+          "pitch": 59,
+          "onset": 36.15336,
+          "offset": 36.768688,
+          "confidence": 0.498059
+        },
+        {
+          "pitch": 71,
+          "onset": 36.15336,
+          "offset": 36.791908,
+          "confidence": 0.469657
+        },
+        {
+          "pitch": 62,
+          "onset": 36.373949,
+          "offset": 37.000888,
+          "confidence": 0.440465
+        },
+        {
+          "pitch": 55,
+          "onset": 36.571319,
+          "offset": 36.966058,
+          "confidence": 0.439215
+        },
+        {
+          "pitch": 67,
+          "onset": 36.571319,
+          "offset": 37.209868,
+          "confidence": 0.613833
+        },
+        {
+          "pitch": 79,
+          "onset": 36.571319,
+          "offset": 36.733859,
+          "confidence": 0.418862
+        },
+        {
+          "pitch": 59,
+          "onset": 36.791908,
+          "offset": 36.896398,
+          "confidence": 0.315179
+        },
+        {
+          "pitch": 71,
+          "onset": 36.791908,
+          "offset": 37.209868,
+          "confidence": 0.723197
+        },
+        {
+          "pitch": 62,
+          "onset": 37.000888,
+          "offset": 37.384017,
+          "confidence": 0.449891
+        },
+        {
+          "pitch": 67,
+          "onset": 37.209868,
+          "offset": 37.384017,
+          "confidence": 0.718904
+        },
+        {
+          "pitch": 71,
+          "onset": 37.209868,
+          "offset": 37.384017,
+          "confidence": 0.586203
+        },
+        {
+          "pitch": 79,
+          "onset": 37.209868,
+          "offset": 37.384017,
+          "confidence": 0.608893
+        }
+      ]
+    }
+  },
+  "elapsed_seconds": 2.709,
+  "notes": [
+    {
+      "pitch": 60,
+      "onset": 0.09288,
+      "offset": 0.545669,
+      "confidence": 0.6861
+    },
+    {
+      "pitch": 64,
+      "onset": 0.325079,
+      "offset": 0.696599,
+      "confidence": 0.585315
+    },
+    {
+      "pitch": 60,
+      "onset": 0.545669,
+      "offset": 0.673379,
+      "confidence": 0.444144
+    },
+    {
+      "pitch": 67,
+      "onset": 0.545669,
+      "offset": 1.195828,
+      "confidence": 0.646898
+    },
+    {
+      "pitch": 79,
+      "onset": 0.545669,
+      "offset": 0.638549,
+      "confidence": 0.340421
+    },
+    {
+      "pitch": 72,
+      "onset": 0.754649,
+      "offset": 0.905578,
+      "confidence": 0.502653
+    },
+    {
+      "pitch": 64,
+      "onset": 0.975238,
+      "offset": 1.242268,
+      "confidence": 0.358914
+    },
+    {
+      "pitch": 76,
+      "onset": 0.975238,
+      "offset": 1.625397,
+      "confidence": 0.445602
+    },
+    {
+      "pitch": 67,
+      "onset": 1.195828,
+      "offset": 1.834376,
+      "confidence": 0.578261
+    },
+    {
+      "pitch": 72,
+      "onset": 1.404807,
+      "offset": 1.822766,
+      "confidence": 0.508457
+    },
+    {
+      "pitch": 76,
+      "onset": 1.625397,
+      "offset": 2.2304,
+      "confidence": 0.471998
+    },
+    {
+      "pitch": 60,
+      "onset": 1.869206,
+      "offset": 2.25362,
+      "confidence": 0.571607
+    },
+    {
+      "pitch": 64,
+      "onset": 2.05625,
+      "offset": 2.288449,
+      "confidence": 0.692817
+    },
+    {
+      "pitch": 64,
+      "onset": 2.288449,
+      "offset": 2.683189,
+      "confidence": 0.496029
+    },
+    {
+      "pitch": 67,
+      "onset": 2.288449,
+      "offset": 2.926998,
+      "confidence": 0.639598
+    },
+    {
+      "pitch": 79,
+      "onset": 2.288449,
+      "offset": 2.567089,
+      "confidence": 0.302905
+    },
+    {
+      "pitch": 72,
+      "onset": 2.497429,
+      "offset": 3.135978,
+      "confidence": 0.418751
+    },
+    {
+      "pitch": 64,
+      "onset": 2.706409,
+      "offset": 3.356567,
+      "confidence": 0.364281
+    },
+    {
+      "pitch": 76,
+      "onset": 2.718019,
+      "offset": 3.356567,
+      "confidence": 0.530412
+    },
+    {
+      "pitch": 67,
+      "onset": 2.926998,
+      "offset": 3.902236,
+      "confidence": 0.527146
+    },
+    {
+      "pitch": 79,
+      "onset": 2.926998,
+      "offset": 3.286907,
+      "confidence": 0.358444
+    },
+    {
+      "pitch": 72,
+      "onset": 3.135978,
+      "offset": 3.356567,
+      "confidence": 0.663154
+    },
+    {
+      "pitch": 64,
+      "onset": 3.356567,
+      "offset": 3.670037,
+      "confidence": 0.375628
+    },
+    {
+      "pitch": 72,
+      "onset": 3.356567,
+      "offset": 3.716477,
+      "confidence": 0.567054
+    },
+    {
+      "pitch": 76,
+      "onset": 3.356567,
+      "offset": 3.739697,
+      "confidence": 0.503003
+    },
+    {
+      "pitch": 60,
+      "onset": 3.577157,
+      "offset": 4.18216,
+      "confidence": 0.474717
+    },
+    {
+      "pitch": 62,
+      "onset": 3.774527,
+      "offset": 4.19377,
+      "confidence": 0.542635
+    },
+    {
+      "pitch": 69,
+      "onset": 4.00801,
+      "offset": 4.356309,
+      "confidence": 0.449698
+    },
+    {
+      "pitch": 62,
+      "onset": 4.19377,
+      "offset": 4.576899,
+      "confidence": 0.473304
+    },
+    {
+      "pitch": 74,
+      "onset": 4.20538,
+      "offset": 4.425969,
+      "confidence": 0.498941
+    },
+    {
+      "pitch": 77,
+      "onset": 4.437579,
+      "offset": 5.099348,
+      "confidence": 0.471127
+    },
+    {
+      "pitch": 62,
+      "onset": 4.658169,
+      "offset": 4.867148,
+      "confidence": 0.388672
+    },
+    {
+      "pitch": 69,
+      "onset": 4.658169,
+      "offset": 5.447647,
+      "confidence": 0.440041
+    },
+    {
+      "pitch": 62,
+      "onset": 4.867148,
+      "offset": 5.052908,
+      "confidence": 0.407796
+    },
+    {
+      "pitch": 74,
+      "onset": 4.867148,
+      "offset": 5.157398,
+      "confidence": 0.546359
+    },
+    {
+      "pitch": 77,
+      "onset": 5.099348,
+      "offset": 5.540527,
+      "confidence": 0.586413
+    },
+    {
+      "pitch": 60,
+      "onset": 5.308327,
+      "offset": 5.621797,
+      "confidence": 0.502183
+    },
+    {
+      "pitch": 62,
+      "onset": 5.517307,
+      "offset": 5.726287,
+      "confidence": 0.667489
+    },
+    {
+      "pitch": 62,
+      "onset": 5.726287,
+      "offset": 5.923656,
+      "confidence": 0.500678
+    },
+    {
+      "pitch": 69,
+      "onset": 5.726287,
+      "offset": 6.354509,
+      "confidence": 0.513369
+    },
+    {
+      "pitch": 62,
+      "onset": 5.923656,
+      "offset": 6.354509,
+      "confidence": 0.475095
+    },
+    {
+      "pitch": 74,
+      "onset": 5.923656,
+      "offset": 6.563489,
+      "confidence": 0.489801
+    },
+    {
+      "pitch": 77,
+      "onset": 6.13392,
+      "offset": 6.772468,
+      "confidence": 0.545598
+    },
+    {
+      "pitch": 81,
+      "onset": 6.342899,
+      "offset": 6.458999,
+      "confidence": 0.289887
+    },
+    {
+      "pitch": 62,
+      "onset": 6.354509,
+      "offset": 6.563489,
+      "confidence": 0.443822
+    },
+    {
+      "pitch": 69,
+      "onset": 6.354509,
+      "offset": 7.062718,
+      "confidence": 0.528337
+    },
+    {
+      "pitch": 62,
+      "onset": 6.563489,
+      "offset": 6.853738,
+      "confidence": 0.375601
+    },
+    {
+      "pitch": 74,
+      "onset": 6.563489,
+      "offset": 7.260088,
+      "confidence": 0.50148
+    },
+    {
+      "pitch": 77,
+      "onset": 6.772468,
+      "offset": 7.236868,
+      "confidence": 0.558367
+    },
+    {
+      "pitch": 59,
+      "onset": 6.993058,
+      "offset": 7.352967,
+      "confidence": 0.450777
+    },
+    {
+      "pitch": 62,
+      "onset": 7.202038,
+      "offset": 7.619997,
+      "confidence": 0.49634
+    },
+    {
+      "pitch": 67,
+      "onset": 7.411017,
+      "offset": 8.05085,
+      "confidence": 0.558665
+    },
+    {
+      "pitch": 62,
+      "onset": 7.619997,
+      "offset": 8.00441,
+      "confidence": 0.442826
+    },
+    {
+      "pitch": 74,
+      "onset": 7.619997,
+      "offset": 8.05085,
+      "confidence": 0.555695
+    },
+    {
+      "pitch": 77,
+      "onset": 7.840586,
+      "offset": 8.21339,
+      "confidence": 0.500377
+    },
+    {
+      "pitch": 67,
+      "onset": 8.05085,
+      "offset": 8.271439,
+      "confidence": 0.725063
+    },
+    {
+      "pitch": 79,
+      "onset": 8.05085,
+      "offset": 8.19017,
+      "confidence": 0.30391
+    },
+    {
+      "pitch": 74,
+      "onset": 8.259829,
+      "offset": 8.909988,
+      "confidence": 0.592227
+    },
+    {
+      "pitch": 67,
+      "onset": 8.271439,
+      "offset": 9.118968,
+      "confidence": 0.426353
+    },
+    {
+      "pitch": 77,
+      "onset": 8.480419,
+      "offset": 9.026088,
+      "confidence": 0.496154
+    },
+    {
+      "pitch": 59,
+      "onset": 8.701009,
+      "offset": 9.084138,
+      "confidence": 0.468381
+    },
+    {
+      "pitch": 62,
+      "onset": 8.909988,
+      "offset": 9.316337,
+      "confidence": 0.577434
+    },
+    {
+      "pitch": 67,
+      "onset": 9.118968,
+      "offset": 9.757517,
+      "confidence": 0.54284
+    },
+    {
+      "pitch": 79,
+      "onset": 9.118968,
+      "offset": 9.455657,
+      "confidence": 0.32023
+    },
+    {
+      "pitch": 62,
+      "onset": 9.316337,
+      "offset": 9.931666,
+      "confidence": 0.414809
+    },
+    {
+      "pitch": 74,
+      "onset": 9.316337,
+      "offset": 9.803956,
+      "confidence": 0.556697
+    },
+    {
+      "pitch": 77,
+      "onset": 9.536927,
+      "offset": 10.16515,
+      "confidence": 0.570937
+    },
+    {
+      "pitch": 67,
+      "onset": 9.757517,
+      "offset": 10.838528,
+      "confidence": 0.478498
+    },
+    {
+      "pitch": 62,
+      "onset": 9.96778,
+      "offset": 10.11871,
+      "confidence": 0.317995
+    },
+    {
+      "pitch": 74,
+      "onset": 9.96778,
+      "offset": 10.408959,
+      "confidence": 0.540713
+    },
+    {
+      "pitch": 77,
+      "onset": 10.16515,
+      "offset": 10.594719,
+      "confidence": 0.551767
+    },
+    {
+      "pitch": 60,
+      "onset": 10.408959,
+      "offset": 11.210048,
+      "confidence": 0.508715
+    },
+    {
+      "pitch": 64,
+      "onset": 10.606329,
+      "offset": 10.954628,
+      "confidence": 0.472224
+    },
+    {
+      "pitch": 67,
+      "onset": 10.838528,
+      "offset": 11.477077,
+      "confidence": 0.551717
+    },
+    {
+      "pitch": 72,
+      "onset": 11.035898,
+      "offset": 11.128778,
+      "confidence": 0.333249
+    },
+    {
+      "pitch": 76,
+      "onset": 11.256488,
+      "offset": 11.883426,
+      "confidence": 0.506395
+    },
+    {
+      "pitch": 67,
+      "onset": 11.477077,
+      "offset": 12.511649,
+      "confidence": 0.587233
+    },
+    {
+      "pitch": 79,
+      "onset": 11.477077,
+      "offset": 11.790546,
+      "confidence": 0.366262
+    },
+    {
+      "pitch": 72,
+      "onset": 11.686057,
+      "offset": 12.03564,
+      "confidence": 0.42179
+    },
+    {
+      "pitch": 76,
+      "onset": 11.883426,
+      "offset": 12.465209,
+      "confidence": 0.510231
+    },
+    {
+      "pitch": 60,
+      "onset": 12.1053,
+      "offset": 12.674189,
+      "confidence": 0.493569
+    },
+    {
+      "pitch": 64,
+      "onset": 12.302669,
+      "offset": 12.511649,
+      "confidence": 0.672677
+    },
+    {
+      "pitch": 64,
+      "onset": 12.511649,
+      "offset": 12.859948,
+      "confidence": 0.445326
+    },
+    {
+      "pitch": 67,
+      "onset": 12.511649,
+      "offset": 13.161808,
+      "confidence": 0.640429
+    },
+    {
+      "pitch": 79,
+      "onset": 12.511649,
+      "offset": 12.883168,
+      "confidence": 0.427231
+    },
+    {
+      "pitch": 72,
+      "onset": 12.720629,
+      "offset": 13.173418,
+      "confidence": 0.606316
+    },
+    {
+      "pitch": 64,
+      "onset": 12.941218,
+      "offset": 13.103758,
+      "confidence": 0.313149
+    },
+    {
+      "pitch": 76,
+      "onset": 12.941218,
+      "offset": 13.161808,
+      "confidence": 0.611246
+    },
+    {
+      "pitch": 67,
+      "onset": 13.161808,
+      "offset": 14.09189,
+      "confidence": 0.597061
+    },
+    {
+      "pitch": 72,
+      "onset": 13.370787,
+      "offset": 13.94096,
+      "confidence": 0.542441
+    },
+    {
+      "pitch": 76,
+      "onset": 13.579767,
+      "offset": 13.96418,
+      "confidence": 0.557851
+    },
+    {
+      "pitch": 60,
+      "onset": 13.811966,
+      "offset": 14.20799,
+      "confidence": 0.561554
+    },
+    {
+      "pitch": 64,
+      "onset": 13.9874,
+      "offset": 14.440189,
+      "confidence": 0.640531
+    },
+    {
+      "pitch": 69,
+      "onset": 14.2196,
+      "offset": 14.637559,
+      "confidence": 0.472293
+    },
+    {
+      "pitch": 76,
+      "onset": 14.428579,
+      "offset": 14.556289,
+      "confidence": 0.568295
+    },
+    {
+      "pitch": 64,
+      "onset": 14.440189,
+      "offset": 15.357377,
+      "confidence": 0.383281
+    },
+    {
+      "pitch": 69,
+      "onset": 14.637559,
+      "offset": 14.869758,
+      "confidence": 0.41171
+    },
+    {
+      "pitch": 81,
+      "onset": 14.637559,
+      "offset": 15.276107,
+      "confidence": 0.651233
+    },
+    {
+      "pitch": 76,
+      "onset": 14.858148,
+      "offset": 15.055518,
+      "confidence": 0.505142
+    },
+    {
+      "pitch": 69,
+      "onset": 14.869758,
+      "offset": 15.276107,
+      "confidence": 0.520315
+    },
+    {
+      "pitch": 76,
+      "onset": 15.055518,
+      "offset": 16.1017,
+      "confidence": 0.480771
+    },
+    {
+      "pitch": 69,
+      "onset": 15.276107,
+      "offset": 15.89272,
+      "confidence": 0.507297
+    },
+    {
+      "pitch": 81,
+      "onset": 15.276107,
+      "offset": 15.810166,
+      "confidence": 0.579168
+    },
+    {
+      "pitch": 60,
+      "onset": 15.496697,
+      "offset": 15.856606,
+      "confidence": 0.518883
+    },
+    {
+      "pitch": 64,
+      "onset": 15.694067,
+      "offset": 16.1017,
+      "confidence": 0.574684
+    },
+    {
+      "pitch": 69,
+      "onset": 15.89272,
+      "offset": 16.333899,
+      "confidence": 0.534723
+    },
+    {
+      "pitch": 64,
+      "onset": 16.1017,
+      "offset": 16.600929,
+      "confidence": 0.338243
+    },
+    {
+      "pitch": 76,
+      "onset": 16.1017,
+      "offset": 16.345509,
+      "confidence": 0.649963
+    },
+    {
+      "pitch": 69,
+      "onset": 16.333899,
+      "offset": 16.542879,
+      "confidence": 0.49822
+    },
+    {
+      "pitch": 81,
+      "onset": 16.333899,
+      "offset": 16.960838,
+      "confidence": 0.675337
+    },
+    {
+      "pitch": 69,
+      "onset": 16.542879,
+      "offset": 16.960838,
+      "confidence": 0.538888
+    },
+    {
+      "pitch": 64,
+      "onset": 16.740249,
+      "offset": 16.926008,
+      "confidence": 0.342414
+    },
+    {
+      "pitch": 76,
+      "onset": 16.740249,
+      "offset": 17.309137,
+      "confidence": 0.600082
+    },
+    {
+      "pitch": 69,
+      "onset": 16.960838,
+      "offset": 17.227868,
+      "confidence": 0.518264
+    },
+    {
+      "pitch": 81,
+      "onset": 16.960838,
+      "offset": 17.309137,
+      "confidence": 0.608933
+    },
+    {
+      "pitch": 60,
+      "onset": 17.181428,
+      "offset": 17.727097,
+      "confidence": 0.512454
+    },
+    {
+      "pitch": 62,
+      "onset": 17.402017,
+      "offset": 17.87931,
+      "confidence": 0.527433
+    },
+    {
+      "pitch": 66,
+      "onset": 17.610997,
+      "offset": 17.93736,
+      "confidence": 0.475569
+    },
+    {
+      "pitch": 69,
+      "onset": 17.610997,
+      "offset": 17.819976,
+      "confidence": 0.313453
+    },
+    {
+      "pitch": 69,
+      "onset": 17.819976,
+      "offset": 18.448199,
+      "confidence": 0.458204
+    },
+    {
+      "pitch": 62,
+      "onset": 18.04185,
+      "offset": 18.715229,
+      "confidence": 0.487538
+    },
+    {
+      "pitch": 74,
+      "onset": 18.04185,
+      "offset": 18.657179,
+      "confidence": 0.633779
+    },
+    {
+      "pitch": 66,
+      "onset": 18.250829,
+      "offset": 18.819718,
+      "confidence": 0.515254
+    },
+    {
+      "pitch": 69,
+      "onset": 18.448199,
+      "offset": 18.877768,
+      "confidence": 0.424757
+    },
+    {
+      "pitch": 74,
+      "onset": 18.657179,
+      "offset": 19.736907,
+      "confidence": 0.510363
+    },
+    {
+      "pitch": 60,
+      "onset": 18.889378,
+      "offset": 19.400217,
+      "confidence": 0.470499
+    },
+    {
+      "pitch": 62,
+      "onset": 19.098358,
+      "offset": 19.736907,
+      "confidence": 0.473447
+    },
+    {
+      "pitch": 66,
+      "onset": 19.318947,
+      "offset": 19.713687,
+      "confidence": 0.539057
+    },
+    {
+      "pitch": 69,
+      "onset": 19.527927,
+      "offset": 20.16776,
+      "confidence": 0.526533
+    },
+    {
+      "pitch": 62,
+      "onset": 19.736907,
+      "offset": 20.10971,
+      "confidence": 0.415694
+    },
+    {
+      "pitch": 74,
+      "onset": 19.736907,
+      "offset": 20.365129,
+      "confidence": 0.682322
+    },
+    {
+      "pitch": 66,
+      "onset": 19.94717,
+      "offset": 20.341909,
+      "confidence": 0.544655
+    },
+    {
+      "pitch": 69,
+      "onset": 20.16776,
+      "offset": 20.632159,
+      "confidence": 0.597723
+    },
+    {
+      "pitch": 74,
+      "onset": 20.365129,
+      "offset": 20.783088,
+      "confidence": 0.671805
+    },
+    {
+      "pitch": 86,
+      "onset": 20.376739,
+      "offset": 20.469619,
+      "confidence": 0.326956
+    },
+    {
+      "pitch": 59,
+      "onset": 20.562499,
+      "offset": 21.038508,
+      "confidence": 0.448181
+    },
+    {
+      "pitch": 62,
+      "onset": 20.783088,
+      "offset": 21.201048,
+      "confidence": 0.586258
+    },
+    {
+      "pitch": 74,
+      "onset": 20.783088,
+      "offset": 20.875968,
+      "confidence": 0.481519
+    },
+    {
+      "pitch": 67,
+      "onset": 21.003678,
+      "offset": 21.421637,
+      "confidence": 0.663549
+    },
+    {
+      "pitch": 62,
+      "onset": 21.201048,
+      "offset": 21.85249,
+      "confidence": 0.342624
+    },
+    {
+      "pitch": 74,
+      "onset": 21.212658,
+      "offset": 21.665447,
+      "confidence": 0.573471
+    },
+    {
+      "pitch": 67,
+      "onset": 21.421637,
+      "offset": 21.642227,
+      "confidence": 0.557247
+    },
+    {
+      "pitch": 79,
+      "onset": 21.421637,
+      "offset": 22.06147,
+      "confidence": 0.566003
+    },
+    {
+      "pitch": 67,
+      "onset": 21.642227,
+      "offset": 22.04986,
+      "confidence": 0.632656
+    },
+    {
+      "pitch": 62,
+      "onset": 21.85249,
+      "offset": 22.00342,
+      "confidence": 0.433814
+    },
+    {
+      "pitch": 74,
+      "onset": 21.85249,
+      "offset": 22.479429,
+      "confidence": 0.538375
+    },
+    {
+      "pitch": 79,
+      "onset": 22.06147,
+      "offset": 22.746459,
+      "confidence": 0.635653
+    },
+    {
+      "pitch": 59,
+      "onset": 22.282059,
+      "offset": 22.641969,
+      "confidence": 0.488442
+    },
+    {
+      "pitch": 62,
+      "onset": 22.491039,
+      "offset": 23.524327,
+      "confidence": 0.516428
+    },
+    {
+      "pitch": 67,
+      "onset": 22.711629,
+      "offset": 22.920608,
+      "confidence": 0.709348
+    },
+    {
+      "pitch": 74,
+      "onset": 22.908998,
+      "offset": 23.547547,
+      "confidence": 0.549609
+    },
+    {
+      "pitch": 67,
+      "onset": 22.920608,
+      "offset": 23.129588,
+      "confidence": 0.625522
+    },
+    {
+      "pitch": 67,
+      "onset": 23.129588,
+      "offset": 23.338567,
+      "confidence": 0.431123
+    },
+    {
+      "pitch": 79,
+      "onset": 23.129588,
+      "offset": 23.547547,
+      "confidence": 0.714707
+    },
+    {
+      "pitch": 67,
+      "onset": 23.338567,
+      "offset": 23.547547,
+      "confidence": 0.727975
+    },
+    {
+      "pitch": 62,
+      "onset": 23.535937,
+      "offset": 23.710087,
+      "confidence": 0.296946
+    },
+    {
+      "pitch": 67,
+      "onset": 23.547547,
+      "offset": 24.23382,
+      "confidence": 0.497848
+    },
+    {
+      "pitch": 74,
+      "onset": 23.547547,
+      "offset": 23.756527,
+      "confidence": 0.76187
+    },
+    {
+      "pitch": 79,
+      "onset": 23.547547,
+      "offset": 23.756527,
+      "confidence": 0.607835
+    },
+    {
+      "pitch": 74,
+      "onset": 23.756527,
+      "offset": 24.12933,
+      "confidence": 0.572158
+    },
+    {
+      "pitch": 79,
+      "onset": 23.756527,
+      "offset": 24.22221,
+      "confidence": 0.706859
+    },
+    {
+      "pitch": 59,
+      "onset": 23.96679,
+      "offset": 24.17577,
+      "confidence": 0.521273
+    },
+    {
+      "pitch": 60,
+      "onset": 24.17577,
+      "offset": 25.522527,
+      "confidence": 0.458139
+    },
+    {
+      "pitch": 64,
+      "onset": 24.407969,
+      "offset": 25.034908,
+      "confidence": 0.44662
+    },
+    {
+      "pitch": 67,
+      "onset": 24.605339,
+      "offset": 24.837538,
+      "confidence": 0.645491
+    },
+    {
+      "pitch": 67,
+      "onset": 24.837538,
+      "offset": 25.255498,
+      "confidence": 0.529183
+    },
+    {
+      "pitch": 72,
+      "onset": 24.837538,
+      "offset": 25.476087,
+      "confidence": 0.62434
+    },
+    {
+      "pitch": 64,
+      "onset": 25.034908,
+      "offset": 26.10431,
+      "confidence": 0.396466
+    },
+    {
+      "pitch": 67,
+      "onset": 25.255498,
+      "offset": 25.627017,
+      "confidence": 0.559347
+    },
+    {
+      "pitch": 72,
+      "onset": 25.476087,
+      "offset": 26.522269,
+      "confidence": 0.611711
+    },
+    {
+      "pitch": 59,
+      "onset": 25.696677,
+      "offset": 25.88372,
+      "confidence": 0.562739
+    },
+    {
+      "pitch": 60,
+      "onset": 25.88372,
+      "offset": 26.475829,
+      "confidence": 0.51468
+    },
+    {
+      "pitch": 64,
+      "onset": 26.10431,
+      "offset": 26.499049,
+      "confidence": 0.530285
+    },
+    {
+      "pitch": 67,
+      "onset": 26.313289,
+      "offset": 26.940228,
+      "confidence": 0.572664
+    },
+    {
+      "pitch": 72,
+      "onset": 26.522269,
+      "offset": 27.137598,
+      "confidence": 0.63266
+    },
+    {
+      "pitch": 64,
+      "onset": 26.731249,
+      "offset": 27.288527,
+      "confidence": 0.412198
+    },
+    {
+      "pitch": 67,
+      "onset": 26.940228,
+      "offset": 27.578777,
+      "confidence": 0.667256
+    },
+    {
+      "pitch": 72,
+      "onset": 27.137598,
+      "offset": 27.555557,
+      "confidence": 0.57613
+    },
+    {
+      "pitch": 57,
+      "onset": 27.369797,
+      "offset": 28.14895,
+      "confidence": 0.456815
+    },
+    {
+      "pitch": 60,
+      "onset": 27.567167,
+      "offset": 28.14895,
+      "confidence": 0.574831
+    },
+    {
+      "pitch": 64,
+      "onset": 27.787756,
+      "offset": 28.16056,
+      "confidence": 0.547176
+    },
+    {
+      "pitch": 67,
+      "onset": 27.99802,
+      "offset": 28.636569,
+      "confidence": 0.615777
+    },
+    {
+      "pitch": 79,
+      "onset": 27.99802,
+      "offset": 28.694619,
+      "confidence": 0.30817
+    },
+    {
+      "pitch": 72,
+      "onset": 28.21861,
+      "offset": 28.857158,
+      "confidence": 0.513104
+    },
+    {
+      "pitch": 64,
+      "onset": 28.427589,
+      "offset": 28.787498,
+      "confidence": 0.464205
+    },
+    {
+      "pitch": 67,
+      "onset": 28.636569,
+      "offset": 29.240288,
+      "confidence": 0.607373
+    },
+    {
+      "pitch": 72,
+      "onset": 28.857158,
+      "offset": 29.92656,
+      "confidence": 0.474817
+    },
+    {
+      "pitch": 57,
+      "onset": 29.089358,
+      "offset": 29.507317,
+      "confidence": 0.567969
+    },
+    {
+      "pitch": 60,
+      "onset": 29.298337,
+      "offset": 29.88012,
+      "confidence": 0.57042
+    },
+    {
+      "pitch": 64,
+      "onset": 29.495707,
+      "offset": 29.727907,
+      "confidence": 0.604153
+    },
+    {
+      "pitch": 57,
+      "onset": 29.507317,
+      "offset": 29.635027,
+      "confidence": 0.41934
+    },
+    {
+      "pitch": 67,
+      "onset": 29.716297,
+      "offset": 30.356129,
+      "confidence": 0.660174
+    },
+    {
+      "pitch": 79,
+      "onset": 29.716297,
+      "offset": 29.79885,
+      "confidence": 0.291207
+    },
+    {
+      "pitch": 64,
+      "onset": 29.727907,
+      "offset": 30.13554,
+      "confidence": 0.4097
+    },
+    {
+      "pitch": 72,
+      "onset": 29.92656,
+      "offset": 30.565109,
+      "confidence": 0.539769
+    },
+    {
+      "pitch": 64,
+      "onset": 30.13554,
+      "offset": 30.356129,
+      "confidence": 0.547304
+    },
+    {
+      "pitch": 64,
+      "onset": 30.356129,
+      "offset": 30.669599,
+      "confidence": 0.396801
+    },
+    {
+      "pitch": 67,
+      "onset": 30.356129,
+      "offset": 31.366197,
+      "confidence": 0.524676
+    },
+    {
+      "pitch": 79,
+      "onset": 30.356129,
+      "offset": 30.669599,
+      "confidence": 0.291052
+    },
+    {
+      "pitch": 72,
+      "onset": 30.565109,
+      "offset": 31.679667,
+      "confidence": 0.51958
+    },
+    {
+      "pitch": 50,
+      "onset": 30.785698,
+      "offset": 31.215268,
+      "confidence": 0.718831
+    },
+    {
+      "pitch": 57,
+      "onset": 30.983068,
+      "offset": 31.401027,
+      "confidence": 0.479924
+    },
+    {
+      "pitch": 50,
+      "onset": 31.215268,
+      "offset": 32.505259,
+      "confidence": 0.588075
+    },
+    {
+      "pitch": 62,
+      "onset": 31.226878,
+      "offset": 31.389417,
+      "confidence": 0.45897
+    },
+    {
+      "pitch": 66,
+      "onset": 31.435857,
+      "offset": 32.07569,
+      "confidence": 0.512633
+    },
+    {
+      "pitch": 72,
+      "onset": 31.679667,
+      "offset": 32.284669,
+      "confidence": 0.613095
+    },
+    {
+      "pitch": 62,
+      "onset": 31.8551,
+      "offset": 32.249839,
+      "confidence": 0.410833
+    },
+    {
+      "pitch": 66,
+      "onset": 32.07569,
+      "offset": 33.120588,
+      "confidence": 0.46651
+    },
+    {
+      "pitch": 72,
+      "onset": 32.284669,
+      "offset": 33.364397,
+      "confidence": 0.574924
+    },
+    {
+      "pitch": 50,
+      "onset": 32.505259,
+      "offset": 32.934828,
+      "confidence": 0.728529
+    },
+    {
+      "pitch": 57,
+      "onset": 32.702629,
+      "offset": 33.306347,
+      "confidence": 0.445984
+    },
+    {
+      "pitch": 50,
+      "onset": 32.934828,
+      "offset": 34.17838,
+      "confidence": 0.590722
+    },
+    {
+      "pitch": 62,
+      "onset": 32.934828,
+      "offset": 33.062538,
+      "confidence": 0.439666
+    },
+    {
+      "pitch": 66,
+      "onset": 33.120588,
+      "offset": 33.770746,
+      "confidence": 0.570822
+    },
+    {
+      "pitch": 72,
+      "onset": 33.364397,
+      "offset": 33.98101,
+      "confidence": 0.582981
+    },
+    {
+      "pitch": 62,
+      "onset": 33.573377,
+      "offset": 33.84169,
+      "confidence": 0.344533
+    },
+    {
+      "pitch": 66,
+      "onset": 33.770746,
+      "offset": 34.282869,
+      "confidence": 0.48743
+    },
+    {
+      "pitch": 72,
+      "onset": 33.98101,
+      "offset": 34.352529,
+      "confidence": 0.524979
+    },
+    {
+      "pitch": 55,
+      "onset": 34.21321,
+      "offset": 35.269717,
+      "confidence": 0.479558
+    },
+    {
+      "pitch": 59,
+      "onset": 34.410579,
+      "offset": 34.816928,
+      "confidence": 0.484351
+    },
+    {
+      "pitch": 62,
+      "onset": 34.642779,
+      "offset": 34.782098,
+      "confidence": 0.420557
+    },
+    {
+      "pitch": 67,
+      "onset": 34.851758,
+      "offset": 35.513527,
+      "confidence": 0.515918
+    },
+    {
+      "pitch": 79,
+      "onset": 34.851758,
+      "offset": 34.991078,
+      "confidence": 0.39403
+    },
+    {
+      "pitch": 71,
+      "onset": 35.083958,
+      "offset": 35.722507,
+      "confidence": 0.67732
+    },
+    {
+      "pitch": 62,
+      "onset": 35.304547,
+      "offset": 35.478697,
+      "confidence": 0.414164
+    },
+    {
+      "pitch": 55,
+      "onset": 35.513527,
+      "offset": 35.94438,
+      "confidence": 0.312841
+    },
+    {
+      "pitch": 67,
+      "onset": 35.513527,
+      "offset": 35.94438,
+      "confidence": 0.651038
+    },
+    {
+      "pitch": 43,
+      "onset": 35.722507,
+      "offset": 36.269459,
+      "confidence": 0.488904
+    },
+    {
+      "pitch": 71,
+      "onset": 35.722507,
+      "offset": 36.15336,
+      "confidence": 0.707013
+    },
+    {
+      "pitch": 55,
+      "onset": 35.94438,
+      "offset": 36.571319,
+      "confidence": 0.52756
+    },
+    {
+      "pitch": 67,
+      "onset": 35.94438,
+      "offset": 36.571319,
+      "confidence": 0.495831
+    },
+    {
+      "pitch": 59,
+      "onset": 36.15336,
+      "offset": 36.768688,
+      "confidence": 0.498059
+    },
+    {
+      "pitch": 71,
+      "onset": 36.15336,
+      "offset": 36.791908,
+      "confidence": 0.469657
+    },
+    {
+      "pitch": 62,
+      "onset": 36.373949,
+      "offset": 37.000888,
+      "confidence": 0.440465
+    },
+    {
+      "pitch": 55,
+      "onset": 36.571319,
+      "offset": 36.966058,
+      "confidence": 0.439215
+    },
+    {
+      "pitch": 67,
+      "onset": 36.571319,
+      "offset": 37.209868,
+      "confidence": 0.613833
+    },
+    {
+      "pitch": 79,
+      "onset": 36.571319,
+      "offset": 36.733859,
+      "confidence": 0.418862
+    },
+    {
+      "pitch": 59,
+      "onset": 36.791908,
+      "offset": 36.896398,
+      "confidence": 0.315179
+    },
+    {
+      "pitch": 71,
+      "onset": 36.791908,
+      "offset": 37.209868,
+      "confidence": 0.723197
+    },
+    {
+      "pitch": 62,
+      "onset": 37.000888,
+      "offset": 37.384017,
+      "confidence": 0.449891
+    },
+    {
+      "pitch": 67,
+      "onset": 37.209868,
+      "offset": 37.384017,
+      "confidence": 0.718904
+    },
+    {
+      "pitch": 71,
+      "onset": 37.209868,
+      "offset": 37.384017,
+      "confidence": 0.586203
+    },
+    {
+      "pitch": 79,
+      "onset": 37.209868,
+      "offset": 37.384017,
+      "confidence": 0.608893
+    }
+  ],
+  "confidence_note": "Mean model activation, not a calibrated probability of correctness."
+}

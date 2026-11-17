@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101010">
+  <title>Piano Review — сравнение по тактам</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/styles.css?v=8">
+  <script src="/app.js?v=9" defer></script>
+</head>
+<body>
+  <div class="shell">
+    <header class="site-header"><a href="/" class="wordmark">piano <span>/</span> review</a><span class="mono">ЛОКАЛЬНО · BWV 846</span></header>
+    <main>
+      <div class="page-heading"><div><p class="eyebrow">Бах · Прелюдия до мажор</p><h1>Разбор исполнения</h1></div><button id="demo-button" class="button primary"><svg class="icon" aria-hidden="true"><use href="/icons.svg#play"></use></svg><span>Смотреть видео</span></button></div>
+      <div id="notice" class="notice" role="status" hidden></div>
+      <div class="workspace">
+        <aside class="player-column" aria-label="Запись">
+          <div class="player-frame">
+            <video id="performance-video" src="/media/real.mp4" preload="metadata" playsinline aria-label="Исходная запись"></video>
+            <div id="audio-description" class="audio-description" hidden><p class="eyebrow">ТЕСТОВОЕ АУДИО</p><h2>Две намеренные ошибки</h2><p>Синтезированная запись: неверная нота и задержка. Анализируем её звук.</p></div>
+            <audio id="controlled-audio" src="/media/controlled.wav" preload="metadata"></audio>
+            <div class="transport"><button id="play-button" class="play-button" aria-label="Воспроизвести"><svg class="icon" aria-hidden="true"><use href="/icons.svg#play"></use></svg></button><div class="seek-control"><label for="playback-position" class="sr-only">Позиция воспроизведения</label><input id="playback-position" type="range" min="0" max="100" step="0.01" value="0"><div class="time-labels mono"><span id="current-time">00:00</span><span id="total-time">00:00</span></div></div><button id="speed-button" class="speed-button" aria-label="Скорость воспроизведения">1×</button></div>
+          </div>
+          <div class="player-caption"><span id="source-label">Исходная запись · TikTok</span><span id="playback-measure" class="mono">ТАКТ 1</span></div>
+          <p class="player-tip">Нажмите на ноту, чтобы её прослушать. Запись начнётся на 450 мс раньше.</p>
+        </aside>
+        <div class="review-column">
+          <div class="toolbar"><div class="sample-switch" aria-label="Выбор записи"><button data-sample="real" aria-pressed="true">Исходная запись</button><button data-sample="controlled" aria-pressed="false">Тестовый пример</button></div><button id="reanalyze-button" class="text-button"><svg class="icon" aria-hidden="true"><use href="/icons.svg#refresh"></use></svg><span>Пересчитать</span></button></div>
+          <section class="result-intro" aria-label="Статус проверки"><h2 id="result-title">Загружаем разбор…</h2><p id="verification-status"></p><div id="key-findings" class="key-findings"></div></section>
+          <nav class="measure-section" aria-label="Такты"><div class="section-heading"><h2>По тактам</h2><span id="excerpt-label" class="mono"></span></div><div id="measure-strip" class="measure-strip"></div></nav>
+          <section class="comparison-section" aria-labelledby="comparison-title">
+            <div class="section-heading comparison-heading"><div><h2 id="comparison-title">Такт 1</h2><p id="measure-status"></p></div><button id="play-measure" class="text-button"><svg class="icon" aria-hidden="true"><use href="/icons.svg#play"></use></svg><span>Слушать такт</span></button></div>
+            <p class="comparison-help">Сверху — партитура, снизу — распознанные ноты. Время указано от начала записи.</p>
+            <div id="note-comparison" class="note-comparison" aria-live="polite"></div>
+            <div id="selected-event" class="selected-event" role="status" hidden></div>
+            <div id="measure-findings" class="measure-findings"></div>
+            <p id="extra-note-hint" class="extra-note-hint"></p>
+          </section>
+          <div class="review-actions"><button id="summary-button" class="button"><span>Итог разбора</span><svg class="icon" aria-hidden="true"><use href="/icons.svg#arrow"></use></svg></button><a href="/reference.pdf" target="_blank" rel="noopener"><span>Партитура</span><svg class="icon" aria-hidden="true"><use href="/icons.svg#external"></use></svg></a></div>
+          <section id="summary" class="summary" aria-labelledby="summary-title" hidden tabindex="-1"><div class="section-heading"><h2 id="summary-title">Итог разбора</h2><button id="close-summary" class="text-button" aria-label="Свернуть итог"><span>Свернуть</span><svg class="icon" aria-hidden="true"><use href="/icons.svg#minus"></use></svg></button></div><p id="summary-score" class="summary-score"></p><p id="summary-breakdown"></p><h3>Следующая попытка</h3><ul id="summary-advice"></ul><p id="summary-caveat" class="muted"></p></section>
+          <details id="analysis-details" class="analysis-details"><summary>Детали анализа <span>Ноты для проверки и параметры модели</span></summary><div class="details-content"><p id="details-model"></p><p id="details-score"></p><p id="details-rule"></p><p id="details-decoder"></p><div class="debug-links"><a id="raw-link" href="/api/raw?sample=real">Распознанные ноты · JSON</a><a href="/api/decoder-comparison" target="_blank">Сравнение декодеров</a></div><div class="review-notes-heading"><h3 id="extra-title">Ноты для проверки</h3><span id="extra-count" class="mono"></span></div><p class="muted">В число ошибок не входят.</p><div id="extra-events" class="extra-events"></div><div id="low-confidence-events"></div><ul id="limitations"></ul></div></details>
+        </div>
+      </div>
+      <footer>Бах · Прелюдия до мажор, BWV 846 <span>Andrii Tynskyi / Piano Review</span></footer>
+    </main>
+  </div>
+<script src="/capture-cursor.js"></script></body>
+</html>
+

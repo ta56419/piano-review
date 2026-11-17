@@ -1,0 +1,2485 @@
+{
+  "schema_version": 2,
+  "sample": "controlled",
+  "title": "Прелюдия до мажор · BWV 846",
+  "media_url": "/media/controlled.wav",
+  "duration": 15.72,
+  "generated_at": "2026-11-17T20:50:13.559972+00:00",
+  "model": {
+    "name": "Spotify Basic Pitch / ICASSP 2022 (ONNX CPU)",
+    "version": "0.4.0",
+    "runtime": "1.20.1",
+    "sha256": "2c3c1d144bfa61ad236e92e169c13535c880469a12a047d4e73451f2c059a0ec"
+  },
+  "media": {
+    "duration": 15.72,
+    "sample_rate": 22050,
+    "source_sha256": "c6ea8f8238d3dfffb1cd481fb48f62be5a0ed37222e9923a1671ab233ba5774a",
+    "audio_sha256": "4960d6fedb6e6bbbe36b6aadd47b02967f8ed853453b2c151417c610113412b1",
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev"
+  },
+  "decoder": {
+    "name": "candidate",
+    "settings": {
+      "onset_thresh": 0.6,
+      "frame_thresh": 0.3,
+      "infer_onsets": false,
+      "melodia_trick": false,
+      "min_note_len": 7,
+      "min_freq": 27.5,
+      "max_freq": 4186.01,
+      "include_pitch_bends": false
+    }
+  },
+  "debug": {
+    "raw_detections_url": "/api/raw?sample=controlled",
+    "decoder_comparison_url": "/api/decoder-comparison"
+  },
+  "excerpt": {
+    "start_measure": 1,
+    "end_measure": 3,
+    "confidence": "high",
+    "label": "Такты 1–3 · 4/4"
+  },
+  "summary": {
+    "accuracy": 95.8,
+    "accuracy_label": "Точность",
+    "model_agreement": 95.8,
+    "accuracy_is_estimate": false,
+    "accuracy_interval": [
+      95.8,
+      95.8
+    ],
+    "error_count": 2,
+    "uncertain_count": 0,
+    "breakdown": {
+      "pitch": 1,
+      "timing": 1,
+      "missing": 0,
+      "extra": 0
+    },
+    "problem_measures": [
+      2,
+      3
+    ],
+    "review_measures": [],
+    "advice": [
+      "Повторите такты 2, 3 медленнее под метроном.",
+      "Такт 2: сверьте фа с партитурой.",
+      "Такт 3: сыграйте шестнадцатые ровно, без задержек."
+    ],
+    "expected_note_count": 48,
+    "pitch_match_count": 47,
+    "verification_status": "controlled_audio"
+  },
+  "measures": [
+    {
+      "number": 1,
+      "start_beat": 0.0,
+      "end_beat": 4.0,
+      "start": 0.59757,
+      "end": 5.39757,
+      "numerator": 4,
+      "denominator": 4,
+      "mapped_start": 0.5975715386805168,
+      "mapped_end": 5.3975651688401625,
+      "complete": true,
+      "scored": true,
+      "match_coverage": 1.0,
+      "expected_notes": 16,
+      "status": "clean",
+      "confirmed_errors": 0,
+      "uncertain_count": 0,
+      "measure": 1,
+      "error_count": 0
+    },
+    {
+      "number": 2,
+      "start_beat": 4.0,
+      "end_beat": 8.0,
+      "start": 5.39757,
+      "end": 10.19756,
+      "numerator": 4,
+      "denominator": 4,
+      "mapped_start": 5.3975651688401625,
+      "mapped_end": 10.19755879899981,
+      "complete": true,
+      "scored": true,
+      "match_coverage": 0.9375,
+      "expected_notes": 16,
+      "status": "error",
+      "confirmed_errors": 1,
+      "uncertain_count": 0,
+      "measure": 2,
+      "error_count": 1
+    },
+    {
+      "number": 3,
+      "start_beat": 8.0,
+      "end_beat": 12.0,
+      "start": 10.19756,
+      "end": 14.99755,
+      "numerator": 4,
+      "denominator": 4,
+      "mapped_start": 10.19755879899981,
+      "mapped_end": 14.997552429159455,
+      "complete": true,
+      "scored": true,
+      "match_coverage": 1.0,
+      "expected_notes": 16,
+      "status": "error",
+      "confirmed_errors": 1,
+      "uncertain_count": 0,
+      "measure": 3,
+      "error_count": 1
+    },
+    {
+      "number": 4,
+      "start_beat": 12.0,
+      "end_beat": 16.0,
+      "start": 14.99755,
+      "end": 15.72,
+      "numerator": 4,
+      "denominator": 4,
+      "mapped_start": 14.997552429159455,
+      "mapped_end": 19.7975460593191,
+      "complete": false,
+      "scored": false,
+      "match_coverage": 0.0,
+      "expected_notes": 16,
+      "status": "excluded",
+      "confirmed_errors": 0,
+      "uncertain_count": 0,
+      "measure": 4,
+      "error_count": 0
+    }
+  ],
+  "comparisons": [
+    {
+      "measure": 1,
+      "start": 0.59757,
+      "end": 5.39757,
+      "reference_notes": [
+        {
+          "id": "reference-0",
+          "pitch": 60,
+          "name": "до4",
+          "onset": 0.597572,
+          "offset": 2.997568,
+          "beat": 0.0,
+          "reference_index": 0
+        },
+        {
+          "id": "reference-1",
+          "pitch": 64,
+          "name": "ми4",
+          "onset": 0.897571,
+          "offset": 2.997568,
+          "beat": 0.25,
+          "reference_index": 1
+        },
+        {
+          "id": "reference-2",
+          "pitch": 67,
+          "name": "соль4",
+          "onset": 1.197571,
+          "offset": 1.49757,
+          "beat": 0.5,
+          "reference_index": 2
+        },
+        {
+          "id": "reference-3",
+          "pitch": 72,
+          "name": "до5",
+          "onset": 1.49757,
+          "offset": 1.79757,
+          "beat": 0.75,
+          "reference_index": 3
+        },
+        {
+          "id": "reference-4",
+          "pitch": 76,
+          "name": "ми5",
+          "onset": 1.79757,
+          "offset": 2.09757,
+          "beat": 1.0,
+          "reference_index": 4
+        },
+        {
+          "id": "reference-5",
+          "pitch": 67,
+          "name": "соль4",
+          "onset": 2.09757,
+          "offset": 2.397569,
+          "beat": 1.25,
+          "reference_index": 5
+        },
+        {
+          "id": "reference-6",
+          "pitch": 72,
+          "name": "до5",
+          "onset": 2.397569,
+          "offset": 2.697569,
+          "beat": 1.5,
+          "reference_index": 6
+        },
+        {
+          "id": "reference-7",
+          "pitch": 76,
+          "name": "ми5",
+          "onset": 2.697569,
+          "offset": 2.997568,
+          "beat": 1.75,
+          "reference_index": 7
+        },
+        {
+          "id": "reference-8",
+          "pitch": 60,
+          "name": "до4",
+          "onset": 2.997568,
+          "offset": 5.397565,
+          "beat": 2.0,
+          "reference_index": 8
+        },
+        {
+          "id": "reference-9",
+          "pitch": 64,
+          "name": "ми4",
+          "onset": 3.297568,
+          "offset": 5.397565,
+          "beat": 2.25,
+          "reference_index": 9
+        },
+        {
+          "id": "reference-10",
+          "pitch": 67,
+          "name": "соль4",
+          "onset": 3.597568,
+          "offset": 3.897567,
+          "beat": 2.5,
+          "reference_index": 10
+        },
+        {
+          "id": "reference-11",
+          "pitch": 72,
+          "name": "до5",
+          "onset": 3.897567,
+          "offset": 4.197567,
+          "beat": 2.75,
+          "reference_index": 11
+        },
+        {
+          "id": "reference-12",
+          "pitch": 76,
+          "name": "ми5",
+          "onset": 4.197567,
+          "offset": 4.497566,
+          "beat": 3.0,
+          "reference_index": 12
+        },
+        {
+          "id": "reference-13",
+          "pitch": 67,
+          "name": "соль4",
+          "onset": 4.497566,
+          "offset": 4.797566,
+          "beat": 3.25,
+          "reference_index": 13
+        },
+        {
+          "id": "reference-14",
+          "pitch": 72,
+          "name": "до5",
+          "onset": 4.797566,
+          "offset": 5.097566,
+          "beat": 3.5,
+          "reference_index": 14
+        },
+        {
+          "id": "reference-15",
+          "pitch": 76,
+          "name": "ми5",
+          "onset": 5.097566,
+          "offset": 5.397565,
+          "beat": 3.75,
+          "reference_index": 15
+        }
+      ],
+      "detected_notes": [
+        {
+          "pitch": 60,
+          "onset": 0.603719,
+          "offset": 1.068118,
+          "confidence": 0.729623,
+          "id": "detected-0",
+          "name": "до4",
+          "observed_index": 0,
+          "reference_id": "reference-0"
+        },
+        {
+          "pitch": 64,
+          "onset": 0.893968,
+          "offset": 1.358367,
+          "confidence": 0.711367,
+          "id": "detected-1",
+          "name": "ми4",
+          "observed_index": 1,
+          "reference_id": "reference-1"
+        },
+        {
+          "pitch": 67,
+          "onset": 1.195828,
+          "offset": 1.683447,
+          "confidence": 0.706207,
+          "id": "detected-2",
+          "name": "соль4",
+          "observed_index": 2,
+          "reference_id": "reference-2"
+        },
+        {
+          "pitch": 72,
+          "onset": 1.497687,
+          "offset": 1.985306,
+          "confidence": 0.710126,
+          "id": "detected-3",
+          "name": "до5",
+          "observed_index": 3,
+          "reference_id": "reference-3"
+        },
+        {
+          "pitch": 76,
+          "onset": 1.799546,
+          "offset": 2.311669,
+          "confidence": 0.689496,
+          "id": "detected-4",
+          "name": "ми5",
+          "observed_index": 4,
+          "reference_id": "reference-4"
+        },
+        {
+          "pitch": 67,
+          "onset": 2.09108,
+          "offset": 2.567089,
+          "confidence": 0.712047,
+          "id": "detected-5",
+          "name": "соль4",
+          "observed_index": 5,
+          "reference_id": "reference-5"
+        },
+        {
+          "pitch": 72,
+          "onset": 2.392939,
+          "offset": 2.857338,
+          "confidence": 0.718549,
+          "id": "detected-6",
+          "name": "до5",
+          "observed_index": 6,
+          "reference_id": "reference-6"
+        },
+        {
+          "pitch": 76,
+          "onset": 2.694799,
+          "offset": 3.263688,
+          "confidence": 0.686947,
+          "id": "detected-7",
+          "name": "ми5",
+          "observed_index": 7,
+          "reference_id": "reference-7"
+        },
+        {
+          "pitch": 60,
+          "onset": 2.996658,
+          "offset": 3.484277,
+          "confidence": 0.730276,
+          "id": "detected-8",
+          "name": "до4",
+          "observed_index": 8,
+          "reference_id": "reference-8"
+        },
+        {
+          "pitch": 64,
+          "onset": 3.298517,
+          "offset": 3.774527,
+          "confidence": 0.7075,
+          "id": "detected-9",
+          "name": "ми4",
+          "observed_index": 9,
+          "reference_id": "reference-9"
+        },
+        {
+          "pitch": 67,
+          "onset": 3.600377,
+          "offset": 4.07767,
+          "confidence": 0.710405,
+          "id": "detected-10",
+          "name": "соль4",
+          "observed_index": 10,
+          "reference_id": "reference-10"
+        },
+        {
+          "pitch": 72,
+          "onset": 3.902236,
+          "offset": 4.367919,
+          "confidence": 0.717763,
+          "id": "detected-11",
+          "name": "до5",
+          "observed_index": 11,
+          "reference_id": "reference-11"
+        },
+        {
+          "pitch": 76,
+          "onset": 4.19377,
+          "offset": 4.716219,
+          "confidence": 0.688223,
+          "id": "detected-12",
+          "name": "ми5",
+          "observed_index": 12,
+          "reference_id": "reference-12"
+        },
+        {
+          "pitch": 67,
+          "onset": 4.495629,
+          "offset": 4.983248,
+          "confidence": 0.708554,
+          "id": "detected-13",
+          "name": "соль4",
+          "observed_index": 13,
+          "reference_id": "reference-13"
+        },
+        {
+          "pitch": 72,
+          "onset": 4.797488,
+          "offset": 5.261888,
+          "confidence": 0.720731,
+          "id": "detected-14",
+          "name": "до5",
+          "observed_index": 14,
+          "reference_id": "reference-14"
+        },
+        {
+          "pitch": 76,
+          "onset": 5.099348,
+          "offset": 5.656627,
+          "confidence": 0.695687,
+          "id": "detected-15",
+          "name": "ми5",
+          "observed_index": 15,
+          "reference_id": "reference-15"
+        }
+      ],
+      "events": [
+        {
+          "id": "reference-0",
+          "expected": {
+            "id": "reference-0",
+            "pitch": 60,
+            "name": "до4",
+            "onset": 0.597572,
+            "offset": 2.997568,
+            "beat": 0.0,
+            "reference_index": 0
+          },
+          "observed": {
+            "pitch": 60,
+            "onset": 0.603719,
+            "offset": 1.068118,
+            "confidence": 0.729623,
+            "id": "detected-0",
+            "name": "до4",
+            "observed_index": 0,
+            "reference_id": "reference-0"
+          },
+          "pitch_match": true,
+          "delta_ms": 6,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-1",
+          "expected": {
+            "id": "reference-1",
+            "pitch": 64,
+            "name": "ми4",
+            "onset": 0.897571,
+            "offset": 2.997568,
+            "beat": 0.25,
+            "reference_index": 1
+          },
+          "observed": {
+            "pitch": 64,
+            "onset": 0.893968,
+            "offset": 1.358367,
+            "confidence": 0.711367,
+            "id": "detected-1",
+            "name": "ми4",
+            "observed_index": 1,
+            "reference_id": "reference-1"
+          },
+          "pitch_match": true,
+          "delta_ms": -4,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-2",
+          "expected": {
+            "id": "reference-2",
+            "pitch": 67,
+            "name": "соль4",
+            "onset": 1.197571,
+            "offset": 1.49757,
+            "beat": 0.5,
+            "reference_index": 2
+          },
+          "observed": {
+            "pitch": 67,
+            "onset": 1.195828,
+            "offset": 1.683447,
+            "confidence": 0.706207,
+            "id": "detected-2",
+            "name": "соль4",
+            "observed_index": 2,
+            "reference_id": "reference-2"
+          },
+          "pitch_match": true,
+          "delta_ms": -2,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-3",
+          "expected": {
+            "id": "reference-3",
+            "pitch": 72,
+            "name": "до5",
+            "onset": 1.49757,
+            "offset": 1.79757,
+            "beat": 0.75,
+            "reference_index": 3
+          },
+          "observed": {
+            "pitch": 72,
+            "onset": 1.497687,
+            "offset": 1.985306,
+            "confidence": 0.710126,
+            "id": "detected-3",
+            "name": "до5",
+            "observed_index": 3,
+            "reference_id": "reference-3"
+          },
+          "pitch_match": true,
+          "delta_ms": 0,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-4",
+          "expected": {
+            "id": "reference-4",
+            "pitch": 76,
+            "name": "ми5",
+            "onset": 1.79757,
+            "offset": 2.09757,
+            "beat": 1.0,
+            "reference_index": 4
+          },
+          "observed": {
+            "pitch": 76,
+            "onset": 1.799546,
+            "offset": 2.311669,
+            "confidence": 0.689496,
+            "id": "detected-4",
+            "name": "ми5",
+            "observed_index": 4,
+            "reference_id": "reference-4"
+          },
+          "pitch_match": true,
+          "delta_ms": 2,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-5",
+          "expected": {
+            "id": "reference-5",
+            "pitch": 67,
+            "name": "соль4",
+            "onset": 2.09757,
+            "offset": 2.397569,
+            "beat": 1.25,
+            "reference_index": 5
+          },
+          "observed": {
+            "pitch": 67,
+            "onset": 2.09108,
+            "offset": 2.567089,
+            "confidence": 0.712047,
+            "id": "detected-5",
+            "name": "соль4",
+            "observed_index": 5,
+            "reference_id": "reference-5"
+          },
+          "pitch_match": true,
+          "delta_ms": -6,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-6",
+          "expected": {
+            "id": "reference-6",
+            "pitch": 72,
+            "name": "до5",
+            "onset": 2.397569,
+            "offset": 2.697569,
+            "beat": 1.5,
+            "reference_index": 6
+          },
+          "observed": {
+            "pitch": 72,
+            "onset": 2.392939,
+            "offset": 2.857338,
+            "confidence": 0.718549,
+            "id": "detected-6",
+            "name": "до5",
+            "observed_index": 6,
+            "reference_id": "reference-6"
+          },
+          "pitch_match": true,
+          "delta_ms": -5,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-7",
+          "expected": {
+            "id": "reference-7",
+            "pitch": 76,
+            "name": "ми5",
+            "onset": 2.697569,
+            "offset": 2.997568,
+            "beat": 1.75,
+            "reference_index": 7
+          },
+          "observed": {
+            "pitch": 76,
+            "onset": 2.694799,
+            "offset": 3.263688,
+            "confidence": 0.686947,
+            "id": "detected-7",
+            "name": "ми5",
+            "observed_index": 7,
+            "reference_id": "reference-7"
+          },
+          "pitch_match": true,
+          "delta_ms": -3,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-8",
+          "expected": {
+            "id": "reference-8",
+            "pitch": 60,
+            "name": "до4",
+            "onset": 2.997568,
+            "offset": 5.397565,
+            "beat": 2.0,
+            "reference_index": 8
+          },
+          "observed": {
+            "pitch": 60,
+            "onset": 2.996658,
+            "offset": 3.484277,
+            "confidence": 0.730276,
+            "id": "detected-8",
+            "name": "до4",
+            "observed_index": 8,
+            "reference_id": "reference-8"
+          },
+          "pitch_match": true,
+          "delta_ms": -1,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-9",
+          "expected": {
+            "id": "reference-9",
+            "pitch": 64,
+            "name": "ми4",
+            "onset": 3.297568,
+            "offset": 5.397565,
+            "beat": 2.25,
+            "reference_index": 9
+          },
+          "observed": {
+            "pitch": 64,
+            "onset": 3.298517,
+            "offset": 3.774527,
+            "confidence": 0.7075,
+            "id": "detected-9",
+            "name": "ми4",
+            "observed_index": 9,
+            "reference_id": "reference-9"
+          },
+          "pitch_match": true,
+          "delta_ms": 1,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-10",
+          "expected": {
+            "id": "reference-10",
+            "pitch": 67,
+            "name": "соль4",
+            "onset": 3.597568,
+            "offset": 3.897567,
+            "beat": 2.5,
+            "reference_index": 10
+          },
+          "observed": {
+            "pitch": 67,
+            "onset": 3.600377,
+            "offset": 4.07767,
+            "confidence": 0.710405,
+            "id": "detected-10",
+            "name": "соль4",
+            "observed_index": 10,
+            "reference_id": "reference-10"
+          },
+          "pitch_match": true,
+          "delta_ms": 3,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-11",
+          "expected": {
+            "id": "reference-11",
+            "pitch": 72,
+            "name": "до5",
+            "onset": 3.897567,
+            "offset": 4.197567,
+            "beat": 2.75,
+            "reference_index": 11
+          },
+          "observed": {
+            "pitch": 72,
+            "onset": 3.902236,
+            "offset": 4.367919,
+            "confidence": 0.717763,
+            "id": "detected-11",
+            "name": "до5",
+            "observed_index": 11,
+            "reference_id": "reference-11"
+          },
+          "pitch_match": true,
+          "delta_ms": 5,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-12",
+          "expected": {
+            "id": "reference-12",
+            "pitch": 76,
+            "name": "ми5",
+            "onset": 4.197567,
+            "offset": 4.497566,
+            "beat": 3.0,
+            "reference_index": 12
+          },
+          "observed": {
+            "pitch": 76,
+            "onset": 4.19377,
+            "offset": 4.716219,
+            "confidence": 0.688223,
+            "id": "detected-12",
+            "name": "ми5",
+            "observed_index": 12,
+            "reference_id": "reference-12"
+          },
+          "pitch_match": true,
+          "delta_ms": -4,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-13",
+          "expected": {
+            "id": "reference-13",
+            "pitch": 67,
+            "name": "соль4",
+            "onset": 4.497566,
+            "offset": 4.797566,
+            "beat": 3.25,
+            "reference_index": 13
+          },
+          "observed": {
+            "pitch": 67,
+            "onset": 4.495629,
+            "offset": 4.983248,
+            "confidence": 0.708554,
+            "id": "detected-13",
+            "name": "соль4",
+            "observed_index": 13,
+            "reference_id": "reference-13"
+          },
+          "pitch_match": true,
+          "delta_ms": -2,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-14",
+          "expected": {
+            "id": "reference-14",
+            "pitch": 72,
+            "name": "до5",
+            "onset": 4.797566,
+            "offset": 5.097566,
+            "beat": 3.5,
+            "reference_index": 14
+          },
+          "observed": {
+            "pitch": 72,
+            "onset": 4.797488,
+            "offset": 5.261888,
+            "confidence": 0.720731,
+            "id": "detected-14",
+            "name": "до5",
+            "observed_index": 14,
+            "reference_id": "reference-14"
+          },
+          "pitch_match": true,
+          "delta_ms": 0,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-15",
+          "expected": {
+            "id": "reference-15",
+            "pitch": 76,
+            "name": "ми5",
+            "onset": 5.097566,
+            "offset": 5.397565,
+            "beat": 3.75,
+            "reference_index": 15
+          },
+          "observed": {
+            "pitch": 76,
+            "onset": 5.099348,
+            "offset": 5.656627,
+            "confidence": 0.695687,
+            "id": "detected-15",
+            "name": "ми5",
+            "observed_index": 15,
+            "reference_id": "reference-15"
+          },
+          "pitch_match": true,
+          "delta_ms": 2,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        }
+      ],
+      "extra_detections": [],
+      "pitch_matches": 16,
+      "reference_count": 16,
+      "findings": []
+    },
+    {
+      "measure": 2,
+      "start": 5.39757,
+      "end": 10.19756,
+      "reference_notes": [
+        {
+          "id": "reference-16",
+          "pitch": 60,
+          "name": "до4",
+          "onset": 5.397565,
+          "offset": 7.797562,
+          "beat": 4.0,
+          "reference_index": 16
+        },
+        {
+          "id": "reference-17",
+          "pitch": 62,
+          "name": "ре4",
+          "onset": 5.697565,
+          "offset": 7.797562,
+          "beat": 4.25,
+          "reference_index": 17
+        },
+        {
+          "id": "reference-18",
+          "pitch": 69,
+          "name": "ля4",
+          "onset": 5.997564,
+          "offset": 6.297564,
+          "beat": 4.5,
+          "reference_index": 18
+        },
+        {
+          "id": "reference-19",
+          "pitch": 74,
+          "name": "ре5",
+          "onset": 6.297564,
+          "offset": 6.597564,
+          "beat": 4.75,
+          "reference_index": 19
+        },
+        {
+          "id": "reference-20",
+          "pitch": 77,
+          "name": "фа5",
+          "onset": 6.597564,
+          "offset": 6.897563,
+          "beat": 5.0,
+          "reference_index": 20
+        },
+        {
+          "id": "reference-21",
+          "pitch": 69,
+          "name": "ля4",
+          "onset": 6.897563,
+          "offset": 7.197563,
+          "beat": 5.25,
+          "reference_index": 21
+        },
+        {
+          "id": "reference-22",
+          "pitch": 74,
+          "name": "ре5",
+          "onset": 7.197563,
+          "offset": 7.497562,
+          "beat": 5.5,
+          "reference_index": 22
+        },
+        {
+          "id": "reference-23",
+          "pitch": 77,
+          "name": "фа5",
+          "onset": 7.497562,
+          "offset": 7.797562,
+          "beat": 5.75,
+          "reference_index": 23
+        },
+        {
+          "id": "reference-24",
+          "pitch": 60,
+          "name": "до4",
+          "onset": 7.797562,
+          "offset": 10.197559,
+          "beat": 6.0,
+          "reference_index": 24
+        },
+        {
+          "id": "reference-25",
+          "pitch": 62,
+          "name": "ре4",
+          "onset": 8.097562,
+          "offset": 10.197559,
+          "beat": 6.25,
+          "reference_index": 25
+        },
+        {
+          "id": "reference-26",
+          "pitch": 69,
+          "name": "ля4",
+          "onset": 8.397561,
+          "offset": 8.697561,
+          "beat": 6.5,
+          "reference_index": 26
+        },
+        {
+          "id": "reference-27",
+          "pitch": 74,
+          "name": "ре5",
+          "onset": 8.697561,
+          "offset": 8.99756,
+          "beat": 6.75,
+          "reference_index": 27
+        },
+        {
+          "id": "reference-28",
+          "pitch": 77,
+          "name": "фа5",
+          "onset": 8.99756,
+          "offset": 9.29756,
+          "beat": 7.0,
+          "reference_index": 28
+        },
+        {
+          "id": "reference-29",
+          "pitch": 69,
+          "name": "ля4",
+          "onset": 9.29756,
+          "offset": 9.59756,
+          "beat": 7.25,
+          "reference_index": 29
+        },
+        {
+          "id": "reference-30",
+          "pitch": 74,
+          "name": "ре5",
+          "onset": 9.59756,
+          "offset": 9.897559,
+          "beat": 7.5,
+          "reference_index": 30
+        },
+        {
+          "id": "reference-31",
+          "pitch": 77,
+          "name": "фа5",
+          "onset": 9.897559,
+          "offset": 10.197559,
+          "beat": 7.75,
+          "reference_index": 31
+        }
+      ],
+      "detected_notes": [
+        {
+          "pitch": 60,
+          "onset": 5.401207,
+          "offset": 5.772727,
+          "confidence": 0.72484,
+          "id": "detected-16",
+          "name": "до4",
+          "observed_index": 16,
+          "reference_id": "reference-16"
+        },
+        {
+          "pitch": 62,
+          "onset": 5.703067,
+          "offset": 6.15714,
+          "confidence": 0.697373,
+          "id": "detected-17",
+          "name": "ре4",
+          "observed_index": 17,
+          "reference_id": "reference-17"
+        },
+        {
+          "pitch": 69,
+          "onset": 5.9946,
+          "offset": 6.470609,
+          "confidence": 0.70794,
+          "id": "detected-18",
+          "name": "ля4",
+          "observed_index": 18,
+          "reference_id": "reference-18"
+        },
+        {
+          "pitch": 74,
+          "onset": 6.284849,
+          "offset": 6.772468,
+          "confidence": 0.713105,
+          "id": "detected-19",
+          "name": "ре5",
+          "observed_index": 19,
+          "reference_id": "reference-19"
+        },
+        {
+          "pitch": 78,
+          "onset": 6.598319,
+          "offset": 7.120768,
+          "confidence": 0.677947,
+          "id": "detected-20",
+          "name": "фа-диез5",
+          "observed_index": 20,
+          "reference_id": "reference-20"
+        },
+        {
+          "pitch": 69,
+          "onset": 6.900178,
+          "offset": 7.376187,
+          "confidence": 0.704445,
+          "id": "detected-21",
+          "name": "ля4",
+          "observed_index": 21,
+          "reference_id": "reference-21"
+        },
+        {
+          "pitch": 74,
+          "onset": 7.202038,
+          "offset": 7.666437,
+          "confidence": 0.705918,
+          "id": "detected-22",
+          "name": "ре5",
+          "observed_index": 22,
+          "reference_id": "reference-22"
+        },
+        {
+          "pitch": 77,
+          "onset": 7.503897,
+          "offset": 8.01602,
+          "confidence": 0.679309,
+          "id": "detected-23",
+          "name": "фа5",
+          "observed_index": 23,
+          "reference_id": "reference-23"
+        },
+        {
+          "pitch": 60,
+          "onset": 7.805756,
+          "offset": 8.16695,
+          "confidence": 0.684831,
+          "id": "detected-24",
+          "name": "до4",
+          "observed_index": 24,
+          "reference_id": "reference-24"
+        },
+        {
+          "pitch": 62,
+          "onset": 8.08568,
+          "offset": 8.561689,
+          "confidence": 0.703539,
+          "id": "detected-25",
+          "name": "ре4",
+          "observed_index": 25,
+          "reference_id": "reference-25"
+        },
+        {
+          "pitch": 69,
+          "onset": 8.399149,
+          "offset": 8.875158,
+          "confidence": 0.713689,
+          "id": "detected-26",
+          "name": "ля4",
+          "observed_index": 26,
+          "reference_id": "reference-26"
+        },
+        {
+          "pitch": 74,
+          "onset": 8.701009,
+          "offset": 9.165408,
+          "confidence": 0.708813,
+          "id": "detected-27",
+          "name": "ре5",
+          "observed_index": 27,
+          "reference_id": "reference-27"
+        },
+        {
+          "pitch": 77,
+          "onset": 8.991258,
+          "offset": 9.490487,
+          "confidence": 0.688114,
+          "id": "detected-28",
+          "name": "фа5",
+          "observed_index": 28,
+          "reference_id": "reference-28"
+        },
+        {
+          "pitch": 69,
+          "onset": 9.304727,
+          "offset": 9.780737,
+          "confidence": 0.711653,
+          "id": "detected-29",
+          "name": "ля4",
+          "observed_index": 29,
+          "reference_id": "reference-29"
+        },
+        {
+          "pitch": 74,
+          "onset": 9.594977,
+          "offset": 10.06066,
+          "confidence": 0.704576,
+          "id": "detected-30",
+          "name": "ре5",
+          "observed_index": 30,
+          "reference_id": "reference-30"
+        },
+        {
+          "pitch": 77,
+          "onset": 9.908446,
+          "offset": 10.397349,
+          "confidence": 0.66366,
+          "id": "detected-31",
+          "name": "фа5",
+          "observed_index": 31,
+          "reference_id": "reference-31"
+        }
+      ],
+      "events": [
+        {
+          "id": "reference-16",
+          "expected": {
+            "id": "reference-16",
+            "pitch": 60,
+            "name": "до4",
+            "onset": 5.397565,
+            "offset": 7.797562,
+            "beat": 4.0,
+            "reference_index": 16
+          },
+          "observed": {
+            "pitch": 60,
+            "onset": 5.401207,
+            "offset": 5.772727,
+            "confidence": 0.72484,
+            "id": "detected-16",
+            "name": "до4",
+            "observed_index": 16,
+            "reference_id": "reference-16"
+          },
+          "pitch_match": true,
+          "delta_ms": 4,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-17",
+          "expected": {
+            "id": "reference-17",
+            "pitch": 62,
+            "name": "ре4",
+            "onset": 5.697565,
+            "offset": 7.797562,
+            "beat": 4.25,
+            "reference_index": 17
+          },
+          "observed": {
+            "pitch": 62,
+            "onset": 5.703067,
+            "offset": 6.15714,
+            "confidence": 0.697373,
+            "id": "detected-17",
+            "name": "ре4",
+            "observed_index": 17,
+            "reference_id": "reference-17"
+          },
+          "pitch_match": true,
+          "delta_ms": 6,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-18",
+          "expected": {
+            "id": "reference-18",
+            "pitch": 69,
+            "name": "ля4",
+            "onset": 5.997564,
+            "offset": 6.297564,
+            "beat": 4.5,
+            "reference_index": 18
+          },
+          "observed": {
+            "pitch": 69,
+            "onset": 5.9946,
+            "offset": 6.470609,
+            "confidence": 0.70794,
+            "id": "detected-18",
+            "name": "ля4",
+            "observed_index": 18,
+            "reference_id": "reference-18"
+          },
+          "pitch_match": true,
+          "delta_ms": -3,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-19",
+          "expected": {
+            "id": "reference-19",
+            "pitch": 74,
+            "name": "ре5",
+            "onset": 6.297564,
+            "offset": 6.597564,
+            "beat": 4.75,
+            "reference_index": 19
+          },
+          "observed": {
+            "pitch": 74,
+            "onset": 6.284849,
+            "offset": 6.772468,
+            "confidence": 0.713105,
+            "id": "detected-19",
+            "name": "ре5",
+            "observed_index": 19,
+            "reference_id": "reference-19"
+          },
+          "pitch_match": true,
+          "delta_ms": -13,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-20",
+          "expected": {
+            "id": "reference-20",
+            "pitch": 77,
+            "name": "фа5",
+            "onset": 6.597564,
+            "offset": 6.897563,
+            "beat": 5.0,
+            "reference_index": 20
+          },
+          "observed": {
+            "pitch": 78,
+            "onset": 6.598319,
+            "offset": 7.120768,
+            "confidence": 0.677947,
+            "id": "detected-20",
+            "name": "фа-диез5",
+            "observed_index": 20,
+            "reference_id": "reference-20"
+          },
+          "pitch_match": false,
+          "delta_ms": 1,
+          "finding_ids": [
+            "f001"
+          ],
+          "status": "confirmed",
+          "kind": "pitch"
+        },
+        {
+          "id": "reference-21",
+          "expected": {
+            "id": "reference-21",
+            "pitch": 69,
+            "name": "ля4",
+            "onset": 6.897563,
+            "offset": 7.197563,
+            "beat": 5.25,
+            "reference_index": 21
+          },
+          "observed": {
+            "pitch": 69,
+            "onset": 6.900178,
+            "offset": 7.376187,
+            "confidence": 0.704445,
+            "id": "detected-21",
+            "name": "ля4",
+            "observed_index": 21,
+            "reference_id": "reference-21"
+          },
+          "pitch_match": true,
+          "delta_ms": 3,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-22",
+          "expected": {
+            "id": "reference-22",
+            "pitch": 74,
+            "name": "ре5",
+            "onset": 7.197563,
+            "offset": 7.497562,
+            "beat": 5.5,
+            "reference_index": 22
+          },
+          "observed": {
+            "pitch": 74,
+            "onset": 7.202038,
+            "offset": 7.666437,
+            "confidence": 0.705918,
+            "id": "detected-22",
+            "name": "ре5",
+            "observed_index": 22,
+            "reference_id": "reference-22"
+          },
+          "pitch_match": true,
+          "delta_ms": 4,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-23",
+          "expected": {
+            "id": "reference-23",
+            "pitch": 77,
+            "name": "фа5",
+            "onset": 7.497562,
+            "offset": 7.797562,
+            "beat": 5.75,
+            "reference_index": 23
+          },
+          "observed": {
+            "pitch": 77,
+            "onset": 7.503897,
+            "offset": 8.01602,
+            "confidence": 0.679309,
+            "id": "detected-23",
+            "name": "фа5",
+            "observed_index": 23,
+            "reference_id": "reference-23"
+          },
+          "pitch_match": true,
+          "delta_ms": 6,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-24",
+          "expected": {
+            "id": "reference-24",
+            "pitch": 60,
+            "name": "до4",
+            "onset": 7.797562,
+            "offset": 10.197559,
+            "beat": 6.0,
+            "reference_index": 24
+          },
+          "observed": {
+            "pitch": 60,
+            "onset": 7.805756,
+            "offset": 8.16695,
+            "confidence": 0.684831,
+            "id": "detected-24",
+            "name": "до4",
+            "observed_index": 24,
+            "reference_id": "reference-24"
+          },
+          "pitch_match": true,
+          "delta_ms": 8,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-25",
+          "expected": {
+            "id": "reference-25",
+            "pitch": 62,
+            "name": "ре4",
+            "onset": 8.097562,
+            "offset": 10.197559,
+            "beat": 6.25,
+            "reference_index": 25
+          },
+          "observed": {
+            "pitch": 62,
+            "onset": 8.08568,
+            "offset": 8.561689,
+            "confidence": 0.703539,
+            "id": "detected-25",
+            "name": "ре4",
+            "observed_index": 25,
+            "reference_id": "reference-25"
+          },
+          "pitch_match": true,
+          "delta_ms": -12,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-26",
+          "expected": {
+            "id": "reference-26",
+            "pitch": 69,
+            "name": "ля4",
+            "onset": 8.397561,
+            "offset": 8.697561,
+            "beat": 6.5,
+            "reference_index": 26
+          },
+          "observed": {
+            "pitch": 69,
+            "onset": 8.399149,
+            "offset": 8.875158,
+            "confidence": 0.713689,
+            "id": "detected-26",
+            "name": "ля4",
+            "observed_index": 26,
+            "reference_id": "reference-26"
+          },
+          "pitch_match": true,
+          "delta_ms": 2,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-27",
+          "expected": {
+            "id": "reference-27",
+            "pitch": 74,
+            "name": "ре5",
+            "onset": 8.697561,
+            "offset": 8.99756,
+            "beat": 6.75,
+            "reference_index": 27
+          },
+          "observed": {
+            "pitch": 74,
+            "onset": 8.701009,
+            "offset": 9.165408,
+            "confidence": 0.708813,
+            "id": "detected-27",
+            "name": "ре5",
+            "observed_index": 27,
+            "reference_id": "reference-27"
+          },
+          "pitch_match": true,
+          "delta_ms": 3,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-28",
+          "expected": {
+            "id": "reference-28",
+            "pitch": 77,
+            "name": "фа5",
+            "onset": 8.99756,
+            "offset": 9.29756,
+            "beat": 7.0,
+            "reference_index": 28
+          },
+          "observed": {
+            "pitch": 77,
+            "onset": 8.991258,
+            "offset": 9.490487,
+            "confidence": 0.688114,
+            "id": "detected-28",
+            "name": "фа5",
+            "observed_index": 28,
+            "reference_id": "reference-28"
+          },
+          "pitch_match": true,
+          "delta_ms": -6,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-29",
+          "expected": {
+            "id": "reference-29",
+            "pitch": 69,
+            "name": "ля4",
+            "onset": 9.29756,
+            "offset": 9.59756,
+            "beat": 7.25,
+            "reference_index": 29
+          },
+          "observed": {
+            "pitch": 69,
+            "onset": 9.304727,
+            "offset": 9.780737,
+            "confidence": 0.711653,
+            "id": "detected-29",
+            "name": "ля4",
+            "observed_index": 29,
+            "reference_id": "reference-29"
+          },
+          "pitch_match": true,
+          "delta_ms": 7,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-30",
+          "expected": {
+            "id": "reference-30",
+            "pitch": 74,
+            "name": "ре5",
+            "onset": 9.59756,
+            "offset": 9.897559,
+            "beat": 7.5,
+            "reference_index": 30
+          },
+          "observed": {
+            "pitch": 74,
+            "onset": 9.594977,
+            "offset": 10.06066,
+            "confidence": 0.704576,
+            "id": "detected-30",
+            "name": "ре5",
+            "observed_index": 30,
+            "reference_id": "reference-30"
+          },
+          "pitch_match": true,
+          "delta_ms": -3,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-31",
+          "expected": {
+            "id": "reference-31",
+            "pitch": 77,
+            "name": "фа5",
+            "onset": 9.897559,
+            "offset": 10.197559,
+            "beat": 7.75,
+            "reference_index": 31
+          },
+          "observed": {
+            "pitch": 77,
+            "onset": 9.908446,
+            "offset": 10.397349,
+            "confidence": 0.66366,
+            "id": "detected-31",
+            "name": "фа5",
+            "observed_index": 31,
+            "reference_id": "reference-31"
+          },
+          "pitch_match": true,
+          "delta_ms": 11,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        }
+      ],
+      "extra_detections": [],
+      "pitch_matches": 15,
+      "reference_count": 16,
+      "findings": [
+        "f001"
+      ]
+    },
+    {
+      "measure": 3,
+      "start": 10.19756,
+      "end": 14.99755,
+      "reference_notes": [
+        {
+          "id": "reference-32",
+          "pitch": 59,
+          "name": "си3",
+          "onset": 10.197559,
+          "offset": 12.597556,
+          "beat": 8.0,
+          "reference_index": 32
+        },
+        {
+          "id": "reference-33",
+          "pitch": 62,
+          "name": "ре4",
+          "onset": 10.497558,
+          "offset": 12.597556,
+          "beat": 8.25,
+          "reference_index": 33
+        },
+        {
+          "id": "reference-34",
+          "pitch": 67,
+          "name": "соль4",
+          "onset": 10.797558,
+          "offset": 11.097558,
+          "beat": 8.5,
+          "reference_index": 34
+        },
+        {
+          "id": "reference-35",
+          "pitch": 74,
+          "name": "ре5",
+          "onset": 11.097558,
+          "offset": 11.397557,
+          "beat": 8.75,
+          "reference_index": 35
+        },
+        {
+          "id": "reference-36",
+          "pitch": 77,
+          "name": "фа5",
+          "onset": 11.397557,
+          "offset": 11.697557,
+          "beat": 9.0,
+          "reference_index": 36
+        },
+        {
+          "id": "reference-37",
+          "pitch": 67,
+          "name": "соль4",
+          "onset": 11.697557,
+          "offset": 11.997556,
+          "beat": 9.25,
+          "reference_index": 37
+        },
+        {
+          "id": "reference-38",
+          "pitch": 74,
+          "name": "ре5",
+          "onset": 11.997556,
+          "offset": 12.297556,
+          "beat": 9.5,
+          "reference_index": 38
+        },
+        {
+          "id": "reference-39",
+          "pitch": 77,
+          "name": "фа5",
+          "onset": 12.297556,
+          "offset": 12.597556,
+          "beat": 9.75,
+          "reference_index": 39
+        },
+        {
+          "id": "reference-40",
+          "pitch": 59,
+          "name": "си3",
+          "onset": 12.597556,
+          "offset": 14.997552,
+          "beat": 10.0,
+          "reference_index": 40
+        },
+        {
+          "id": "reference-41",
+          "pitch": 62,
+          "name": "ре4",
+          "onset": 12.897555,
+          "offset": 14.997552,
+          "beat": 10.25,
+          "reference_index": 41
+        },
+        {
+          "id": "reference-42",
+          "pitch": 67,
+          "name": "соль4",
+          "onset": 13.197555,
+          "offset": 13.497554,
+          "beat": 10.5,
+          "reference_index": 42
+        },
+        {
+          "id": "reference-43",
+          "pitch": 74,
+          "name": "ре5",
+          "onset": 13.497554,
+          "offset": 13.797554,
+          "beat": 10.75,
+          "reference_index": 43
+        },
+        {
+          "id": "reference-44",
+          "pitch": 77,
+          "name": "фа5",
+          "onset": 13.797554,
+          "offset": 14.097554,
+          "beat": 11.0,
+          "reference_index": 44
+        },
+        {
+          "id": "reference-45",
+          "pitch": 67,
+          "name": "соль4",
+          "onset": 14.097554,
+          "offset": 14.397553,
+          "beat": 11.25,
+          "reference_index": 45
+        },
+        {
+          "id": "reference-46",
+          "pitch": 74,
+          "name": "ре5",
+          "onset": 14.397553,
+          "offset": 14.697553,
+          "beat": 11.5,
+          "reference_index": 46
+        },
+        {
+          "id": "reference-47",
+          "pitch": 77,
+          "name": "фа5",
+          "onset": 14.697553,
+          "offset": 14.997552,
+          "beat": 11.75,
+          "reference_index": 47
+        }
+      ],
+      "detected_notes": [
+        {
+          "pitch": 59,
+          "onset": 10.19998,
+          "offset": 10.664379,
+          "confidence": 0.735204,
+          "id": "detected-32",
+          "name": "си3",
+          "observed_index": 32,
+          "reference_id": "reference-32"
+        },
+        {
+          "pitch": 62,
+          "onset": 10.501839,
+          "offset": 10.977848,
+          "confidence": 0.715043,
+          "id": "detected-33",
+          "name": "ре4",
+          "observed_index": 33,
+          "reference_id": "reference-33"
+        },
+        {
+          "pitch": 67,
+          "onset": 10.792088,
+          "offset": 11.256488,
+          "confidence": 0.706757,
+          "id": "detected-34",
+          "name": "соль4",
+          "observed_index": 34,
+          "reference_id": "reference-34"
+        },
+        {
+          "pitch": 74,
+          "onset": 11.093948,
+          "offset": 11.604787,
+          "confidence": 0.743499,
+          "id": "detected-35",
+          "name": "ре5",
+          "observed_index": 35,
+          "reference_id": "reference-35"
+        },
+        {
+          "pitch": 77,
+          "onset": 11.604787,
+          "offset": 12.03564,
+          "confidence": 0.663893,
+          "id": "detected-36",
+          "name": "фа5",
+          "observed_index": 36,
+          "reference_id": "reference-36"
+        },
+        {
+          "pitch": 67,
+          "onset": 11.709277,
+          "offset": 12.15174,
+          "confidence": 0.705594,
+          "id": "detected-37",
+          "name": "соль4",
+          "observed_index": 37,
+          "reference_id": "reference-37"
+        },
+        {
+          "pitch": 74,
+          "onset": 11.9892,
+          "offset": 12.465209,
+          "confidence": 0.697374,
+          "id": "detected-38",
+          "name": "ре5",
+          "observed_index": 38,
+          "reference_id": "reference-38"
+        },
+        {
+          "pitch": 77,
+          "onset": 12.291059,
+          "offset": 12.790288,
+          "confidence": 0.672038,
+          "id": "detected-39",
+          "name": "фа5",
+          "observed_index": 39,
+          "reference_id": "reference-39"
+        },
+        {
+          "pitch": 59,
+          "onset": 12.592919,
+          "offset": 13.068928,
+          "confidence": 0.732543,
+          "id": "detected-40",
+          "name": "си3",
+          "observed_index": 40,
+          "reference_id": "reference-40"
+        },
+        {
+          "pitch": 62,
+          "onset": 12.894778,
+          "offset": 13.382397,
+          "confidence": 0.71936,
+          "id": "detected-41",
+          "name": "ре4",
+          "observed_index": 41,
+          "reference_id": "reference-41"
+        },
+        {
+          "pitch": 67,
+          "onset": 13.208248,
+          "offset": 13.672647,
+          "confidence": 0.705321,
+          "id": "detected-42",
+          "name": "соль4",
+          "observed_index": 42,
+          "reference_id": "reference-42"
+        },
+        {
+          "pitch": 74,
+          "onset": 13.498497,
+          "offset": 13.95257,
+          "confidence": 0.707663,
+          "id": "detected-43",
+          "name": "ре5",
+          "observed_index": 43,
+          "reference_id": "reference-43"
+        },
+        {
+          "pitch": 77,
+          "onset": 13.800356,
+          "offset": 14.277649,
+          "confidence": 0.676113,
+          "id": "detected-44",
+          "name": "фа5",
+          "observed_index": 44,
+          "reference_id": "reference-44"
+        },
+        {
+          "pitch": 67,
+          "onset": 14.09189,
+          "offset": 14.556289,
+          "confidence": 0.714581,
+          "id": "detected-45",
+          "name": "соль4",
+          "observed_index": 45,
+          "reference_id": "reference-45"
+        },
+        {
+          "pitch": 74,
+          "onset": 14.393749,
+          "offset": 14.869758,
+          "confidence": 0.708129,
+          "id": "detected-46",
+          "name": "ре5",
+          "observed_index": 46,
+          "reference_id": "reference-46"
+        },
+        {
+          "pitch": 77,
+          "onset": 14.695609,
+          "offset": 15.276107,
+          "confidence": 0.755004,
+          "id": "detected-47",
+          "name": "фа5",
+          "observed_index": 47,
+          "reference_id": "reference-47"
+        }
+      ],
+      "events": [
+        {
+          "id": "reference-32",
+          "expected": {
+            "id": "reference-32",
+            "pitch": 59,
+            "name": "си3",
+            "onset": 10.197559,
+            "offset": 12.597556,
+            "beat": 8.0,
+            "reference_index": 32
+          },
+          "observed": {
+            "pitch": 59,
+            "onset": 10.19998,
+            "offset": 10.664379,
+            "confidence": 0.735204,
+            "id": "detected-32",
+            "name": "си3",
+            "observed_index": 32,
+            "reference_id": "reference-32"
+          },
+          "pitch_match": true,
+          "delta_ms": 2,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-33",
+          "expected": {
+            "id": "reference-33",
+            "pitch": 62,
+            "name": "ре4",
+            "onset": 10.497558,
+            "offset": 12.597556,
+            "beat": 8.25,
+            "reference_index": 33
+          },
+          "observed": {
+            "pitch": 62,
+            "onset": 10.501839,
+            "offset": 10.977848,
+            "confidence": 0.715043,
+            "id": "detected-33",
+            "name": "ре4",
+            "observed_index": 33,
+            "reference_id": "reference-33"
+          },
+          "pitch_match": true,
+          "delta_ms": 4,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-34",
+          "expected": {
+            "id": "reference-34",
+            "pitch": 67,
+            "name": "соль4",
+            "onset": 10.797558,
+            "offset": 11.097558,
+            "beat": 8.5,
+            "reference_index": 34
+          },
+          "observed": {
+            "pitch": 67,
+            "onset": 10.792088,
+            "offset": 11.256488,
+            "confidence": 0.706757,
+            "id": "detected-34",
+            "name": "соль4",
+            "observed_index": 34,
+            "reference_id": "reference-34"
+          },
+          "pitch_match": true,
+          "delta_ms": -5,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-35",
+          "expected": {
+            "id": "reference-35",
+            "pitch": 74,
+            "name": "ре5",
+            "onset": 11.097558,
+            "offset": 11.397557,
+            "beat": 8.75,
+            "reference_index": 35
+          },
+          "observed": {
+            "pitch": 74,
+            "onset": 11.093948,
+            "offset": 11.604787,
+            "confidence": 0.743499,
+            "id": "detected-35",
+            "name": "ре5",
+            "observed_index": 35,
+            "reference_id": "reference-35"
+          },
+          "pitch_match": true,
+          "delta_ms": -4,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-36",
+          "expected": {
+            "id": "reference-36",
+            "pitch": 77,
+            "name": "фа5",
+            "onset": 11.397557,
+            "offset": 11.697557,
+            "beat": 9.0,
+            "reference_index": 36
+          },
+          "observed": {
+            "pitch": 77,
+            "onset": 11.604787,
+            "offset": 12.03564,
+            "confidence": 0.663893,
+            "id": "detected-36",
+            "name": "фа5",
+            "observed_index": 36,
+            "reference_id": "reference-36"
+          },
+          "pitch_match": true,
+          "delta_ms": 207,
+          "finding_ids": [
+            "f002"
+          ],
+          "status": "confirmed",
+          "kind": "timing"
+        },
+        {
+          "id": "reference-37",
+          "expected": {
+            "id": "reference-37",
+            "pitch": 67,
+            "name": "соль4",
+            "onset": 11.697557,
+            "offset": 11.997556,
+            "beat": 9.25,
+            "reference_index": 37
+          },
+          "observed": {
+            "pitch": 67,
+            "onset": 11.709277,
+            "offset": 12.15174,
+            "confidence": 0.705594,
+            "id": "detected-37",
+            "name": "соль4",
+            "observed_index": 37,
+            "reference_id": "reference-37"
+          },
+          "pitch_match": true,
+          "delta_ms": 12,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-38",
+          "expected": {
+            "id": "reference-38",
+            "pitch": 74,
+            "name": "ре5",
+            "onset": 11.997556,
+            "offset": 12.297556,
+            "beat": 9.5,
+            "reference_index": 38
+          },
+          "observed": {
+            "pitch": 74,
+            "onset": 11.9892,
+            "offset": 12.465209,
+            "confidence": 0.697374,
+            "id": "detected-38",
+            "name": "ре5",
+            "observed_index": 38,
+            "reference_id": "reference-38"
+          },
+          "pitch_match": true,
+          "delta_ms": -8,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-39",
+          "expected": {
+            "id": "reference-39",
+            "pitch": 77,
+            "name": "фа5",
+            "onset": 12.297556,
+            "offset": 12.597556,
+            "beat": 9.75,
+            "reference_index": 39
+          },
+          "observed": {
+            "pitch": 77,
+            "onset": 12.291059,
+            "offset": 12.790288,
+            "confidence": 0.672038,
+            "id": "detected-39",
+            "name": "фа5",
+            "observed_index": 39,
+            "reference_id": "reference-39"
+          },
+          "pitch_match": true,
+          "delta_ms": -6,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-40",
+          "expected": {
+            "id": "reference-40",
+            "pitch": 59,
+            "name": "си3",
+            "onset": 12.597556,
+            "offset": 14.997552,
+            "beat": 10.0,
+            "reference_index": 40
+          },
+          "observed": {
+            "pitch": 59,
+            "onset": 12.592919,
+            "offset": 13.068928,
+            "confidence": 0.732543,
+            "id": "detected-40",
+            "name": "си3",
+            "observed_index": 40,
+            "reference_id": "reference-40"
+          },
+          "pitch_match": true,
+          "delta_ms": -5,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-41",
+          "expected": {
+            "id": "reference-41",
+            "pitch": 62,
+            "name": "ре4",
+            "onset": 12.897555,
+            "offset": 14.997552,
+            "beat": 10.25,
+            "reference_index": 41
+          },
+          "observed": {
+            "pitch": 62,
+            "onset": 12.894778,
+            "offset": 13.382397,
+            "confidence": 0.71936,
+            "id": "detected-41",
+            "name": "ре4",
+            "observed_index": 41,
+            "reference_id": "reference-41"
+          },
+          "pitch_match": true,
+          "delta_ms": -3,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-42",
+          "expected": {
+            "id": "reference-42",
+            "pitch": 67,
+            "name": "соль4",
+            "onset": 13.197555,
+            "offset": 13.497554,
+            "beat": 10.5,
+            "reference_index": 42
+          },
+          "observed": {
+            "pitch": 67,
+            "onset": 13.208248,
+            "offset": 13.672647,
+            "confidence": 0.705321,
+            "id": "detected-42",
+            "name": "соль4",
+            "observed_index": 42,
+            "reference_id": "reference-42"
+          },
+          "pitch_match": true,
+          "delta_ms": 11,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-43",
+          "expected": {
+            "id": "reference-43",
+            "pitch": 74,
+            "name": "ре5",
+            "onset": 13.497554,
+            "offset": 13.797554,
+            "beat": 10.75,
+            "reference_index": 43
+          },
+          "observed": {
+            "pitch": 74,
+            "onset": 13.498497,
+            "offset": 13.95257,
+            "confidence": 0.707663,
+            "id": "detected-43",
+            "name": "ре5",
+            "observed_index": 43,
+            "reference_id": "reference-43"
+          },
+          "pitch_match": true,
+          "delta_ms": 1,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-44",
+          "expected": {
+            "id": "reference-44",
+            "pitch": 77,
+            "name": "фа5",
+            "onset": 13.797554,
+            "offset": 14.097554,
+            "beat": 11.0,
+            "reference_index": 44
+          },
+          "observed": {
+            "pitch": 77,
+            "onset": 13.800356,
+            "offset": 14.277649,
+            "confidence": 0.676113,
+            "id": "detected-44",
+            "name": "фа5",
+            "observed_index": 44,
+            "reference_id": "reference-44"
+          },
+          "pitch_match": true,
+          "delta_ms": 3,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-45",
+          "expected": {
+            "id": "reference-45",
+            "pitch": 67,
+            "name": "соль4",
+            "onset": 14.097554,
+            "offset": 14.397553,
+            "beat": 11.25,
+            "reference_index": 45
+          },
+          "observed": {
+            "pitch": 67,
+            "onset": 14.09189,
+            "offset": 14.556289,
+            "confidence": 0.714581,
+            "id": "detected-45",
+            "name": "соль4",
+            "observed_index": 45,
+            "reference_id": "reference-45"
+          },
+          "pitch_match": true,
+          "delta_ms": -6,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-46",
+          "expected": {
+            "id": "reference-46",
+            "pitch": 74,
+            "name": "ре5",
+            "onset": 14.397553,
+            "offset": 14.697553,
+            "beat": 11.5,
+            "reference_index": 46
+          },
+          "observed": {
+            "pitch": 74,
+            "onset": 14.393749,
+            "offset": 14.869758,
+            "confidence": 0.708129,
+            "id": "detected-46",
+            "name": "ре5",
+            "observed_index": 46,
+            "reference_id": "reference-46"
+          },
+          "pitch_match": true,
+          "delta_ms": -4,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        },
+        {
+          "id": "reference-47",
+          "expected": {
+            "id": "reference-47",
+            "pitch": 77,
+            "name": "фа5",
+            "onset": 14.697553,
+            "offset": 14.997552,
+            "beat": 11.75,
+            "reference_index": 47
+          },
+          "observed": {
+            "pitch": 77,
+            "onset": 14.695609,
+            "offset": 15.276107,
+            "confidence": 0.755004,
+            "id": "detected-47",
+            "name": "фа5",
+            "observed_index": 47,
+            "reference_id": "reference-47"
+          },
+          "pitch_match": true,
+          "delta_ms": -2,
+          "finding_ids": [],
+          "status": "matched",
+          "kind": "match"
+        }
+      ],
+      "extra_detections": [],
+      "pitch_matches": 16,
+      "reference_count": 16,
+      "findings": [
+        "f002"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "f001",
+      "type": "pitch",
+      "status": "confirmed",
+      "measure": 2,
+      "timestamp": 6.5983,
+      "expected_pitch": 77,
+      "observed_pitch": 78,
+      "expected_name": "фа5",
+      "observed_name": "фа-диез5",
+      "expected_onset": 6.5976,
+      "observed_onset": 6.5983,
+      "delta_ms": 1,
+      "description": "Такт 2 · Фа-диез вместо фа",
+      "reason": "Проверено на тестовой записи.",
+      "confidence": 0.677947,
+      "reference_index": 20,
+      "observed_index": 20,
+      "kind": "pitch",
+      "title": "Такт 2 · Фа-диез вместо фа",
+      "explanation": "Проверено на тестовой записи.",
+      "expected": "фа5",
+      "observed": "фа-диез5"
+    },
+    {
+      "id": "f002",
+      "type": "timing",
+      "status": "confirmed",
+      "measure": 3,
+      "timestamp": 11.6048,
+      "expected_pitch": 77,
+      "observed_pitch": 77,
+      "expected_name": "фа5",
+      "observed_name": "фа5",
+      "expected_onset": 11.3976,
+      "observed_onset": 11.6048,
+      "delta_ms": 207,
+      "description": "Такт 3 · Фа прозвучала на 207 мс позже",
+      "reason": "Проверено на тестовой записи.",
+      "confidence": 0.663893,
+      "reference_index": 36,
+      "observed_index": 36,
+      "kind": "timing",
+      "title": "Такт 3 · Фа прозвучала на 207 мс позже",
+      "explanation": "Проверено на тестовой записи.",
+      "expected": "11.398 с",
+      "observed": "11.605 с"
+    }
+  ],
+  "scoring": {
+    "description": "Совпадение с MIDI = 100 × (1 − расхождения / (ноты партитуры + лишние ноты)). Замена считается один раз. Непроверенные ноты влияют на это совпадение, но не на число подтверждённых ошибок.",
+    "timing_tolerance_ms": 120,
+    "reference_note_count": 48,
+    "scored_measures": [
+      1,
+      2,
+      3
+    ],
+    "median_onset_residual_ms": 3.8
+  },
+  "limitations": [
+    "Педаль и обертоны могут давать повторные или лишние ноты.",
+    "Свободный темп иногда выглядит как раннее или позднее вступление."
+  ]
+}
